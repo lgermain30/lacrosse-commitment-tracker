@@ -27,6 +27,18 @@ async function scrape() {
     await page.goto(BASE_URL, { waitUntil: 'domcontentloaded' });
     await page.waitForLoadState('networkidle');
 
+    // Accept or dismiss the cookie/privacy consent banner if it appears
+    try {
+      const consentButton = page.locator('button:has-text("Accept")').first();
+      if (await consentButton.count() > 0) {
+        await consentButton.click();
+        console.log('Accepted cookie banner.');
+        await sleep(1500);
+      }
+    } catch (err) {
+      console.log('No cookie banner to accept.');
+    }
+
     // Wait for the player details section to appear.
     // ClubLacrosse uses a Material UI data grid, so look for multiple possible selectors.
     const gridSelector = 'table, [role="grid"], .MuiDataGrid-root, [data-testid="data-grid"]'; //legacy fallback
