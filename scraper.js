@@ -58,7 +58,7 @@ async function scrape() {
       await page.waitForSelector(gridSelector, { timeout: 60000 });
     } catch (err) {
       console.warn('Primary grid selector timed out, waiting for Player Details text...');
-      await page.waitForSelector('text="Player Details"', { timeout: 30000 });
+      await page.waitForSelector(':has-text("Player Details")', { timeout: 30000 });
     }
     await sleep(3000);
 
@@ -67,14 +67,17 @@ async function scrape() {
     for (const gender of CONFIG.genders) {
       console.log(`\n--- Gender: ${gender} ---`);
 
-      const genderSetSuccess = await setCheckboxFilter(page, 'Gender', gender);
-      if (!genderSetSuccess) {
-        console.warn(`Could not set gender filter for ${gender}`);
-        continue;
-      }
-
       for (const cls of CONFIG.classes) {
         console.log(`Class: ${cls}`);
+
+        // Start each combination from a clean state so only one gender and one class are selected
+        await clearAllFilters(page);
+
+        const genderSetSuccess = await setCheckboxFilter(page, 'Gender', gender);
+        if (!genderSetSuccess) {
+          console.warn(`Could not set gender filter for ${gender}`);
+          continue;
+        }
 
         const classSetSuccess = await setCheckboxFilter(page, 'Recruiting Class Filter', cls);
         if (!classSetSuccess) {
@@ -96,8 +99,6 @@ async function scrape() {
         console.log(`  Found ${recruits.length} recruits`);
         allRecruits.push(...recruits);
       }
-
-      await resetFilter(page, 'Recruiting Class Filter');
     }
 
     await browser.close();
@@ -136,47 +137,55 @@ async function scrape() {
 
 async function setCheckboxFilter(page, groupLabel, value) {
   try {
-    // Try several strategies to find and toggle the checkbox
-    const selectors = [
-      `label:has-text("${value}") input[type="checkbox"]`,
-      `span:has-text("${value}") >> xpath=ancestor::label | ancestor::div >> input[type="checkbox"]`,
-      `[aria-label*="${value}"] input[type="checkbox"]`,
-      `input[type="checkbox"][value="${value}"]`,
-    ];
+    // Use the accessible checkbox role first (most reliable for MUI checkboxes)
+    let checkbox = page.getByRole('checkbox', { name: value, exact: false }).first();
+    let count = await checkbox.count().catch(() => 0);
 
-    for (const selector of selectors) {
-      const checkbox = await page.locator(selector).first();
-      const count = await checkbox.count().catch(() => 0);
-      if (count === 0) continue;
+    if (count === 0) {
+      // Fallback to CSS selectors if the accessible role is not available
+      const selectors = [
+        `label:has-text("${value}") input[type="checkbox"]`,
+        `span:has-text("${value}") >> xpath=ancestor::label | ancestor::div >> input[type="checkbox"]`,
+        `[aria-label*="${value}"] input[type="checkbox"]`,
+        `input[type="checkbox"][value="${value}"]`,
+      ];
 
-      const isChecked = await checkbox.isChecked().catch(() => false);
-      if (!isChecked) {
-        await checkbox.click();
-        await sleep(1500);
+      for (const selector of selectors) {
+        checkbox = await page.locator(selector).first();
+        count = await checkbox.count().catch(() => 0);
+        if (count > 0) break;
       }
-      return true;
     }
 
-    console.warn(`Could not find checkbox for ${value}`);
-    return false;
+    if (count === 0) {
+      console.warn(`Could not find checkbox for ${value}`);
+      return false;
+    }
+
+    const isChecked = await checkbox.isChecked().catch(() => false);
+    if (!isChecked) {
+      await checkbox.click();
+      await sleep(1500);
+    }
+    return true;
   } catch (err) {
     console.error(`Error setting ${groupLabel} = ${value}:`, err.message);
     return false;
   }
 }
 
-async function resetFilter(page, groupLabel) {
+async function clearAllFilters(page) {
   try {
-    const checkboxes = await page.locator(`input[type="checkbox"]`).all();
+    const checkboxes = await page.getByRole('checkbox').all();
     for (const cb of checkboxes) {
       const isChecked = await cb.isChecked().catch(() => false);
       if (isChecked) {
         await cb.click();
       }
     }
-    await sleep(1000);
+    await sleep(1500);
   } catch (err) {
-    console.error(`Error resetting ${groupLabel}:`, err.message);
+    console.error('Error clearing filters:', err.message);
   }
 }
 
@@ -230,9 +239,12 @@ async function extractTableData(page, gender, cls) {
           if (h) map[h.toLowerCase()] = cells[i] || '';
         });
 
+        // Match by exact header key, then by substring within a header key
         const get = (keys) => {
           for (const k of keys) {
             if (map[k] !== undefined && map[k] !== '') return map[k];
+            const matchingKey = Object.keys(map).find(mk => mk.includes(k) && map[mk] !== '');
+            if (matchingKey) return map[matchingKey];
           }
           return '';
         };
@@ -241,18 +253,18 @@ async function extractTableData(page, gender, cls) {
         const highSchool = get(['high school', 'school', 'hs', 'highschool']);
         const position = get(['position', 'pos', 'positions']);
         const clubTeam = get(['club', 'club team', 'clubteam', 'team']);
-        const college = get(['college', 'school', 'university', 'committed to', 'committed school']);
+        const college = get(['college', 'school name', 'university', 'committed to', 'committed school']);
         const commitmentDate = get(['date', 'commitment date', 'commit date', 'committed']);
-        const state = get(['state', 'st', 'location']);
+        const state = get(['state', 'st', 'location', 'hs state']);
 
         rows.push({
           gender: genderValue,
           class: classValue,
           playerName: playerName || cells[2] || '',
-          highSchool: highSchool || cells[3] || '',
+          college: college || cells[3] || '',
           position: position || cells[4] || '',
           clubTeam: clubTeam || cells[5] || '',
-          college: college || cells[6] || '',
+          highSchool: highSchool || cells[6] || '',
           commitmentDate: commitmentDate || cells[0] || '',
           state: state || cells[7] || '',
           raw: cells,
