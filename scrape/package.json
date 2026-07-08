@@ -1,0 +1,12 @@
+{
+  "name": "commitment-tracker",
+  "version": "1.0.0",
+  "description": "Scraper for college lacrosse commitment data",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}
