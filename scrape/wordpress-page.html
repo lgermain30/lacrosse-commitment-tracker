@@ -1,0 +1,244 @@
+<a id="top"></a>
+
+<h1>Lacrosse Commitment Tracker</h1>
+
+<p><em>Filterable database of boys' and girls' lacrosse college commitments. Data refreshes daily.</em></p>
+
+<div id="commitment-tracker">
+  <div class="filters">
+    <div class="filter-group">
+      <label for="filter-gender">Gender</label>
+      <select id="filter-gender"><option value="">All</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-class">Class</label>
+      <select id="filter-class"><option value="">All</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-position">Position</label>
+      <select id="filter-position"><option value="">All</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-club">Club Team</label>
+      <select id="filter-club"><option value="">All</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-school">High School</label>
+      <select id="filter-school"><option value="">All</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-college">College</label>
+      <select id="filter-college"><option value="">All</option></select>
+    </div>
+  </div>
+
+  <p id="record-count"></p>
+
+  <div id="table-wrapper">
+    <table id="recruits-table" class="commitment-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Player</th>
+          <th>Class</th>
+          <th>Gender</th>
+          <th>Position</th>
+          <th>High School</th>
+          <th>Club Team</th>
+          <th>College</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <p id="loading-message">Loading commitment data...</p>
+  <p id="error-message" style="display:none;color:#c00;">Unable to load data. Please try again later.</p>
+</div>
+
+<style>
+  #commitment-tracker {
+    font-family: inherit;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    flex: 1;
+  }
+  .filter-group label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  .filter-group select {
+    padding: 6px 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .commitment-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .commitment-table th,
+  .commitment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .commitment-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  .commitment-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  #record-count {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .commitment-table {
+      font-size: 12px;
+    }
+    .commitment-table th,
+    .commitment-table td {
+      padding: 6px;
+    }
+  }
+</style>
+
+<script>
+(function() {
+  const DATA_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/recruits.json';
+
+  const elements = {
+    table: document.getElementById('recruits-table'),
+    tbody: document.querySelector('#recruits-table tbody'),
+    loading: document.getElementById('loading-message'),
+    error: document.getElementById('error-message'),
+    count: document.getElementById('record-count'),
+    filters: {
+      gender: document.getElementById('filter-gender'),
+      class: document.getElementById('filter-class'),
+      position: document.getElementById('filter-position'),
+      club: document.getElementById('filter-club'),
+      school: document.getElementById('filter-school'),
+      college: document.getElementById('filter-college'),
+    }
+  };
+
+  let allRecruits = [];
+
+  function populateSelect(select, values) {
+    const current = select.value;
+    select.innerHTML = '<option value="">All</option>';
+    values
+      .filter(v => v && v.trim() !== '')
+      .sort()
+      .forEach(value => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    select.value = current;
+  }
+
+  function getUniqueValues(key) {
+    const values = new Set(allRecruits.map(r => r[key]));
+    return Array.from(values);
+  }
+
+  function renderTable(data) {
+    elements.tbody.innerHTML = '';
+    data.forEach(recruit => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${escapeHtml(recruit.commitmentDate)}</td>
+        <td>${escapeHtml(recruit.playerName)}</td>
+        <td>${escapeHtml(recruit.class)}</td>
+        <td>${escapeHtml(recruit.gender)}</td>
+        <td>${escapeHtml(recruit.position)}</td>
+        <td>${escapeHtml(recruit.highSchool)}</td>
+        <td>${escapeHtml(recruit.clubTeam)}</td>
+        <td>${escapeHtml(recruit.college)}</td>
+        <td>${escapeHtml(recruit.state)}</td>
+      `;
+      elements.tbody.appendChild(tr);
+    });
+    elements.count.textContent = `Showing ${data.length} of ${allRecruits.length} commitments`;
+  }
+
+  function escapeHtml(text) {
+    if (text == null) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  function filterData() {
+    const filters = {
+      gender: elements.filters.gender.value,
+      class: elements.filters.class.value,
+      position: elements.filters.position.value,
+      clubTeam: elements.filters.club.value,
+      highSchool: elements.filters.school.value,
+      college: elements.filters.college.value,
+    };
+
+    const filtered = allRecruits.filter(r => {
+      return Object.entries(filters).every(([key, value]) => {
+        if (!value) return true;
+        return (r[key] || '').toLowerCase() === value.toLowerCase();
+      });
+    });
+
+    renderTable(filtered);
+  }
+
+  function initFilters() {
+    populateSelect(elements.filters.gender, getUniqueValues('gender'));
+    populateSelect(elements.filters.class, getUniqueValues('class'));
+    populateSelect(elements.filters.position, getUniqueValues('position'));
+    populateSelect(elements.filters.club, getUniqueValues('clubTeam'));
+    populateSelect(elements.filters.school, getUniqueValues('highSchool'));
+    populateSelect(elements.filters.college, getUniqueValues('college'));
+
+    Object.values(elements.filters).forEach(select => {
+      select.addEventListener('change', filterData);
+    });
+  }
+
+  async function loadData() {
+    try {
+      const response = await fetch(DATA_URL);
+      if (!response.ok) throw new Error('Network response was not ok');
+      const data = await response.json();
+      allRecruits = data.recruits || [];
+      elements.loading.style.display = 'none';
+      initFilters();
+      renderTable(allRecruits);
+    } catch (err) {
+      console.error(err);
+      elements.loading.style.display = 'none';
+      elements.error.style.display = 'block';
+    }
+  }
+
+  loadData();
+})();
+</script>
+
+<p><a href="#top">Back to Top</a></p>
