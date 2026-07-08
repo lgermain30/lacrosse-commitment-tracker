@@ -33,10 +33,22 @@ async function scrape() {
       if (await consentButton.count() > 0) {
         await consentButton.click();
         console.log('Accepted cookie banner.');
-        await sleep(1500);
+        await sleep(2000);
       }
     } catch (err) {
       console.log('No cookie banner to accept.');
+    }
+
+    // Dismiss any additional informational popups (e.g., NCAA settlement notice)
+    try {
+      const gotItButton = page.locator('button:has-text("Got it!"), button:has-text("Got It"), button:has-text("Close")').first();
+      if (await gotItButton.count() > 0) {
+        await gotItButton.click();
+        console.log('Dismissed informational popup.');
+        await sleep(2000);
+      }
+    } catch (err) {
+      console.log('No informational popup to dismiss.');
     }
 
     // Wait for the player details section to appear.
