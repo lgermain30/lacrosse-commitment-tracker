@@ -225,8 +225,7 @@ async function setExclusiveFilter(page, allValues, value) {
   }
 }
 
-async function extract
-  async function extractTableData(page, gender, cls) {
+async function extractTableData(page, gender, cls) {
   const logInfo = await page.evaluate((genderValue, classValue) => {
     const rows = [];
 
