@@ -226,3 +226,99 @@ async function setExclusiveFilter(page, allValues, value) {
 }
 
 async function extract
+  async function extractTableData(page, gender, cls) {
+  const logInfo = await page.evaluate((genderValue, classValue) => {
+    const rows = [];
+
+    // Try several possible grid/table structures
+    const containers = [
+      ...document.querySelectorAll('.MuiDataGrid-root'),
+      ...document.querySelectorAll('[role="grid"]'),
+      ...document.querySelectorAll('table'),
+    ];
+
+    const containerCount = containers.length;
+    let totalRows = 0;
+
+    for (const container of containers) {
+      // Try to get headers
+      let headers = [];
+      const headerCells = container.querySelectorAll('.MuiDataGrid-columnHeader, [role="columnheader"], thead th, tr th');
+      headers = Array.from(headerCells).map(th => th.innerText.trim().replace(/\s+/g, ' '));
+
+      // Try to get body rows
+      const rowSelectors = [
+        '.MuiDataGrid-row',
+        '[role="row"]',
+        'tbody tr',
+        'tr',
+      ];
+
+      let bodyRows = [];
+      for (const sel of rowSelectors) {
+        bodyRows = Array.from(container.querySelectorAll(sel));
+        if (bodyRows.length > 0) break;
+      }
+
+      totalRows += bodyRows.length;
+
+      for (const tr of bodyRows) {
+        const cellSelectors = [
+          '.MuiDataGrid-cell, [role="gridcell"], td',
+          'td',
+        ];
+
+        let cells = [];
+        for (const sel of cellSelectors) {
+          cells = Array.from(tr.querySelectorAll(sel)).map(td => td.innerText.trim().replace(/\s+/g, ' '));
+          if (cells.length > 0) break;
+        }
+
+        if (cells.length < 3) continue;
+
+        const map = {};
+        headers.forEach((h, i) => {
+          if (h) map[h.toLowerCase()] = cells[i] || '';
+        });
+
+        // Match by exact header key, then by substring within a header key
+        const get = (keys) => {
+          for (const k of keys) {
+            if (map[k] !== undefined && map[k] !== '') return map[k];
+            const matchingKey = Object.keys(map).find(mk => mk.includes(k) && map[mk] !== '');
+            if (matchingKey) return map[matchingKey];
+          }
+          return '';
+        };
+
+        const playerName = get(['player', 'name', 'player name', 'athlete']);
+        const highSchool = get(['high school', 'school', 'hs', 'highschool']);
+        const position = get(['position', 'pos', 'positions']);
+        const clubTeam = get(['club', 'club team', 'clubteam', 'team']);
+        const college = get(['college', 'school name', 'university', 'committed to', 'committed school']);
+        const commitmentDate = get(['date', 'commitment date', 'commit date', 'committed']);
+        const state = get(['state', 'st', 'location', 'hs state']);
+
+        rows.push({
+          gender: genderValue,
+          class: classValue,
+          playerName: playerName || cells[2] || '',
+          college: college || cells[3] || '',
+          position: position || cells[4] || '',
+          clubTeam: clubTeam || cells[5] || '',
+          highSchool: highSchool || cells[6] || '',
+          commitmentDate: commitmentDate || cells[0] || '',
+          state: state || cells[7] || '',
+          raw: cells,
+        });
+      }
+    }
+
+    return { rows, containerCount, totalRows, firstHeaders: containers[0] ? Array.from(containers[0].querySelectorAll('.MuiDataGrid-columnHeader, [role="columnheader"], thead th, tr th')).map(th => th.innerText.trim().replace(/\s+/g, ' ')) : [] };
+  }, gender, cls);
+
+  console.log(`    DOM: containers=${logInfo.containerCount}, rows=${logInfo.totalRows}, kept=${logInfo.rows.length}, headers=${JSON.stringify(logInfo.firstHeaders)}`);
+  return logInfo.rows;
+}
+
+scrape();
