@@ -29,14 +29,15 @@ jobs:
       - name: Run scraper
         run: npm run scrape
 
-      - name: Upload debug files on failure
-        if: failure()
+      - name: Upload debug files
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scraper-debug
           path: |
             scraper-error.png
             scraper-error.html
+            debug-*.png
 
       - name: Commit and push updated data
         run: |
