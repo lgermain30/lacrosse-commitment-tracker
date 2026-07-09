@@ -64,22 +64,24 @@ async function scrape() {
 
     const allRecruits = [];
 
+    // Log the default view state for debugging
+    const defaultRowCount = await page.evaluate(() => document.querySelectorAll('table tbody tr, [role="grid"] tbody tr, .MuiDataGrid-row').length);
+    console.log(`Default view row count: ${defaultRowCount}`);
+    await page.screenshot({ path: 'debug-default.png', fullPage: true });
+
     for (const gender of CONFIG.genders) {
       console.log(`\n--- Gender: ${gender} ---`);
+
+      const genderSetSuccess = await setExclusiveFilter(page, CONFIG.genders, gender);
+      if (!genderSetSuccess) {
+        console.warn(`Could not set gender filter for ${gender}`);
+        continue;
+      }
 
       for (const cls of CONFIG.classes) {
         console.log(`Class: ${cls}`);
 
-        // Start each combination from a clean state so only one gender and one class are selected
-        await clearAllFilters(page);
-
-        const genderSetSuccess = await setCheckboxFilter(page, 'Gender', gender);
-        if (!genderSetSuccess) {
-          console.warn(`Could not set gender filter for ${gender}`);
-          continue;
-        }
-
-        const classSetSuccess = await setCheckboxFilter(page, 'Recruiting Class Filter', cls);
+        const classSetSuccess = await setExclusiveFilter(page, CONFIG.classes, cls);
         if (!classSetSuccess) {
           console.warn(`Could not set class filter for ${cls}`);
           continue;
@@ -97,6 +99,13 @@ async function scrape() {
 
         const recruits = await extractTableData(page, gender, cls);
         console.log(`  Found ${recruits.length} recruits`);
+
+        if (recruits.length === 0) {
+          const safeName = `${gender}-${cls}`.replace(/[^a-z0-9\-]/gi, '');
+          await page.screenshot({ path: `debug-zero-${safeName}.png`, fullPage: true });
+          console.log(`  Saved debug-zero-${safeName}.png because 0 rows were found.`);
+        }
+
         allRecruits.push(...recruits);
       }
     }
@@ -135,62 +144,68 @@ async function scrape() {
   }
 }
 
-async function setCheckboxFilter(page, groupLabel, value) {
+async function getCheckboxState(page, value) {
+  const cb = page.getByRole('checkbox', { name: value, exact: false }).first();
+  if (await cb.count() > 0) {
+    return await cb.isChecked().catch(() => false);
+  }
+  return false;
+}
+
+async function clickFilterLabel(page, value) {
+  // Try clicking the visible label text (most reliable for MUI FormControlLabel)
+  const label = page.locator(`.MuiFormControlLabel-label:has-text("${value}"), label:has-text("${value}")`).first();
+  if (await label.count() > 0) {
+    await label.click();
+    return true;
+  }
+
+  // Fallback to the checkbox role locator
+  const cb = page.getByRole('checkbox', { name: value, exact: false }).first();
+  if (await cb.count() > 0) {
+    await cb.click();
+    return true;
+  }
+
+  console.warn(`Could not find clickable label or checkbox for ${value}`);
+  return false;
+}
+
+async function setExclusiveFilter(page, allValues, value) {
   try {
-    // Use the accessible checkbox role first (most reliable for MUI checkboxes)
-    let checkbox = page.getByRole('checkbox', { name: value, exact: false }).first();
-    let count = await checkbox.count().catch(() => 0);
+    console.log(`  Setting exclusive filter: ${value}`);
 
-    if (count === 0) {
-      // Fallback to CSS selectors if the accessible role is not available
-      const selectors = [
-        `label:has-text("${value}") input[type="checkbox"]`,
-        `span:has-text("${value}") >> xpath=ancestor::label | ancestor::div >> input[type="checkbox"]`,
-        `[aria-label*="${value}"] input[type="checkbox"]`,
-        `input[type="checkbox"][value="${value}"]`,
-      ];
-
-      for (const selector of selectors) {
-        checkbox = await page.locator(selector).first();
-        count = await checkbox.count().catch(() => 0);
-        if (count > 0) break;
+    // Uncheck every other value in the group
+    for (const other of allValues) {
+      if (other === value) continue;
+      const wasChecked = await getCheckboxState(page, other);
+      console.log(`    ${other} wasChecked=${wasChecked}`);
+      if (wasChecked) {
+        const clicked = await clickFilterLabel(page, other);
+        if (clicked) await sleep(750);
       }
     }
 
-    if (count === 0) {
-      console.warn(`Could not find checkbox for ${value}`);
-      return false;
-    }
-
-    const isChecked = await checkbox.isChecked().catch(() => false);
+    // Check the desired value
+    const isChecked = await getCheckboxState(page, value);
+    console.log(`    ${value} isChecked=${isChecked}`);
     if (!isChecked) {
-      await checkbox.click();
+      const clicked = await clickFilterLabel(page, value);
+      if (!clicked) return false;
       await sleep(1500);
     }
-    return true;
+
+    const finalState = await getCheckboxState(page, value);
+    console.log(`    ${value} finalState=${finalState}`);
+    return finalState;
   } catch (err) {
-    console.error(`Error setting ${groupLabel} = ${value}:`, err.message);
+    console.error(`Error setting exclusive filter ${value}:`, err.message);
     return false;
   }
 }
 
-async function clearAllFilters(page) {
-  try {
-    const checkboxes = await page.getByRole('checkbox').all();
-    for (const cb of checkboxes) {
-      const isChecked = await cb.isChecked().catch(() => false);
-      if (isChecked) {
-        await cb.click();
-      }
-    }
-    await sleep(1500);
-  } catch (err) {
-    console.error('Error clearing filters:', err.message);
-  }
-}
-
 async function extractTableData(page, gender, cls) {
-  return page.evaluate((genderValue, classValue) => {
+  const logInfo = await page.evaluate((genderValue, classValue) => {
     const rows = [];
 
     // Try several possible grid/table structures
@@ -199,6 +214,9 @@ async function extractTableData(page, gender, cls) {
       ...document.querySelectorAll('[role="grid"]'),
       ...document.querySelectorAll('table'),
     ];
+
+    const containerCount = containers.length;
+    let totalRows = 0;
 
     for (const container of containers) {
       // Try to get headers
@@ -219,6 +237,8 @@ async function extractTableData(page, gender, cls) {
         bodyRows = Array.from(container.querySelectorAll(sel));
         if (bodyRows.length > 0) break;
       }
+
+      totalRows += bodyRows.length;
 
       for (const tr of bodyRows) {
         const cellSelectors = [
@@ -272,9 +292,11 @@ async function extractTableData(page, gender, cls) {
       }
     }
 
-    return rows;
+    return { rows, containerCount, totalRows, firstHeaders: containers[0] ? Array.from(containers[0].querySelectorAll('.MuiDataGrid-columnHeader, [role="columnheader"], thead th, tr th')).map(th => th.innerText.trim().replace(/\s+/g, ' ')) : [] };
   }, gender, cls);
+
+  console.log(`    DOM: containers=${logInfo.containerCount}, rows=${logInfo.totalRows}, kept=${logInfo.rows.length}, headers=${JSON.stringify(logInfo.firstHeaders)}`);
+  return logInfo.rows;
 }
 
 scrape();
-
