@@ -226,7 +226,7 @@ async function setExclusiveFilter(page, allValues, value) {
 }
 
 async function extractTableData(page, gender, cls) {
-  const logInfo = await page.evaluate((genderValue, classValue) => {
+  const logInfo = await page.evaluate(({ genderValue, classValue }) => {
     const rows = [];
 
     // Try several possible grid/table structures
@@ -314,7 +314,7 @@ async function extractTableData(page, gender, cls) {
     }
 
     return { rows, containerCount, totalRows, firstHeaders: containers[0] ? Array.from(containers[0].querySelectorAll('.MuiDataGrid-columnHeader, [role="columnheader"], thead th, tr th')).map(th => th.innerText.trim().replace(/\s+/g, ' ')) : [] };
-  }, gender, cls);
+  }, { genderValue: gender, classValue: cls });
 
   console.log(`    DOM: containers=${logInfo.containerCount}, rows=${logInfo.totalRows}, kept=${logInfo.rows.length}, headers=${JSON.stringify(logInfo.firstHeaders)}`);
   return logInfo.rows;
