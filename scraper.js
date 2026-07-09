@@ -160,24 +160,16 @@ async function getCheckboxState(page, value) {
 }
 
 async function clickFilterLabel(page, value) {
-  // Try the visible label text using Playwright's text locator (most reliable)
-  const textLocator = page.getByText(value, { exact: true }).first();
-  if (await textLocator.count() > 0) {
+  // Only click actual filter labels, not random text in the table
+  const label = page.locator('label, .MuiFormControlLabel-label').filter({ hasText: value }).first();
+  if (await label.count() > 0) {
     try {
-      await textLocator.scrollIntoViewIfNeeded();
-      await textLocator.click();
+      await label.scrollIntoViewIfNeeded();
+      await label.click();
       return true;
     } catch (err) {
-      console.warn(`getByText click failed for ${value}:`, err.message);
+      console.warn(`label click failed for ${value}:`, err.message);
     }
-  }
-
-  // Fallback to MUI-specific label classes
-  const label = page.locator(`.MuiFormControlLabel-label:has-text("${value}"), label:has-text("${value}")`).first();
-  if (await label.count() > 0) {
-    await label.scrollIntoViewIfNeeded();
-    await label.click();
-    return true;
   }
 
   // Fallback to the checkbox role locator
