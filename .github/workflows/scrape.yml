@@ -37,7 +37,8 @@ jobs:
           path: |
             scraper-error.png
             scraper-error.html
-            debug-*.png
+                                debug-*.png
+                    debug-page.html
 
       - name: Commit and push updated data
         run: |
