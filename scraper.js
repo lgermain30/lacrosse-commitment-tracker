@@ -27,7 +27,7 @@ async function waitForRows(page, timeout = 20000) {
   const start = Date.now();
   while (Date.now() - start < timeout) {
     const count = await page.evaluate(() =>
-      document.querySelectorAll('[class*="MuiDataGrid-row"], tr[data-rowindex]').length
+      document.querySelectorAll('.ag-row, .ag-row-even, .ag-row-odd').length
     );
     if (count > 0) return count;
     await sleep(1000);
@@ -81,40 +81,47 @@ async function setExclusiveFilter(page, allValues, desired) {
 async function extractRows(page, gender, cls) {
   return await page.evaluate(({ g, c }) => {
     const results = [];
-    const muiRows = document.querySelectorAll('[class*="MuiDataGrid-row"]');
-    const headerEls = document.querySelectorAll('[class*="MuiDataGrid-columnHeader"]');
-    const headers = Array.from(headerEls).map(h => h.innerText.trim().replace(/\s+/g, ' ').toLowerCase());
 
-    muiRows.forEach(row => {
-      const cells = Array.from(row.querySelectorAll('[class*="MuiDataGrid-cell"]'))
-        .map(td => td.innerText.trim().replace(/\s+/g, ' '));
-      if (cells.length < 3) return;
+    // AG Grid selectors
+    const headerEls = document.querySelectorAll('.ag-header-cell[col-id]');
+    const headers = Array.from(headerEls).map(h => (h.getAttribute('col-id') || h.innerText).trim().replace(/\s+/g, ' ').toLowerCase());
 
-      const map = {};
-      headers.forEach((h, i) => { if (h) map[h] = cells[i] || ''; });
+    const agRows = document.querySelectorAll('.ag-row');
+
+    agRows.forEach(row => {
+      const cells = Array.from(row.querySelectorAll('.ag-cell[col-id]'));
+      const cellMap = {};
+      cells.forEach(cell => {
+        const key = (cell.getAttribute('col-id') || '').toLowerCase();
+        cellMap[key] = cell.innerText.trim().replace(/\s+/g, ' ');
+      });
 
       const get = (keys) => {
         for (const k of keys) {
-          if (map[k] !== undefined && map[k] !== '') return map[k];
-          const mk = Object.keys(map).find(m => m.includes(k) && map[m] !== '');
-          if (mk) return map[mk];
+          if (cellMap[k] !== undefined && cellMap[k] !== '') return cellMap[k];
+          const mk = Object.keys(cellMap).find(m => m.includes(k) && cellMap[m] !== '');
+          if (mk) return cellMap[mk];
         }
         return '';
       };
 
+      const allCells = cells.map(c => c.innerText.trim().replace(/\s+/g, ' '));
+      if (allCells.length < 2) return;
+
       results.push({
         gender: g, class: c,
-        playerName: get(['player name', 'player', 'name', 'athlete']) || cells[2] || '',
-        college: get(['school name', 'college', 'university', 'committed to']) || cells[3] || '',
-        position: get(['position', 'pos']) || cells[4] || '',
-        clubTeam: get(['club name', 'club team', 'club']) || cells[5] || '',
-        highSchool: get(['high school', 'school', 'hs']) || cells[6] || '',
-        commitmentDate: get(['commit date', 'date', 'committed']) || cells[0] || '',
-        state: get(['hs state', 'state']) || cells[7] || '',
+        playerName: get(['playername', 'player', 'name', 'athlete', 'playerName']) || allCells[2] || '',
+        college: get(['schoolname', 'school', 'college', 'university']) || allCells[3] || '',
+        position: get(['position', 'pos']) || allCells[4] || '',
+        clubTeam: get(['clubname', 'club', 'team']) || allCells[5] || '',
+        highSchool: get(['highschool', 'highschoolname', 'hs']) || allCells[6] || '',
+        commitmentDate: get(['commitdate', 'date', 'committed', 'commitmentdate']) || allCells[0] || '',
+        state: get(['hsstate', 'state', 'st']) || allCells[7] || '',
+        rawColIds: Object.keys(cellMap),
       });
     });
 
-    return { results, muiRowCount: muiRows.length, headers };
+    return { results, agRowCount: agRows.length, headers, colIds: Array.from(headerEls).map(h => h.getAttribute('col-id')) };
   }, { g: gender, c: cls });
 }
 
@@ -138,13 +145,13 @@ async function scrape() {
     console.log('Saved debug-default.png and debug-page.html');
 
     const audit = await page.evaluate(() => ({
-      muiDataGrid: document.querySelectorAll('[class*="MuiDataGrid"]').length,
-      muiRow: document.querySelectorAll('[class*="MuiDataGrid-row"]').length,
-      muiCell: document.querySelectorAll('[class*="MuiDataGrid-cell"]').length,
+      agRow: document.querySelectorAll('.ag-row').length,
+      agCell: document.querySelectorAll('.ag-cell').length,
+      agHeader: document.querySelectorAll('.ag-header-cell[col-id]').length,
+      agColIds: Array.from(document.querySelectorAll('.ag-header-cell[col-id]')).map(h => h.getAttribute('col-id')),
       table: document.querySelectorAll('table').length,
-      tr: document.querySelectorAll('tr').length,
       labels: Array.from(document.querySelectorAll('label')).map(l => l.innerText.trim()).filter(t => t.length > 0 && t.length < 40),
-      checkboxes: Array.from(document.querySelectorAll('input[type="checkbox"]')).map(cb => ({ id: cb.id, name: cb.name, checked: cb.checked, ariaLabel: cb.getAttribute('aria-label') })),
+      checkboxCount: document.querySelectorAll('input[type="checkbox"]').length,
     }));
     console.log('DOM audit:', JSON.stringify(audit, null, 2));
 
@@ -166,8 +173,8 @@ async function scrape() {
         const rowCount = await waitForRows(page, 15000);
         console.log(`    Rows visible: ${rowCount}`);
 
-        const { results, muiRowCount, headers } = await extractRows(page, gender, cls);
-        console.log(`    MUI rows: ${muiRowCount}, extracted: ${results.length}, headers: ${JSON.stringify(headers)}`);
+        const { results, agRowCount, headers, colIds } = await extractRows(page, gender, cls);
+        console.log(`    AG rows: ${agRowCount}, extracted: ${results.length}, colIds: ${JSON.stringify(colIds)}`);
 
         if (results.length === 0) {
           await page.screenshot({ path: `debug-zero-${gender}-${cls}.png`, fullPage: true });
