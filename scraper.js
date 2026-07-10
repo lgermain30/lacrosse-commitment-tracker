@@ -3,15 +3,119 @@ const fs = require('fs');
 
 const BASE_URL = 'https://public.clublacrosse.org/commitments/Dashboard/gender-with-player';
 
-// Combinations to scrape. Add/remove class years as needed.
 const CONFIG = {
   genders: ['Boys', 'Girls'],
   classes: ['2025', '2026', '2027', '2028', '2029', '2030'],
-  divisions: ['D1', 'D2', 'D3'], // not used as primary filter, but available
 };
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function dismissPopups(page) {
+  try {
+    const accept = page.locator('button:has-text("Accept")').first();
+    if (await accept.count() > 0) { await accept.click(); await sleep(1500); console.log('Accepted cookie banner.'); }
+  } catch (_) {}
+  try {
+    const close = page.locator('button:has-text("Got it!"), button:has-text("Got It"), button:has-text("Close"), button:has-text("OK")').first();
+    if (await close.count() > 0) { await close.click(); await sleep(1500); console.log('Dismissed popup.'); }
+  } catch (_) {}
+}
+
+async function waitForRows(page, timeout = 20000) {
+  const start = Date.now();
+  while (Date.now() - start < timeout) {
+    const count = await page.evaluate(() =>
+      document.querySelectorAll('[class*="MuiDataGrid-row"], tr[data-rowindex]').length
+    );
+    if (count > 0) return count;
+    await sleep(1000);
+  }
+  return 0;
+}
+
+async function clickFilterLabel(page, value) {
+  const labels = await page.locator('label').all();
+  for (const label of labels) {
+    const text = (await label.innerText().catch(() => '')).trim();
+    if (text === value) {
+      await label.scrollIntoViewIfNeeded();
+      await label.click();
+      await sleep(500);
+      return true;
+    }
+  }
+  const cb = page.getByRole('checkbox', { name: value });
+  if (await cb.count() > 0) {
+    await cb.first().scrollIntoViewIfNeeded();
+    await cb.first().click();
+    await sleep(500);
+    return true;
+  }
+  console.warn(`Could not find label or checkbox for: ${value}`);
+  return false;
+}
+
+async function setExclusiveFilter(page, allValues, desired) {
+  for (const v of allValues) {
+    if (v === desired) continue;
+    const cb = page.getByRole('checkbox', { name: v });
+    if (await cb.count() > 0 && await cb.first().isChecked().catch(() => false)) {
+      await clickFilterLabel(page, v);
+    }
+  }
+  const cb = page.getByRole('checkbox', { name: desired });
+  if (await cb.count() > 0) {
+    if (!await cb.first().isChecked().catch(() => false)) {
+      await clickFilterLabel(page, desired);
+    }
+    await sleep(2000);
+    return await cb.first().isChecked().catch(() => false);
+  }
+  const clicked = await clickFilterLabel(page, desired);
+  await sleep(2000);
+  return clicked;
+}
+
+async function extractRows(page, gender, cls) {
+  return await page.evaluate(({ g, c }) => {
+    const results = [];
+    const muiRows = document.querySelectorAll('[class*="MuiDataGrid-row"]');
+    const headerEls = document.querySelectorAll('[class*="MuiDataGrid-columnHeader"]');
+    const headers = Array.from(headerEls).map(h => h.innerText.trim().replace(/\s+/g, ' ').toLowerCase());
+
+    muiRows.forEach(row => {
+      const cells = Array.from(row.querySelectorAll('[class*="MuiDataGrid-cell"]'))
+        .map(td => td.innerText.trim().replace(/\s+/g, ' '));
+      if (cells.length < 3) return;
+
+      const map = {};
+      headers.forEach((h, i) => { if (h) map[h] = cells[i] || ''; });
+
+      const get = (keys) => {
+        for (const k of keys) {
+          if (map[k] !== undefined && map[k] !== '') return map[k];
+          const mk = Object.keys(map).find(m => m.includes(k) && map[m] !== '');
+          if (mk) return map[mk];
+        }
+        return '';
+      };
+
+      results.push({
+        gender: g, class: c,
+        playerName: get(['player name', 'player', 'name', 'athlete']) || cells[2] || '',
+        college: get(['school name', 'college', 'university', 'committed to']) || cells[3] || '',
+        position: get(['position', 'pos']) || cells[4] || '',
+        clubTeam: get(['club name', 'club team', 'club']) || cells[5] || '',
+        highSchool: get(['high school', 'school', 'hs']) || cells[6] || '',
+        commitmentDate: get(['commit date', 'date', 'committed']) || cells[0] || '',
+        state: get(['hs state', 'state']) || cells[7] || '',
+      });
+    });
+
+    return { results, muiRowCount: muiRows.length, headers };
+  }, { g: gender, c: cls });
 }
 
 async function scrape() {
@@ -24,96 +128,52 @@ async function scrape() {
 
   try {
     console.log('Loading page...');
-    await page.goto(BASE_URL, { waitUntil: 'domcontentloaded' });
-    await page.waitForLoadState('networkidle');
-
-    // Accept or dismiss the cookie/privacy consent banner if it appears
-    try {
-      const consentButton = page.locator('button:has-text("Accept")').first();
-      if (await consentButton.count() > 0) {
-        await consentButton.click();
-        console.log('Accepted cookie banner.');
-        await sleep(2000);
-      }
-    } catch (err) {
-      console.log('No cookie banner to accept.');
-    }
-
-    // Dismiss any additional informational popups (e.g., NCAA settlement notice)
-    try {
-      const gotItButton = page.locator('button:has-text("Got it!"), button:has-text("Got It"), button:has-text("Close")').first();
-      if (await gotItButton.count() > 0) {
-        await gotItButton.click();
-        console.log('Dismissed informational popup.');
-        await sleep(2000);
-      }
-    } catch (err) {
-      console.log('No informational popup to dismiss.');
-    }
-
-    // Wait for the player details section to appear.
-    // ClubLacrosse uses a Material UI data grid, so look for multiple possible selectors.
-    const gridSelector = 'table, [role="grid"], .MuiDataGrid-root, [data-testid="data-grid"]'; //legacy fallback
-    try {
-      await page.waitForSelector(gridSelector, { timeout: 60000 });
-    } catch (err) {
-      console.warn('Primary grid selector timed out, waiting for Player Details text...');
-      await page.waitForSelector(':has-text("Player Details")', { timeout: 30000 });
-    }
+    await page.goto(BASE_URL, { waitUntil: 'networkidle', timeout: 90000 });
     await sleep(3000);
+    await dismissPopups(page);
+    await sleep(2000);
+
+    await page.screenshot({ path: 'debug-default.png', fullPage: true });
+    fs.writeFileSync('debug-page.html', await page.content());
+    console.log('Saved debug-default.png and debug-page.html');
+
+    const audit = await page.evaluate(() => ({
+      muiDataGrid: document.querySelectorAll('[class*="MuiDataGrid"]').length,
+      muiRow: document.querySelectorAll('[class*="MuiDataGrid-row"]').length,
+      muiCell: document.querySelectorAll('[class*="MuiDataGrid-cell"]').length,
+      table: document.querySelectorAll('table').length,
+      tr: document.querySelectorAll('tr').length,
+      labels: Array.from(document.querySelectorAll('label')).map(l => l.innerText.trim()).filter(t => t.length > 0 && t.length < 40),
+      checkboxes: Array.from(document.querySelectorAll('input[type="checkbox"]')).map(cb => ({ id: cb.id, name: cb.name, checked: cb.checked, ariaLabel: cb.getAttribute('aria-label') })),
+    }));
+    console.log('DOM audit:', JSON.stringify(audit, null, 2));
 
     const allRecruits = [];
 
-    // Log the default view state for debugging
-    const defaultRowCount = await page.evaluate(() => document.querySelectorAll('table tbody tr, [role="grid"] tbody tr, .MuiDataGrid-row').length);
-    console.log(`Default view row count: ${defaultRowCount}`);
-    await page.screenshot({ path: 'debug-default.png', fullPage: true });
-
-    // Try extracting the default view to verify the extraction logic works
-    const defaultRecruits = await extractTableData(page, 'Both', 'Default');
-    console.log(`Default view extracted: ${defaultRecruits.length} rows`);
-
     for (const gender of CONFIG.genders) {
       console.log(`\n--- Gender: ${gender} ---`);
-
-      const genderSetSuccess = await setExclusiveFilter(page, CONFIG.genders, gender);
-      if (!genderSetSuccess) {
-        console.warn(`Could not set gender filter for ${gender}`);
-        await page.screenshot({ path: `debug-fail-gender-${gender}.png`, fullPage: true });
-        continue;
-      }
+      const gOk = await setExclusiveFilter(page, CONFIG.genders, gender);
+      console.log(`  Gender filter set: ${gOk}`);
+      if (!gOk) { await page.screenshot({ path: `debug-fail-gender-${gender}.png`, fullPage: true }); continue; }
       await page.screenshot({ path: `debug-gender-${gender}.png`, fullPage: true });
 
       for (const cls of CONFIG.classes) {
-        console.log(`Class: ${cls}`);
+        console.log(`  Class: ${cls}`);
+        const cOk = await setExclusiveFilter(page, CONFIG.classes, cls);
+        console.log(`    Class filter set: ${cOk}`);
+        if (!cOk) { await page.screenshot({ path: `debug-fail-class-${gender}-${cls}.png`, fullPage: true }); continue; }
 
-        const classSetSuccess = await setExclusiveFilter(page, CONFIG.classes, cls);
-        if (!classSetSuccess) {
-          console.warn(`Could not set class filter for ${cls}`);
-          await page.screenshot({ path: `debug-fail-class-${gender}-${cls}.png`, fullPage: true });
-          continue;
+        const rowCount = await waitForRows(page, 15000);
+        console.log(`    Rows visible: ${rowCount}`);
+
+        const { results, muiRowCount, headers } = await extractRows(page, gender, cls);
+        console.log(`    MUI rows: ${muiRowCount}, extracted: ${results.length}, headers: ${JSON.stringify(headers)}`);
+
+        if (results.length === 0) {
+          await page.screenshot({ path: `debug-zero-${gender}-${cls}.png`, fullPage: true });
         }
 
-        await sleep(4000);
-
-        // Wait for the grid to repopulate after filter change
-        try {
-          await page.waitForSelector(gridSelector, { timeout: 30000 });
-        } catch (err) {
-          console.warn(`No grid found for ${gender} / ${cls}, skipping...`);
-          continue;
-        }
-
-        const recruits = await extractTableData(page, gender, cls);
-        console.log(`  Found ${recruits.length} recruits`);
-
-        if (recruits.length === 0) {
-          const safeName = `${gender}-${cls}`.replace(/[^a-z0-9\-]/gi, '');
-          await page.screenshot({ path: `debug-zero-${safeName}.png`, fullPage: true });
-          console.log(`  Saved debug-zero-${safeName}.png because 0 rows were found.`);
-        }
-
-        allRecruits.push(...recruits);
+        allRecruits.push(...results);
       }
     }
 
@@ -136,180 +196,17 @@ async function scrape() {
 
     fs.writeFileSync('recruits.json', JSON.stringify(output, null, 2));
     console.log(`\nTotal unique recruits saved: ${uniqueRecruits.length}`);
+
   } catch (err) {
     console.error('Scraper failed:', err);
     try {
       await page.screenshot({ path: 'scraper-error.png', fullPage: true });
-      const html = await page.content();
-      fs.writeFileSync('scraper-error.html', html);
-      console.log('Saved debug screenshot and HTML.');
-    } catch (debugErr) {
-      console.error('Could not save debug files:', debugErr.message);
-    }
+      fs.writeFileSync('scraper-error.html', await page.content());
+    } catch (_) {}
     await browser.close();
     process.exit(1);
   }
 }
 
-async function getCheckboxState(page, value) {
-  const cb = page.getByRole('checkbox', { name: value, exact: false }).first();
-  if (await cb.count() > 0) {
-    return await cb.isChecked().catch(() => false);
-  }
-  return false;
-}
-
-async function clickFilterLabel(page, value) {
-  // Only click actual filter labels, not random text in the table
-  const label = page.locator('label, .MuiFormControlLabel-label').filter({ hasText: value }).first();
-  if (await label.count() > 0) {
-    try {
-      await label.scrollIntoViewIfNeeded();
-      await label.click();
-      return true;
-    } catch (err) {
-      console.warn(`label click failed for ${value}:`, err.message);
-    }
-  }
-
-  // Fallback to the checkbox role locator
-  const cb = page.getByRole('checkbox', { name: value, exact: false }).first();
-  if (await cb.count() > 0) {
-    await cb.scrollIntoViewIfNeeded();
-    await cb.click();
-    return true;
-  }
-
-  console.warn(`Could not find clickable label or checkbox for ${value}`);
-  return false;
-}
-
-async function setExclusiveFilter(page, allValues, value) {
-  try {
-    console.log(`  Setting exclusive filter: ${value}`);
-
-    // Uncheck every other value in the group
-    for (const other of allValues) {
-      if (other === value) continue;
-      const wasChecked = await getCheckboxState(page, other);
-      console.log(`    ${other} wasChecked=${wasChecked}`);
-      if (wasChecked) {
-        const clicked = await clickFilterLabel(page, other);
-        if (clicked) await sleep(750);
-      }
-    }
-
-    // Check the desired value
-    const isChecked = await getCheckboxState(page, value);
-    console.log(`    ${value} isChecked=${isChecked}`);
-    if (!isChecked) {
-      const clicked = await clickFilterLabel(page, value);
-      if (!clicked) return false;
-      await sleep(1500);
-    }
-
-    const finalState = await getCheckboxState(page, value);
-    console.log(`    ${value} finalState=${finalState}`);
-    return finalState;
-  } catch (err) {
-    console.error(`Error setting exclusive filter ${value}:`, err.message);
-    return false;
-  }
-}
-
-async function extractTableData(page, gender, cls) {
-  const logInfo = await page.evaluate(({ genderValue, classValue }) => {
-    const rows = [];
-
-    // Try several possible grid/table structures
-    const containers = [
-      ...document.querySelectorAll('.MuiDataGrid-root'),
-      ...document.querySelectorAll('[role="grid"]'),
-      ...document.querySelectorAll('table'),
-    ];
-
-    const containerCount = containers.length;
-    let totalRows = 0;
-
-    for (const container of containers) {
-      // Try to get headers
-      let headers = [];
-      const headerCells = container.querySelectorAll('.MuiDataGrid-columnHeader, [role="columnheader"], thead th, tr th');
-      headers = Array.from(headerCells).map(th => th.innerText.trim().replace(/\s+/g, ' '));
-
-      // Try to get body rows
-      const rowSelectors = [
-        '.MuiDataGrid-row',
-        '[role="row"]',
-        'tbody tr',
-        'tr',
-      ];
-
-      let bodyRows = [];
-      for (const sel of rowSelectors) {
-        bodyRows = Array.from(container.querySelectorAll(sel));
-        if (bodyRows.length > 0) break;
-      }
-
-      totalRows += bodyRows.length;
-
-      for (const tr of bodyRows) {
-        const cellSelectors = [
-          '.MuiDataGrid-cell, [role="gridcell"], td',
-          'td',
-        ];
-
-        let cells = [];
-        for (const sel of cellSelectors) {
-          cells = Array.from(tr.querySelectorAll(sel)).map(td => td.innerText.trim().replace(/\s+/g, ' '));
-          if (cells.length > 0) break;
-        }
-
-        if (cells.length < 3) continue;
-
-        const map = {};
-        headers.forEach((h, i) => {
-          if (h) map[h.toLowerCase()] = cells[i] || '';
-        });
-
-        // Match by exact header key, then by substring within a header key
-        const get = (keys) => {
-          for (const k of keys) {
-            if (map[k] !== undefined && map[k] !== '') return map[k];
-            const matchingKey = Object.keys(map).find(mk => mk.includes(k) && map[mk] !== '');
-            if (matchingKey) return map[matchingKey];
-          }
-          return '';
-        };
-
-        const playerName = get(['player', 'name', 'player name', 'athlete']);
-        const highSchool = get(['high school', 'school', 'hs', 'highschool']);
-        const position = get(['position', 'pos', 'positions']);
-        const clubTeam = get(['club', 'club team', 'clubteam', 'team']);
-        const college = get(['college', 'school name', 'university', 'committed to', 'committed school']);
-        const commitmentDate = get(['date', 'commitment date', 'commit date', 'committed']);
-        const state = get(['state', 'st', 'location', 'hs state']);
-
-        rows.push({
-          gender: genderValue,
-          class: classValue,
-          playerName: playerName || cells[2] || '',
-          college: college || cells[3] || '',
-          position: position || cells[4] || '',
-          clubTeam: clubTeam || cells[5] || '',
-          highSchool: highSchool || cells[6] || '',
-          commitmentDate: commitmentDate || cells[0] || '',
-          state: state || cells[7] || '',
-          raw: cells,
-        });
-      }
-    }
-
-    return { rows, containerCount, totalRows, firstHeaders: containers[0] ? Array.from(containers[0].querySelectorAll('.MuiDataGrid-columnHeader, [role="columnheader"], thead th, tr th')).map(th => th.innerText.trim().replace(/\s+/g, ' ')) : [] };
-  }, { genderValue: gender, classValue: cls });
-
-  console.log(`    DOM: containers=${logInfo.containerCount}, rows=${logInfo.totalRows}, kept=${logInfo.rows.length}, headers=${JSON.stringify(logInfo.firstHeaders)}`);
-  return logInfo.rows;
-}
-
 scrape();
+
