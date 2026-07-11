@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T13:24:35.924Z",
+  "generatedAt": "2026-07-11T10:38:29.608Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 128,
   "recruits": [
@@ -10,7 +10,7 @@
       "college": "0",
       "position": "0",
       "clubTeam": "0",
-      "highSchool": "1,551",
+      "highSchool": "1,537",
       "commitmentDate": "Boys",
       "state": "",
       "rawColIds": [
@@ -1352,7 +1352,7 @@
       "college": "0",
       "position": "0",
       "clubTeam": "0",
-      "highSchool": "529",
+      "highSchool": "520",
       "commitmentDate": "Girls",
       "state": "",
       "rawColIds": [
@@ -2023,7 +2023,7 @@
       "college": "0",
       "position": "0",
       "clubTeam": "0",
-      "highSchool": "1,285",
+      "highSchool": "1,284",
       "commitmentDate": "Girls",
       "state": "",
       "rawColIds": [
