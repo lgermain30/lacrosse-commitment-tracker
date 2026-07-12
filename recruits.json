@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T12:15:22.125Z",
+  "generatedAt": "2026-07-12T12:47:34.749Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 6515,
   "recruits": [
@@ -22,7 +22,7 @@
       "playerName": "Audrey Santee",
       "college": "Shippensburg",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Spring-Ford",
       "state": "PA",
       "commitmentDate": "2026-01-06"
@@ -46,7 +46,7 @@
       "playerName": "Will Larkin",
       "college": "Belmont Abbey",
       "position": "LSM",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Fleming Island",
       "state": "FL",
       "commitmentDate": "2026-01-05"
@@ -70,7 +70,7 @@
       "playerName": "Tyler Berke",
       "college": "Hartwick",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Lynbrook",
       "state": "NY",
       "commitmentDate": "2026-01-05"
@@ -82,7 +82,7 @@
       "playerName": "Sean Wadsworth",
       "college": "Lebanon Valley",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Lansdale Catholic",
       "state": "PA",
       "commitmentDate": "2026-01-05"
@@ -94,7 +94,7 @@
       "playerName": "William Eckert",
       "college": "Oglethorpe",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Buford",
       "state": "GA",
       "commitmentDate": "2026-01-05"
@@ -130,7 +130,7 @@
       "playerName": "Noah Hammond",
       "college": "Seton Hill",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "The Kiski School",
       "state": "PA",
       "commitmentDate": "2026-01-05"
@@ -142,7 +142,7 @@
       "playerName": "Vivian Rice",
       "college": "Skidmore",
       "position": "Defense",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Longmeadow",
       "state": "MA",
       "commitmentDate": "2026-01-05"
@@ -154,7 +154,7 @@
       "playerName": "Aubrey Davis",
       "college": "Skidmore",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Notre Dame",
       "state": "NJ",
       "commitmentDate": "2026-01-05"
@@ -166,7 +166,7 @@
       "playerName": "Dillon Wiles",
       "college": "Stetson",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Upper Arlington",
       "state": "OH",
       "commitmentDate": "2026-01-05"
@@ -178,7 +178,7 @@
       "playerName": "Ally Cabbabe",
       "college": "Quincy",
       "position": "Defense",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Eureka",
       "state": "MO",
       "commitmentDate": "2026-01-05"
@@ -214,7 +214,7 @@
       "playerName": "Gavin Cunningham",
       "college": "Cleveland State",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Centennial",
       "state": "MN",
       "commitmentDate": "2026-01-04"
@@ -226,7 +226,7 @@
       "playerName": "Daniel Gardill",
       "college": "Frostburg State",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Fork Union Military Academy",
       "state": "VA",
       "commitmentDate": "2026-01-04"
@@ -238,7 +238,7 @@
       "playerName": "Blake DeWitt",
       "college": "Franklin & Marshall",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Staples",
       "state": "CT",
       "commitmentDate": "2026-01-04"
@@ -250,7 +250,7 @@
       "playerName": "Makenzie Todd",
       "college": "Salisbury",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Cape Henlopen",
       "state": "DE",
       "commitmentDate": "2026-01-04"
@@ -274,7 +274,7 @@
       "playerName": "Michael Genovese",
       "college": "Assumption",
       "position": "Defense",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Mansfield",
       "state": "MA",
       "commitmentDate": "2026-01-03"
@@ -286,7 +286,7 @@
       "playerName": "Sterling Page",
       "college": "Gardner-Webb",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "North Gwinnett",
       "state": "GA",
       "commitmentDate": "2026-01-03"
@@ -298,7 +298,7 @@
       "playerName": "Emma Brusate",
       "college": "John Carroll",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Holy Family",
       "state": "CO",
       "commitmentDate": "2026-01-03"
@@ -334,7 +334,7 @@
       "playerName": "Sawyer Mason",
       "college": "Adams State",
       "position": "FOGO",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Camas",
       "state": "WA",
       "commitmentDate": "2026-01-02"
@@ -346,7 +346,7 @@
       "playerName": "Nathan Roberts",
       "college": "Adrian",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Fenton",
       "state": "MI",
       "commitmentDate": "2026-01-02"
@@ -358,7 +358,7 @@
       "playerName": "Ella Francis",
       "college": "Hope College",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Grand Haven",
       "state": "MI",
       "commitmentDate": "2026-01-02"
@@ -370,7 +370,7 @@
       "playerName": "Sophia Vario",
       "college": "Stetson",
       "position": "Defense",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Sayville",
       "state": "NY",
       "commitmentDate": "2026-01-02"
@@ -418,7 +418,7 @@
       "playerName": "Evan Wyatt",
       "college": "Immaculata",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Pope John XXIII",
       "state": "NJ",
       "commitmentDate": "2025-12-31"
@@ -430,7 +430,7 @@
       "playerName": "Ryan Kane",
       "college": "Moravian",
       "position": "Attack",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Nazareth Area",
       "state": "PA",
       "commitmentDate": "2025-12-31"
@@ -442,7 +442,7 @@
       "playerName": "Caitlin Sheridan",
       "college": "Mercy",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "East Islip",
       "state": "NY",
       "commitmentDate": "2025-12-31"
@@ -838,7 +838,7 @@
       "playerName": "Alec Notaro",
       "college": "Marquette",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "South Side",
       "state": "NY",
       "commitmentDate": "2025-12-23"
@@ -3802,7 +3802,7 @@
       "playerName": "Kendall Kreft",
       "college": "Detroit Mercy",
       "position": "Middie",
-      "clubTeam": "Error 500",
+      "clubTeam": "",
       "highSchool": "Clarkston",
       "state": "MI",
       "commitmentDate": "2025-12-08"
