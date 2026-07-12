@@ -1,4 +1,4 @@
-const https = require('https');
+Commconst https = require('https');
 const fs = require('fs');
 
 const API_URL = 'https://public.clublacrosse.org/api/commitments';
@@ -41,7 +41,7 @@ async function scrape() {
       playerName: c.player_name || '',
       college: c.school_name || '',
       position: c.position_name || '',
-      clubTeam: c.short_name || '',
+      clubTeam: c.short_name === 'Error 500' ? '' : (c.short_name || ''),
       highSchool: c.high_school || '',
       state: c.hs_state || '',
       commitmentDate: c.commitment_date || '',
@@ -66,3 +66,4 @@ scrape().catch(err => {
   process.exit(1);
 });
 
+itment Tracker Database
