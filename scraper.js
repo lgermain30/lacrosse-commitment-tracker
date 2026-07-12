@@ -1,4 +1,4 @@
-Commconst https = require('https');
+const https = require('https');
 const fs = require('fs');
 
 const API_URL = 'https://public.clublacrosse.org/api/commitments';
