@@ -27,18 +27,26 @@ async function scrape() {
 
   console.log(`Total records from API: ${json.commitments.length}`);
 
-  const recruits = json.commitments.map(c => ({
-    gender: c.gender_id === '1' ? 'Boys' : 'Girls',
-    class: c.class_id || '',
-    division: c.division_id || '',
-    playerName: c.player_name || '',
-    college: c.school_name || '',
-    position: c.position_name || '',
-    clubTeam: c.short_name || '',
-    highSchool: c.high_school || '',
-    state: c.hs_state || '',
-    commitmentDate: c.commitment_date || '',
-  })).filter(r => r.playerName && r.commitmentDate);
+  const CLASS_CUTOFF = 2026;
+
+  const recruits = json.commitments
+    .filter(c => {
+      const year = parseInt(c.class_id, 10);
+      return !isNaN(year) && year >= CLASS_CUTOFF;
+    })
+    .map(c => ({
+      gender: c.gender_id === '1' ? 'Boys' : 'Girls',
+      class: c.class_id || '',
+      division: c.division_id || '',
+      playerName: c.player_name || '',
+      college: c.school_name || '',
+      position: c.position_name || '',
+      clubTeam: c.short_name || '',
+      highSchool: c.high_school || '',
+      state: c.hs_state || '',
+      commitmentDate: c.commitment_date || '',
+    }))
+    .filter(r => r.playerName && r.commitmentDate);
 
   console.log(`Valid records after filtering: ${recruits.length}`);
 
@@ -57,3 +65,4 @@ scrape().catch(err => {
   console.error('Scraper failed:', err);
   process.exit(1);
 });
+
