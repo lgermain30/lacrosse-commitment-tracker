@@ -23,9 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
-
       - name: Run scraper
         run: npm run scrape
 
@@ -37,8 +34,7 @@ jobs:
           path: |
             scraper-error.png
             scraper-error.html
-                                debug-*.png
-                    debug-page.html
+            debug-*.png
 
       - name: Commit and push updated data
         run: |
