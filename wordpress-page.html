@@ -205,6 +205,7 @@
   /* College monogram avatar */
   .college-cell { display: flex; align-items: center; gap: 8px; }
   .college-logo {
+    position: relative;
     flex: 0 0 auto;
     width: 26px;
     height: 26px;
@@ -216,6 +217,16 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    overflow: hidden;
+  }
+  .college-logo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 50%;
   }
 
   @media (max-width: 768px) {
@@ -229,6 +240,150 @@
 <script>
 (function() {
   const DATA_URL = 'https://raw.githubusercontent.com/lgermain30/lacrosse-commitment-tracker/main/recruits.json';
+
+  // D1 college crests (ESPN CDN, curated from the CLN Teams logo map).
+  // D2/D3 fall back to a colored monogram, as does any D1 school not listed here.
+  const D1_LOGOS = {
+    'Air Force': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png',
+    'Akron': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png',
+    'American': 'https://a.espncdn.com/i/teamlogos/ncaa/500/44.png',
+    'Arizona State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/9.png',
+    'Army': 'https://a.espncdn.com/i/teamlogos/ncaa/500/349.png',
+    'Bellarmine': 'https://a.espncdn.com/i/teamlogos/ncaa/500/91.png',
+    'Binghamton': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png',
+    'Boston College': 'https://a.espncdn.com/i/teamlogos/ncaa/500/103.png',
+    'Boston U': 'https://a.espncdn.com/i/teamlogos/ncaa/500/104.png',
+    'Brown': 'https://a.espncdn.com/i/teamlogos/ncaa/500/225.png',
+    'Bryant': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png',
+    'Bucknell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png',
+    'Butler': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png',
+    'Cal Berkeley': 'https://a.espncdn.com/i/teamlogos/ncaa/500/25.png',
+    'Campbell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png',
+    'Canisius': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png',
+    'Central Connecticut': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png',
+    'Central Michigan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png',
+    'Cincinnati': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png',
+    'Clemson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/228.png',
+    'Cleveland State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/325.png',
+    'Coastal Carolina': 'https://a.espncdn.com/i/teamlogos/ncaa/500/324.png',
+    'Colgate': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png',
+    'Colorado': 'https://a.espncdn.com/i/teamlogos/ncaa/500/38.png',
+    'Columbia': 'https://a.espncdn.com/i/teamlogos/ncaa/500/171.png',
+    'Cornell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/172.png',
+    'Dartmouth': 'https://a.espncdn.com/i/teamlogos/ncaa/500/159.png',
+    'Davidson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png',
+    'Delaware': 'https://a.espncdn.com/i/teamlogos/ncaa/500/48.png',
+    'Delaware State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png',
+    'Denver': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2172.png',
+    'Detroit Mercy': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png',
+    'Drexel': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png',
+    'Duke': 'https://a.espncdn.com/i/teamlogos/ncaa/500/150.png',
+    'Duquesne': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png',
+    'East Carolina': 'https://a.espncdn.com/i/teamlogos/ncaa/500/151.png',
+    'Eastern Michigan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png',
+    'Elon': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png',
+    'Fairfield': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png',
+    'Florida': 'https://a.espncdn.com/i/teamlogos/ncaa/500/57.png',
+    'Furman': 'https://a.espncdn.com/i/teamlogos/ncaa/500/231.png',
+    'Gardner-Webb': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png',
+    'George Mason': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png',
+    'George Washington': 'https://a.espncdn.com/i/teamlogos/ncaa/500/45.png',
+    'Georgetown': 'https://a.espncdn.com/i/teamlogos/ncaa/500/46.png',
+    'Hampton': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png',
+    'Harvard': 'https://a.espncdn.com/i/teamlogos/ncaa/500/108.png',
+    'High Point': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png',
+    'Hobart': 'https://a.espncdn.com/i/teamlogos/ncaa/500/174.png',
+    'Hofstra': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2275.png',
+    'Holy Cross': 'https://a.espncdn.com/i/teamlogos/ncaa/500/107.png',
+    'Howard': 'https://a.espncdn.com/i/teamlogos/ncaa/500/47.png',
+    'Iona': 'https://a.espncdn.com/i/teamlogos/ncaa/500/314.png',
+    'Jacksonville': 'https://a.espncdn.com/i/teamlogos/ncaa/500/294.png',
+    'James Madison': 'https://a.espncdn.com/i/teamlogos/ncaa/500/256.png',
+    'Johns Hopkins': 'https://a.espncdn.com/i/teamlogos/ncaa/500/118.png',
+    'Kennesaw State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/338.png',
+    'Kent State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png',
+    'La Salle': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png',
+    'Lafayette': 'https://a.espncdn.com/i/teamlogos/ncaa/500/322.png',
+    'Le Moyne': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png',
+    'Lehigh': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png',
+    'Liberty': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png',
+    'Lindenwood': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png',
+    'Longwood': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png',
+    'Louisville': 'https://a.espncdn.com/i/teamlogos/ncaa/500/97.png',
+    'Loyola': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png',
+    'Manhattan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png',
+    'Marist': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png',
+    'Marquette': 'https://a.espncdn.com/i/teamlogos/ncaa/500/269.png',
+    'Maryland': 'https://a.espncdn.com/i/teamlogos/ncaa/500/120.png',
+    'Mercer': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png',
+    'Mercyhurst': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png',
+    'Merrimack': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png',
+    'Michigan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/130.png',
+    'Monmouth': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png',
+    'Mount St. Marys': 'https://a.espncdn.com/i/teamlogos/ncaa/500/116.png',
+    'NJIT': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2885.png',
+    'Navy': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png',
+    'New Hampshire': 'https://a.espncdn.com/i/teamlogos/ncaa/500/160.png',
+    'Niagara': 'https://a.espncdn.com/i/teamlogos/ncaa/500/315.png',
+    'North Carolina': 'https://a.espncdn.com/i/teamlogos/ncaa/500/153.png',
+    'Northwestern': 'https://a.espncdn.com/i/teamlogos/ncaa/500/77.png',
+    'Notre Dame': 'https://a.espncdn.com/i/teamlogos/ncaa/500/87.png',
+    'Ohio State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/194.png',
+    'Old Dominion': 'https://a.espncdn.com/i/teamlogos/ncaa/500/295.png',
+    'Oregon': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png',
+    'PENN': 'https://a.espncdn.com/i/teamlogos/ncaa/500/219.png',
+    'PITT': 'https://a.espncdn.com/i/teamlogos/ncaa/500/221.png',
+    'Penn State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/213.png',
+    'Presbyterian': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png',
+    'Princeton': 'https://a.espncdn.com/i/teamlogos/ncaa/500/163.png',
+    'Providence': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png',
+    'Queens': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png',
+    'Quinnipiac': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2514.png',
+    'Radford': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png',
+    'Rhode Island': 'https://a.espncdn.com/i/teamlogos/ncaa/500/227.png',
+    'Richmond': 'https://a.espncdn.com/i/teamlogos/ncaa/500/257.png',
+    'Rider': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png',
+    'Robert Morris': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png',
+    'Rutgers': 'https://a.espncdn.com/i/teamlogos/ncaa/500/164.png',
+    'Sacred Heart': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png',
+    'Saint Francis': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png',
+    'Saint Josephs': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png',
+    'San Diego State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/21.png',
+    'Siena': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png',
+    'South Florida': 'https://a.espncdn.com/i/teamlogos/ncaa/500/58.png',
+    'St. Bonaventure': 'https://a.espncdn.com/i/teamlogos/ncaa/500/179.png',
+    'St. Johns': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png',
+    'Stanford': 'https://a.espncdn.com/i/teamlogos/ncaa/500/24.png',
+    'Stetson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/56.png',
+    'Stonehill': 'https://a.espncdn.com/i/teamlogos/ncaa/500/284.png',
+    'Stony Brook': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png',
+    'Syracuse': 'https://a.espncdn.com/i/teamlogos/ncaa/500/183.png',
+    'Temple': 'https://a.espncdn.com/i/teamlogos/ncaa/500/218.png',
+    'Towson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/119.png',
+    'UAlbany': 'https://a.espncdn.com/i/teamlogos/ncaa/500/399.png',
+    'UC Davis': 'https://a.espncdn.com/i/teamlogos/ncaa/500/302.png',
+    'UCONN': 'https://a.espncdn.com/i/teamlogos/ncaa/500/41.png',
+    'UMASS': 'https://a.espncdn.com/i/teamlogos/ncaa/500/113.png',
+    'UMASS Lowell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2349.png',
+    'UMBC': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png',
+    'UNC-Charlotte': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png',
+    'USC': 'https://a.espncdn.com/i/teamlogos/ncaa/500/30.png',
+    'Utah': 'https://a.espncdn.com/i/teamlogos/ncaa/500/254.png',
+    'VCU': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png',
+    'VMI': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png',
+    'Vanderbilt': 'https://a.espncdn.com/i/teamlogos/ncaa/500/238.png',
+    'Vermont': 'https://a.espncdn.com/i/teamlogos/ncaa/500/261.png',
+    'Villanova': 'https://a.espncdn.com/i/teamlogos/ncaa/500/222.png',
+    'Virginia': 'https://a.espncdn.com/i/teamlogos/ncaa/500/258.png',
+    'Virginia Tech': 'https://a.espncdn.com/i/teamlogos/ncaa/500/259.png',
+    'Wagner': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png',
+    'William & Mary': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png',
+    'Winthrop': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png',
+    'Wofford': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png',
+    'Xavier': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png',
+    'Yale': 'https://a.espncdn.com/i/teamlogos/ncaa/500/43.png',
+    'Youngstown State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png'
+  };
 
   const COLUMNS = [
     { key: 'commitmentDate', label: 'Date',        type: 'date' },
@@ -307,13 +462,17 @@
     return '';
   }
 
-  function collegeCell(name) {
+  function collegeCell(name, division) {
     const safe = escapeHtml(name);
     if (!name) return safe;
     const bg = colorFromString(name);
     const initials = escapeHtml(collegeInitials(name));
+    const logoUrl = (String(division || '').toUpperCase() === 'D1') ? D1_LOGOS[name] : null;
+    const img = logoUrl
+      ? '<img src="' + escapeHtml(logoUrl) + '" alt="" loading="lazy" onerror="this.remove()">'
+      : '';
     return '<span class="college-cell"><span class="college-logo" style="background:' + bg + '" aria-hidden="true">' +
-      initials + '</span><span>' + safe + '</span></span>';
+      initials + img + '</span><span>' + safe + '</span></span>';
   }
 
   function renderHead() {
@@ -371,7 +530,7 @@
         '<td>' + escapeHtml(r.position) + '</td>' +
         '<td>' + escapeHtml(r.highSchool) + '</td>' +
         '<td>' + escapeHtml(r.clubTeam) + '</td>' +
-        '<td>' + collegeCell(r.college) + '</td>' +
+        '<td>' + collegeCell(r.college, r.division) + '</td>' +
         '<td>' + escapeHtml(r.state) + '</td>' +
       '</tr>';
     }
