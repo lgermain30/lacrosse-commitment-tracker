@@ -468,9 +468,15 @@
     const bg = colorFromString(name);
     const initials = escapeHtml(collegeInitials(name));
     const logoUrl = (String(division || '').toUpperCase() === 'D1') ? D1_LOGOS[name] : null;
-    const img = logoUrl
-      ? '<img src="' + escapeHtml(logoUrl) + '" alt="" loading="lazy" onerror="this.remove()">'
-      : '';
+    let img = '';
+    if (logoUrl) {
+      const el = document.createElement('img');
+      el.src = logoUrl;
+      el.alt = '';
+      el.loading = 'lazy';
+      el.setAttribute('onerror', 'this.remove()');
+      img = el.outerHTML;
+    }
     return '<span class="college-cell"><span class="college-logo" style="background:' + bg + '" aria-hidden="true">' +
       initials + img + '</span><span>' + safe + '</span></span>';
   }
