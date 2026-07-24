@@ -1,59 +1,57 @@
 <a id="top"></a>
 
-<h1>Lacrosse Commitment Tracker</h1>
-
-<p><em>Filterable database of boys' and girls' lacrosse college commitments. Data refreshes daily.</em></p>
-
 <div id="commitment-tracker">
-  <div class="filters">
-    <div class="filter-group">
-      <label for="filter-gender">Gender</label>
-      <select id="filter-gender"><option value="">All</option></select>
+  <div class="tracker-intro">
+    <p class="tracker-recap">Explore the latest boys&rsquo; and girls&rsquo; lacrosse commitments across NCAA Division I, II, and III &mdash; from the class of 2026 and beyond.</p>
+    <p class="tracker-contact">To report a commitment, a change of decision, or an update to a listing, please <a href="mailto:info@collegelacrossenews.com">contact us</a>.</p>
+  </div>
+
+  <div class="tracker-controls">
+    <div class="search-group">
+      <label for="search-name">Search Player</label>
+      <input type="search" id="search-name" placeholder="Type a player name&hellip;" autocomplete="off">
     </div>
-    <div class="filter-group">
-      <label for="filter-class">Class</label>
-      <select id="filter-class"><option value="">All</option></select>
-    </div>
-    <div class="filter-group">
-      <label for="filter-position">Position</label>
-      <select id="filter-position"><option value="">All</option></select>
-    </div>
-    <div class="filter-group">
-      <label for="filter-club">Club Team</label>
-      <select id="filter-club"><option value="">All</option></select>
-    </div>
-    <div class="filter-group">
-      <label for="filter-school">High School</label>
-      <select id="filter-school"><option value="">All</option></select>
-    </div>
-    <div class="filter-group">
-      <label for="filter-college">College</label>
-      <select id="filter-college"><option value="">All</option></select>
+    <div class="filters">
+      <div class="filter-group">
+        <label for="filter-gender">Gender</label>
+        <select id="filter-gender"><option value="">All</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-class">Class</label>
+        <select id="filter-class"><option value="">All</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-position">Position</label>
+        <select id="filter-position"><option value="">All</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-club">Club Team</label>
+        <select id="filter-club"><option value="">All</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-school">High School</label>
+        <select id="filter-school"><option value="">All</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-college">College</label>
+        <select id="filter-college"><option value="">All</option></select>
+      </div>
     </div>
   </div>
 
-  <p id="record-count"></p>
+  <div class="tracker-toolbar">
+    <p id="record-count"></p>
+    <button type="button" id="reset-filters" class="reset-btn">Reset filters</button>
+  </div>
 
   <div id="table-wrapper">
     <table id="recruits-table" class="commitment-table">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Player</th>
-          <th>Class</th>
-          <th>Gender</th>
-          <th>Position</th>
-          <th>High School</th>
-          <th>Club Team</th>
-          <th>College</th>
-          <th>State</th>
-        </tr>
-      </thead>
+      <thead></thead>
       <tbody></tbody>
     </table>
   </div>
 
-  <p id="loading-message">Loading commitment data...</p>
+  <p id="loading-message">Loading commitment data&hellip;</p>
   <p id="error-message" style="display:none;color:#c00;">Unable to load data. Please try again later.</p>
 </div>
 
@@ -61,30 +59,103 @@
   #commitment-tracker {
     font-family: inherit;
   }
-  .filters {
+
+  .tracker-intro {
+    background: #f8f9fa;
+    border-left: 4px solid #1a3a5c;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .tracker-recap {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .tracker-contact {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  .tracker-contact a {
+    color: #1a3a5c;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  #commitment-tracker .search-group {
+    margin-bottom: 14px;
+  }
+  #commitment-tracker .search-group label,
+  #commitment-tracker .filter-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+  }
+  #commitment-tracker #search-name {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 2px solid #1a3a5c;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  #commitment-tracker #search-name:focus {
+    outline: none;
+    border-color: #2a6db0;
+    box-shadow: 0 0 0 3px rgba(42,109,176,.15);
+  }
+
+  #commitment-tracker .filters {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
-  .filter-group {
+  #commitment-tracker .filter-group {
     display: flex;
     flex-direction: column;
     min-width: 140px;
     flex: 1;
   }
-  .filter-group label {
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 4px;
-    text-transform: uppercase;
-  }
-  .filter-group select {
+  #commitment-tracker .filter-group select {
     padding: 6px 8px;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+
+  #commitment-tracker .tracker-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  #commitment-tracker #record-count {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+  }
+  #commitment-tracker .reset-btn {
+    background: #1a3a5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #commitment-tracker .reset-btn:hover { background: #2a6db0; }
+
+  #commitment-tracker #table-wrapper { overflow-x: auto; }
+
   .commitment-table {
     width: 100%;
     border-collapse: collapse;
@@ -95,57 +166,413 @@
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    vertical-align: top;
+    vertical-align: middle;
   }
   .commitment-table th {
-    background-color: #f4f4f4;
+    background-color: #1a3a5c;
+    color: #fff;
     font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
   }
-  .commitment-table tbody tr:nth-child(even) {
-    background-color: #fafafa;
+  .commitment-table th:hover { background-color: #2a6db0; }
+  .commitment-table th .sort-arrow {
+    font-size: 11px;
+    opacity: .55;
+    margin-left: 4px;
   }
-  #record-count {
-    font-size: 14px;
-    margin-bottom: 10px;
+  .commitment-table th.sorted .sort-arrow { opacity: 1; }
+  .commitment-table tbody tr:nth-child(even) { background-color: #fafafa; }
+  .commitment-table tbody tr:hover { background-color: #eef4fb; }
+
+  /* Gender colors */
+  .commitment-table td.gender-girls { color: #c2185b; font-weight: bold; }
+  .commitment-table td.gender-boys  { color: #1565c0; font-weight: bold; }
+
+  /* Class-year badges */
+  .class-badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
   }
+
+  /* College monogram avatar */
+  .college-cell { display: flex; align-items: center; gap: 8px; }
+  .college-logo {
+    position: relative;
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .college-logo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 50%;
+  }
+
   @media (max-width: 768px) {
-    .commitment-table {
-      font-size: 12px;
-    }
+    .commitment-table { font-size: 12px; }
     .commitment-table th,
-    .commitment-table td {
-      padding: 6px;
-    }
+    .commitment-table td { padding: 6px; }
+    .college-logo { width: 22px; height: 22px; font-size: 9px; }
   }
 </style>
 
 <script>
 (function() {
-  const DATA_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/recruits.json';
+  const DATA_URL = 'https://raw.githubusercontent.com/lgermain30/lacrosse-commitment-tracker/main/recruits.json';
+
+  // D1 college crests (ESPN CDN, curated from the CLN Teams logo map).
+  // D2/D3 fall back to a colored monogram, as does any D1 school not listed here.
+  const D1_LOGOS = {
+    'Air Force': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png',
+    'Akron': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png',
+    'American': 'https://a.espncdn.com/i/teamlogos/ncaa/500/44.png',
+    'Arizona State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/9.png',
+    'Army': 'https://a.espncdn.com/i/teamlogos/ncaa/500/349.png',
+    'Bellarmine': 'https://a.espncdn.com/i/teamlogos/ncaa/500/91.png',
+    'Binghamton': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png',
+    'Boston College': 'https://a.espncdn.com/i/teamlogos/ncaa/500/103.png',
+    'Boston U': 'https://a.espncdn.com/i/teamlogos/ncaa/500/104.png',
+    'Brown': 'https://a.espncdn.com/i/teamlogos/ncaa/500/225.png',
+    'Bryant': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png',
+    'Bucknell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png',
+    'Butler': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png',
+    'Cal Berkeley': 'https://a.espncdn.com/i/teamlogos/ncaa/500/25.png',
+    'Campbell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png',
+    'Canisius': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png',
+    'Central Connecticut': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png',
+    'Central Michigan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png',
+    'Cincinnati': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png',
+    'Clemson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/228.png',
+    'Cleveland State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/325.png',
+    'Coastal Carolina': 'https://a.espncdn.com/i/teamlogos/ncaa/500/324.png',
+    'Colgate': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png',
+    'Colorado': 'https://a.espncdn.com/i/teamlogos/ncaa/500/38.png',
+    'Columbia': 'https://a.espncdn.com/i/teamlogos/ncaa/500/171.png',
+    'Cornell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/172.png',
+    'Dartmouth': 'https://a.espncdn.com/i/teamlogos/ncaa/500/159.png',
+    'Davidson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png',
+    'Delaware': 'https://a.espncdn.com/i/teamlogos/ncaa/500/48.png',
+    'Delaware State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png',
+    'Denver': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2172.png',
+    'Detroit Mercy': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png',
+    'Drexel': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png',
+    'Duke': 'https://a.espncdn.com/i/teamlogos/ncaa/500/150.png',
+    'Duquesne': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png',
+    'East Carolina': 'https://a.espncdn.com/i/teamlogos/ncaa/500/151.png',
+    'Eastern Michigan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png',
+    'Elon': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png',
+    'Fairfield': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png',
+    'Florida': 'https://a.espncdn.com/i/teamlogos/ncaa/500/57.png',
+    'Furman': 'https://a.espncdn.com/i/teamlogos/ncaa/500/231.png',
+    'Gardner-Webb': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png',
+    'George Mason': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png',
+    'George Washington': 'https://a.espncdn.com/i/teamlogos/ncaa/500/45.png',
+    'Georgetown': 'https://a.espncdn.com/i/teamlogos/ncaa/500/46.png',
+    'Hampton': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png',
+    'Harvard': 'https://a.espncdn.com/i/teamlogos/ncaa/500/108.png',
+    'High Point': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png',
+    'Hobart': 'https://a.espncdn.com/i/teamlogos/ncaa/500/174.png',
+    'Hofstra': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2275.png',
+    'Holy Cross': 'https://a.espncdn.com/i/teamlogos/ncaa/500/107.png',
+    'Howard': 'https://a.espncdn.com/i/teamlogos/ncaa/500/47.png',
+    'Iona': 'https://a.espncdn.com/i/teamlogos/ncaa/500/314.png',
+    'Jacksonville': 'https://a.espncdn.com/i/teamlogos/ncaa/500/294.png',
+    'James Madison': 'https://a.espncdn.com/i/teamlogos/ncaa/500/256.png',
+    'Johns Hopkins': 'https://a.espncdn.com/i/teamlogos/ncaa/500/118.png',
+    'Kennesaw State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/338.png',
+    'Kent State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png',
+    'La Salle': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png',
+    'Lafayette': 'https://a.espncdn.com/i/teamlogos/ncaa/500/322.png',
+    'Le Moyne': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png',
+    'Lehigh': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png',
+    'Liberty': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png',
+    'Lindenwood': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png',
+    'Longwood': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png',
+    'Louisville': 'https://a.espncdn.com/i/teamlogos/ncaa/500/97.png',
+    'Loyola': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png',
+    'Manhattan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png',
+    'Marist': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png',
+    'Marquette': 'https://a.espncdn.com/i/teamlogos/ncaa/500/269.png',
+    'Maryland': 'https://a.espncdn.com/i/teamlogos/ncaa/500/120.png',
+    'Mercer': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png',
+    'Mercyhurst': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png',
+    'Merrimack': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png',
+    'Michigan': 'https://a.espncdn.com/i/teamlogos/ncaa/500/130.png',
+    'Monmouth': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png',
+    'Mount St. Marys': 'https://a.espncdn.com/i/teamlogos/ncaa/500/116.png',
+    'NJIT': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2885.png',
+    'Navy': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png',
+    'New Hampshire': 'https://a.espncdn.com/i/teamlogos/ncaa/500/160.png',
+    'Niagara': 'https://a.espncdn.com/i/teamlogos/ncaa/500/315.png',
+    'North Carolina': 'https://a.espncdn.com/i/teamlogos/ncaa/500/153.png',
+    'Northwestern': 'https://a.espncdn.com/i/teamlogos/ncaa/500/77.png',
+    'Notre Dame': 'https://a.espncdn.com/i/teamlogos/ncaa/500/87.png',
+    'Ohio State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/194.png',
+    'Old Dominion': 'https://a.espncdn.com/i/teamlogos/ncaa/500/295.png',
+    'Oregon': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png',
+    'PENN': 'https://a.espncdn.com/i/teamlogos/ncaa/500/219.png',
+    'PITT': 'https://a.espncdn.com/i/teamlogos/ncaa/500/221.png',
+    'Penn State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/213.png',
+    'Presbyterian': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png',
+    'Princeton': 'https://a.espncdn.com/i/teamlogos/ncaa/500/163.png',
+    'Providence': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png',
+    'Queens': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png',
+    'Quinnipiac': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2514.png',
+    'Radford': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png',
+    'Rhode Island': 'https://a.espncdn.com/i/teamlogos/ncaa/500/227.png',
+    'Richmond': 'https://a.espncdn.com/i/teamlogos/ncaa/500/257.png',
+    'Rider': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png',
+    'Robert Morris': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png',
+    'Rutgers': 'https://a.espncdn.com/i/teamlogos/ncaa/500/164.png',
+    'Sacred Heart': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png',
+    'Saint Francis': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png',
+    'Saint Josephs': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png',
+    'San Diego State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/21.png',
+    'Siena': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png',
+    'South Florida': 'https://a.espncdn.com/i/teamlogos/ncaa/500/58.png',
+    'St. Bonaventure': 'https://a.espncdn.com/i/teamlogos/ncaa/500/179.png',
+    'St. Johns': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png',
+    'Stanford': 'https://a.espncdn.com/i/teamlogos/ncaa/500/24.png',
+    'Stetson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/56.png',
+    'Stonehill': 'https://a.espncdn.com/i/teamlogos/ncaa/500/284.png',
+    'Stony Brook': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png',
+    'Syracuse': 'https://a.espncdn.com/i/teamlogos/ncaa/500/183.png',
+    'Temple': 'https://a.espncdn.com/i/teamlogos/ncaa/500/218.png',
+    'Towson': 'https://a.espncdn.com/i/teamlogos/ncaa/500/119.png',
+    'UAlbany': 'https://a.espncdn.com/i/teamlogos/ncaa/500/399.png',
+    'UC Davis': 'https://a.espncdn.com/i/teamlogos/ncaa/500/302.png',
+    'UCONN': 'https://a.espncdn.com/i/teamlogos/ncaa/500/41.png',
+    'UMASS': 'https://a.espncdn.com/i/teamlogos/ncaa/500/113.png',
+    'UMASS Lowell': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2349.png',
+    'UMBC': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png',
+    'UNC-Charlotte': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png',
+    'USC': 'https://a.espncdn.com/i/teamlogos/ncaa/500/30.png',
+    'Utah': 'https://a.espncdn.com/i/teamlogos/ncaa/500/254.png',
+    'VCU': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png',
+    'VMI': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png',
+    'Vanderbilt': 'https://a.espncdn.com/i/teamlogos/ncaa/500/238.png',
+    'Vermont': 'https://a.espncdn.com/i/teamlogos/ncaa/500/261.png',
+    'Villanova': 'https://a.espncdn.com/i/teamlogos/ncaa/500/222.png',
+    'Virginia': 'https://a.espncdn.com/i/teamlogos/ncaa/500/258.png',
+    'Virginia Tech': 'https://a.espncdn.com/i/teamlogos/ncaa/500/259.png',
+    'Wagner': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png',
+    'William & Mary': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png',
+    'Winthrop': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png',
+    'Wofford': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png',
+    'Xavier': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png',
+    'Yale': 'https://a.espncdn.com/i/teamlogos/ncaa/500/43.png',
+    'Youngstown State': 'https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png'
+  };
+
+  const COLUMNS = [
+    { key: 'commitmentDate', label: 'Date',        type: 'date' },
+    { key: 'playerName',     label: 'Player',       type: 'text' },
+    { key: 'class',          label: 'Class',        type: 'number' },
+    { key: 'gender',         label: 'Gender',       type: 'text' },
+    { key: 'position',       label: 'Position',     type: 'text' },
+    { key: 'highSchool',     label: 'High School',  type: 'text' },
+    { key: 'clubTeam',       label: 'Club Team',    type: 'text' },
+    { key: 'college',        label: 'College',      type: 'text' },
+    { key: 'state',          label: 'State',        type: 'text' },
+  ];
+
+  const CLASS_COLORS = {
+    '2026': { bg: '#e3f2fd', fg: '#0d47a1' },
+    '2027': { bg: '#e8f5e9', fg: '#1b5e20' },
+    '2028': { bg: '#fff3e0', fg: '#e65100' },
+    '2029': { bg: '#f3e5f5', fg: '#6a1b9a' },
+    '2030': { bg: '#e0f7fa', fg: '#006064' },
+    '2031': { bg: '#fce4ec', fg: '#880e4f' },
+  };
 
   const elements = {
-    table: document.getElementById('recruits-table'),
+    thead: document.querySelector('#recruits-table thead'),
     tbody: document.querySelector('#recruits-table tbody'),
     loading: document.getElementById('loading-message'),
     error: document.getElementById('error-message'),
     count: document.getElementById('record-count'),
+    search: document.getElementById('search-name'),
+    reset: document.getElementById('reset-filters'),
     filters: {
       gender: document.getElementById('filter-gender'),
       class: document.getElementById('filter-class'),
       position: document.getElementById('filter-position'),
-      club: document.getElementById('filter-club'),
-      school: document.getElementById('filter-school'),
+      clubTeam: document.getElementById('filter-club'),
+      highSchool: document.getElementById('filter-school'),
       college: document.getElementById('filter-college'),
     }
   };
 
   let allRecruits = [];
+  let sortState = { key: 'commitmentDate', dir: 'desc' };
+
+  function escapeHtml(text) {
+    if (text == null) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  function collegeInitials(name) {
+    const words = String(name || '').replace(/[^A-Za-z0-9 &.'-]/g, '').split(/\s+/).filter(Boolean);
+    if (!words.length) return '?';
+    if (words.length === 1) return words[0].slice(0, 2);
+    return words[0][0] + words[words.length - 1][0];
+  }
+
+  function colorFromString(s) {
+    let h = 0;
+    s = String(s || '');
+    for (let i = 0; i < s.length; i++) { h = s.charCodeAt(i) + ((h << 5) - h); }
+    return 'hsl(' + (Math.abs(h) % 360) + ', 52%, 40%)';
+  }
+
+  function classBadge(value) {
+    const v = String(value || '').trim();
+    if (!v) return '';
+    const c = CLASS_COLORS[v] || { bg: '#eceff1', fg: '#37474f' };
+    return '<span class="class-badge" style="background:' + c.bg + ';color:' + c.fg + '">' + escapeHtml(v) + '</span>';
+  }
+
+  function genderClass(gender) {
+    const g = String(gender || '').toLowerCase();
+    if (g === 'girls' || g === 'female' || g === 'women') return 'gender-girls';
+    if (g === 'boys' || g === 'male' || g === 'men') return 'gender-boys';
+    return '';
+  }
+
+  function collegeCell(name, division) {
+    const safe = escapeHtml(name);
+    if (!name) return safe;
+    const bg = colorFromString(name);
+    const initials = escapeHtml(collegeInitials(name));
+    const logoUrl = (String(division || '').toUpperCase() === 'D1') ? D1_LOGOS[name] : null;
+    let img = '';
+    if (logoUrl) {
+      const el = document.createElement('img');
+      el.src = logoUrl;
+      el.alt = '';
+      el.loading = 'lazy';
+      el.setAttribute('onerror', 'this.remove()');
+      img = el.outerHTML;
+    }
+    return '<span class="college-cell"><span class="college-logo" style="background:' + bg + '" aria-hidden="true">' +
+      initials + img + '</span><span>' + safe + '</span></span>';
+  }
+
+  function renderHead() {
+    let html = '<tr>';
+    COLUMNS.forEach(col => {
+      const isSorted = sortState.key === col.key;
+      const arrow = isSorted ? (sortState.dir === 'asc' ? '&#9650;' : '&#9660;') : '&#9650;&#9660;';
+      html += '<th data-key="' + col.key + '" class="' + (isSorted ? 'sorted' : '') + '">' +
+        escapeHtml(col.label) + '<span class="sort-arrow">' + arrow + '</span></th>';
+    });
+    html += '</tr>';
+    elements.thead.innerHTML = html;
+    elements.thead.querySelectorAll('th').forEach(th => {
+      th.addEventListener('click', () => onSort(th.getAttribute('data-key')));
+    });
+  }
+
+  function onSort(key) {
+    if (sortState.key === key) {
+      sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
+    } else {
+      sortState.key = key;
+      sortState.dir = key === 'commitmentDate' ? 'desc' : 'asc';
+    }
+    renderHead();
+    update();
+  }
+
+  function sortData(data) {
+    const col = COLUMNS.find(c => c.key === sortState.key) || COLUMNS[0];
+    const dir = sortState.dir === 'asc' ? 1 : -1;
+    return data.slice().sort((a, b) => {
+      let av = a[col.key], bv = b[col.key];
+      if (col.type === 'number') {
+        av = parseFloat(av) || 0; bv = parseFloat(bv) || 0;
+        return (av - bv) * dir;
+      }
+      av = String(av == null ? '' : av).toLowerCase();
+      bv = String(bv == null ? '' : bv).toLowerCase();
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
+    });
+  }
+
+  function renderTable(data) {
+    let html = '';
+    for (let i = 0; i < data.length; i++) {
+      const r = data[i];
+      html += '<tr>' +
+        '<td>' + escapeHtml(r.commitmentDate) + '</td>' +
+        '<td>' + escapeHtml(r.playerName) + '</td>' +
+        '<td>' + classBadge(r.class) + '</td>' +
+        '<td class="' + genderClass(r.gender) + '">' + escapeHtml(r.gender) + '</td>' +
+        '<td>' + escapeHtml(r.position) + '</td>' +
+        '<td>' + escapeHtml(r.highSchool) + '</td>' +
+        '<td>' + escapeHtml(r.clubTeam) + '</td>' +
+        '<td>' + collegeCell(r.college, r.division) + '</td>' +
+        '<td>' + escapeHtml(r.state) + '</td>' +
+      '</tr>';
+    }
+    elements.tbody.innerHTML = html;
+    elements.count.textContent = 'Showing ' + data.length + ' of ' + allRecruits.length + ' commitments';
+  }
+
+  function getFiltered() {
+    const filters = {
+      gender: elements.filters.gender.value,
+      class: elements.filters.class.value,
+      position: elements.filters.position.value,
+      clubTeam: elements.filters.clubTeam.value,
+      highSchool: elements.filters.highSchool.value,
+      college: elements.filters.college.value,
+    };
+    const term = elements.search.value.trim().toLowerCase();
+
+    return allRecruits.filter(r => {
+      if (term && !String(r.playerName || '').toLowerCase().includes(term)) return false;
+      return Object.entries(filters).every(([key, value]) => {
+        if (!value) return true;
+        return String(r[key] || '').toLowerCase() === value.toLowerCase();
+      });
+    });
+  }
+
+  function update() {
+    renderTable(sortData(getFiltered()));
+  }
 
   function populateSelect(select, values) {
     const current = select.value;
     select.innerHTML = '<option value="">All</option>';
     values
-      .filter(v => v && v.trim() !== '')
+      .filter(v => v && String(v).trim() !== '')
       .sort()
       .forEach(value => {
         const option = document.createElement('option');
@@ -157,67 +584,29 @@
   }
 
   function getUniqueValues(key) {
-    const values = new Set(allRecruits.map(r => r[key]));
-    return Array.from(values);
+    return Array.from(new Set(allRecruits.map(r => r[key])));
   }
 
-  function renderTable(data) {
-    elements.tbody.innerHTML = '';
-    data.forEach(recruit => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td>${escapeHtml(recruit.commitmentDate)}</td>
-        <td>${escapeHtml(recruit.playerName)}</td>
-        <td>${escapeHtml(recruit.class)}</td>
-        <td>${escapeHtml(recruit.gender)}</td>
-        <td>${escapeHtml(recruit.position)}</td>
-        <td>${escapeHtml(recruit.highSchool)}</td>
-        <td>${escapeHtml(recruit.clubTeam)}</td>
-        <td>${escapeHtml(recruit.college)}</td>
-        <td>${escapeHtml(recruit.state)}</td>
-      `;
-      elements.tbody.appendChild(tr);
-    });
-    elements.count.textContent = `Showing ${data.length} of ${allRecruits.length} commitments`;
-  }
-
-  function escapeHtml(text) {
-    if (text == null) return '';
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
-
-  function filterData() {
-    const filters = {
-      gender: elements.filters.gender.value,
-      class: elements.filters.class.value,
-      position: elements.filters.position.value,
-      clubTeam: elements.filters.club.value,
-      highSchool: elements.filters.school.value,
-      college: elements.filters.college.value,
-    };
-
-    const filtered = allRecruits.filter(r => {
-      return Object.entries(filters).every(([key, value]) => {
-        if (!value) return true;
-        return (r[key] || '').toLowerCase() === value.toLowerCase();
-      });
-    });
-
-    renderTable(filtered);
-  }
-
-  function initFilters() {
+  function initControls() {
     populateSelect(elements.filters.gender, getUniqueValues('gender'));
     populateSelect(elements.filters.class, getUniqueValues('class'));
     populateSelect(elements.filters.position, getUniqueValues('position'));
-    populateSelect(elements.filters.club, getUniqueValues('clubTeam'));
-    populateSelect(elements.filters.school, getUniqueValues('highSchool'));
+    populateSelect(elements.filters.clubTeam, getUniqueValues('clubTeam'));
+    populateSelect(elements.filters.highSchool, getUniqueValues('highSchool'));
     populateSelect(elements.filters.college, getUniqueValues('college'));
 
-    Object.values(elements.filters).forEach(select => {
-      select.addEventListener('change', filterData);
+    Object.values(elements.filters).forEach(select => select.addEventListener('change', update));
+
+    let searchTimer = null;
+    elements.search.addEventListener('input', () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(update, 150);
+    });
+
+    elements.reset.addEventListener('click', () => {
+      Object.values(elements.filters).forEach(s => { s.value = ''; });
+      elements.search.value = '';
+      update();
     });
   }
 
@@ -228,8 +617,9 @@
       const data = await response.json();
       allRecruits = data.recruits || [];
       elements.loading.style.display = 'none';
-      initFilters();
-      renderTable(allRecruits);
+      renderHead();
+      initControls();
+      update();
     } catch (err) {
       console.error(err);
       elements.loading.style.display = 'none';
