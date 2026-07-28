@@ -646,7 +646,7 @@
       "playerName": "Micheal Tober",
       "college": "Assumption",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "RI Bulldogs 2027 Black",
       "highSchool": "Pomfret School - Conn.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -658,7 +658,7 @@
       "playerName": "Michael Bilello",
       "college": "Mercy",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "S2S 2027 Gorillas",
       "highSchool": "Farmingdale - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -670,7 +670,7 @@
       "playerName": "Jack Cruickshank",
       "college": "Quinnipiac",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "West Coast Starz 2027 Gold",
       "highSchool": "Brophy Prep - Ariz.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -682,7 +682,7 @@
       "playerName": "Gordon Hudson",
       "college": "Catawba",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "True OH 2027 Black",
       "highSchool": "Rocky River - Ohio",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -694,7 +694,7 @@
       "playerName": "Liam Jones",
       "college": "Connecticut College",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "True NY Empire 2027",
       "highSchool": "Mahopac - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -706,7 +706,7 @@
       "playerName": "Brode Frink",
       "college": "Mount St Mary's",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "4Leaf 2026 Army",
       "highSchool": "Proctor Academy - N.H.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -718,7 +718,7 @@
       "playerName": "Mark Lawrence",
       "college": "Providence",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Next Level 2027 Blue",
       "highSchool": "Stone Bridge - Va.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -742,7 +742,7 @@
       "playerName": "Andrew Henson",
       "college": "Bates",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "BBL Elite 2027 Black",
       "highSchool": "Delbarton - N.J.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -754,7 +754,7 @@
       "playerName": "Benjamin McComb",
       "college": "Hofstra",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Evolve Elite 2027",
       "highSchool": "Proctor Academy - N.H.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -766,7 +766,7 @@
       "playerName": "Liam Smith",
       "college": "Bates",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "2Way 2027 Black",
       "highSchool": "Bishop Moore - Fla.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -778,7 +778,7 @@
       "playerName": "Michael Votto",
       "college": "Boston U",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Nomads 2027",
       "highSchool": "Taft School - Conn.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -790,7 +790,7 @@
       "playerName": "Cade Marechek",
       "college": "Robert Morris",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "3D Georgia 2027 Red",
       "highSchool": "Calvert Hall - Md.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -802,7 +802,7 @@
       "playerName": "Kemp Kelly",
       "college": "Colgate",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "FCA MD 2027 Blue",
       "highSchool": "Boys' Latin - Md.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -838,7 +838,7 @@
       "playerName": "Owen Thomas",
       "college": "Trinity (CT)",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Fighting Clams 2027",
       "highSchool": "Dexter School - Mass.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -850,7 +850,7 @@
       "playerName": "Owen Haynes",
       "college": "Western Connecticut",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Legacy Lacrosse 2027",
       "highSchool": "South Fork Unified - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -862,7 +862,7 @@
       "playerName": "Harrison Duffee",
       "college": "Point Park",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Team MN 2027",
       "highSchool": "Hill-Murray - Minn.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -874,7 +874,7 @@
       "playerName": "Alexander Bowen",
       "college": "Saint Anselm",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Coyotes 2027",
       "highSchool": "King Philip - Mass.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -886,7 +886,7 @@
       "playerName": "David Langevin",
       "college": "Wagner",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team America 2027",
       "highSchool": "Benilde St. Margaret - Minn.",
       "state": "",
       "commitmentDate": "2026-07-16"
@@ -979,10 +979,34 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
+      "playerName": "Jason Leonard",
+      "college": "Air Force",
+      "position": "Middie",
+      "clubTeam": "Team 91 Charlotte 2027 Blue",
+      "highSchool": "Charlotte Catholic - N.C.",
+      "state": "",
+      "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "AJ Aliani",
+      "college": "Mercy",
+      "position": "Defense",
+      "clubTeam": "Igloo 2027 Kodiak Rush",
+      "highSchool": "West Islip - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
       "playerName": "Anthony Peterson",
       "college": "Connecticut College",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Big 4 HHH 2027",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -994,7 +1018,7 @@
       "playerName": "Alec Albers",
       "college": "Bowdoin",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "3d New England 2027 Red",
       "highSchool": "Noble & Greenough - Mass.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1006,7 +1030,7 @@
       "playerName": "Braedon McPartland",
       "college": "Williams",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Mesa PA 2027",
       "highSchool": "Scranton Prep - Pa.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1042,7 +1066,7 @@
       "playerName": "Brian Medley",
       "college": "Wingate",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "True NY Empire 2027",
       "highSchool": "St Dominic - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1054,7 +1078,7 @@
       "playerName": "Jonathan Clark",
       "college": "Clarkson",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "NE Blazers 2027",
       "highSchool": "Brooks School - Mass.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1066,7 +1090,7 @@
       "playerName": "Louis Gaeckle",
       "college": "Grove City",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "East Coast Elite 2027",
       "highSchool": "St. Anthony's - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1078,7 +1102,7 @@
       "playerName": "Dylan Siegrist",
       "college": "Oswego",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Team 91 Upstate 2027",
       "highSchool": "Rome Free Academy - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1090,7 +1114,7 @@
       "playerName": "Paul Ahne",
       "college": "Clark",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Predators 2027 AA",
       "highSchool": "Rye Neck - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1102,7 +1126,7 @@
       "playerName": "Jack Seeger",
       "college": "RPI",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "True NC CLT 2027",
       "highSchool": "Blair Academy - N.J.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1114,7 +1138,7 @@
       "playerName": "Alex Piasecki",
       "college": "Bates",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Big 4 HHH 2027",
       "highSchool": "Haverford School - Pa.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1126,7 +1150,7 @@
       "playerName": "Luke Betty",
       "college": "Gettysburg",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Laxachusetts 2027 Black",
       "highSchool": "Weston - Mass.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1138,7 +1162,7 @@
       "playerName": "Robert Siciliano",
       "college": "Franklin & Marshall",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "FCA MD Blue 2027",
       "highSchool": "Boys' Latin - Md.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1150,7 +1174,7 @@
       "playerName": "Brody Fuller",
       "college": "Army",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Annapolis Hawks 2028 Green",
       "highSchool": "St Mary's Annapolis - Md.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1162,7 +1186,7 @@
       "playerName": "Benjamin Phillips",
       "college": "Virginia",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Madlax Capital 2027",
       "highSchool": "St John's DC - DC",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1174,7 +1198,7 @@
       "playerName": "Kellan Korb",
       "college": "Kean",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Brotherly Love 2027 Apollo",
       "highSchool": "Strath Haven - Pa.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1243,10 +1267,22 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
+      "playerName": "Hart Callanan",
+      "college": "Westminster (Pa.)",
+      "position": "Middie",
+      "clubTeam": "Shred Thread 2027 Blue",
+      "highSchool": "Rutgers Prep - N.J.",
+      "state": "",
+      "commitmentDate": "2026-07-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
       "playerName": "Mason Croom",
       "college": "Tufts",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Honey National 2027",
       "highSchool": "Thayer Academy - Mass.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1270,7 +1306,7 @@
       "playerName": "Charlie Finnegan",
       "college": "Drew",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Rebels DMV 2027",
       "highSchool": "Richard Montgomery - Md.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1282,7 +1318,7 @@
       "playerName": "Benny Labroli",
       "college": "Gettysburg",
       "position": "FOGO",
-      "clubTeam": "",
+      "clubTeam": "Blue Star 2027 White",
       "highSchool": "Moorestown - N.J.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1294,7 +1330,7 @@
       "playerName": "Cole Langevin",
       "college": "Florida Southern",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Team MN 2025",
       "highSchool": "Benilde St. Margaret - Minn.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1306,7 +1342,7 @@
       "playerName": "Forrest Higgins",
       "college": "Catawba",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "West Coast Warriors 2027",
       "highSchool": "St Augustine - Calif.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1318,7 +1354,7 @@
       "playerName": "Cole Tetterton",
       "college": "Rhodes",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "3 Point 2027 Navy",
       "highSchool": "Middle Creek - N.C.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1330,7 +1366,7 @@
       "playerName": "Robert Halbleib",
       "college": "Belmont Abbey",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Blak Widow 2027",
       "highSchool": "Palmyra - Pa.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -60845,18 +60881,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Luke St. Pierre",
-      "college": "North Carolina",
-      "position": "Defense",
-      "clubTeam": "Leading Edge",
-      "highSchool": "Lawrenceville",
-      "state": "NJ",
-      "commitmentDate": "2025-09-02"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "D3",
       "playerName": "Nick Todryk",
@@ -71269,18 +71293,6 @@
       "clubTeam": "Shine Select",
       "highSchool": "Hagerty",
       "state": "FL",
-      "commitmentDate": "2025-07-18"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D3",
-      "playerName": "Jack Hauck",
-      "college": "Connecticut College",
-      "position": "FOGO",
-      "clubTeam": "Penguins",
-      "highSchool": "Dexter Southfield",
-      "state": "MA",
       "commitmentDate": "2025-07-18"
     },
     {
@@ -82729,18 +82741,6 @@
       "clubTeam": "MN Elite",
       "highSchool": "Prior Lake",
       "state": "MN",
-      "commitmentDate": "2024-11-24"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Caitlin Oguin",
-      "college": "Bryant",
-      "position": "Middie",
-      "clubTeam": "Triumph",
-      "highSchool": "Birmingham United",
-      "state": "MI",
       "commitmentDate": "2024-11-24"
     },
     {
