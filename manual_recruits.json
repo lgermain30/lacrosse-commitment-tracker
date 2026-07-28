@@ -607,7 +607,7 @@
       "playerName": "Emily Fitzgerald",
       "college": "Navy",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "LI Top Guns 2028 Black",
       "highSchool": "Massapequa - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-17"
@@ -997,6 +997,30 @@
       "commitmentDate": "2026-07-16"
     },
     {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Canie Harkins",
+      "college": "York",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Parkside - Md.",
+      "state": "",
+      "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Taylor Interrante",
+      "college": "Salve Regina",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Hopkinton - Mass.",
+      "state": "",
+      "commitmentDate": "2026-07-16"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -1207,7 +1231,7 @@
       "playerName": "Lynette Bradley",
       "college": "Chapman",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "CCLax 2027 Black",
       "highSchool": "Northfield - Colo.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1243,7 +1267,7 @@
       "playerName": "Andreanna Spyredes",
       "college": "Babson",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Florida Select 2027",
       "highSchool": "Pine Crest - Fla.",
       "state": "",
       "commitmentDate": "2026-07-15"
@@ -1447,7 +1471,7 @@
       "playerName": "Angela Xenakis",
       "college": "Jefferson",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "STEPS Elite NJ 2024 White",
       "highSchool": "Bridgewater-Raritan - N.J.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1471,7 +1495,7 @@
       "playerName": "Kennadie Taylor",
       "college": "John Carroll",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Orange Crush 2027",
       "highSchool": "Homer - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1495,7 +1519,7 @@
       "playerName": "Peyton Leahy",
       "college": "Hamilton",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Compass 2027 Navs",
       "highSchool": "Rye HS - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1519,7 +1543,7 @@
       "playerName": "Kylie O'Grady",
       "college": "Duquesne",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "M&D 2027 Red",
       "highSchool": "Century - Md.",
       "state": "",
       "commitmentDate": "2026-07-14"
@@ -1795,7 +1819,7 @@
       "playerName": "Kathryn Paul",
       "college": "Manhattan",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Yellow Jackets 2027 Grazidei/Stadler",
       "highSchool": "St. Anthony's - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-13"
@@ -1817,6 +1841,18 @@
       "class": "2027",
       "division": "",
       "playerName": "Vivian Lefkowitz",
+      "college": "Saint Leo",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Dunwoody - Ga.",
+      "state": "",
+      "commitmentDate": "2026-07-13"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Vivian Lefkovits",
       "college": "Saint Leo",
       "position": "Attack",
       "clubTeam": "",
@@ -1933,6 +1969,18 @@
       "commitmentDate": "2026-07-12"
     },
     {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Laney DelRossi",
+      "college": "Neumann",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "William Tennent - Pa.",
+      "state": "",
+      "commitmentDate": "2026-07-12"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -2023,7 +2071,7 @@
       "playerName": "Sydney Gray",
       "college": "Claremont-Mudd-Scripps",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "STEPS California 2027",
       "highSchool": "Miramonte - Calif.",
       "state": "",
       "commitmentDate": "2026-07-11"
@@ -2035,7 +2083,7 @@
       "playerName": "Madelyn Lary",
       "college": "Army",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "KCLC 2027",
       "highSchool": "Pembroke Hill - Mo.",
       "state": "",
       "commitmentDate": "2026-07-11"
@@ -2083,7 +2131,7 @@
       "playerName": "Katherine Shane",
       "college": "Molloy",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "FLG 2027 White",
       "highSchool": "Glen Cove - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-11"
@@ -2313,6 +2361,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Simsbury - Conn.",
+      "state": "",
+      "commitmentDate": "2026-07-10"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Aliza Schleif",
+      "college": "Williams",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Hall - Conn.",
       "state": "",
       "commitmentDate": "2026-07-10"
     },
@@ -2587,7 +2647,7 @@
       "playerName": "Sedona Brown",
       "college": "East Carolina",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "M&D 2027 Black",
       "highSchool": "Linganore - Md.",
       "state": "",
       "commitmentDate": "2026-07-09"
@@ -2685,6 +2745,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Colorado Academy - Colo.",
+      "state": "",
+      "commitmentDate": "2026-07-09"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Amber Kinsey",
+      "college": "Barry",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Jenks - Okla.",
       "state": "",
       "commitmentDate": "2026-07-09"
     },
@@ -2815,7 +2887,7 @@
       "playerName": "Sloane Stevens",
       "college": "Colby",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Sky Walkers 2027 Blue",
       "highSchool": "McDonogh - Md.",
       "state": "",
       "commitmentDate": "2026-07-08"
@@ -2839,7 +2911,7 @@
       "playerName": "Sophia Ibarra",
       "college": "Washington and Lee",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "GRIT Dallas 2027",
       "highSchool": "Episcopal Houston - Texas",
       "state": "",
       "commitmentDate": "2026-07-08"
@@ -2911,8 +2983,20 @@
       "playerName": "Campbell Crawford",
       "college": "Trinity (CT)",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Yellow Jackets South 2027",
       "highSchool": "Douglas Freeman - Va.",
+      "state": "",
+      "commitmentDate": "2026-07-08"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Stella Opanhoske",
+      "college": "William Smith",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Jordan-Elbridge - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-08"
     },
@@ -3199,7 +3283,7 @@
       "playerName": "Sylvana Yi",
       "college": "Claremont-Mudd-Scripps",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Team 180 2027",
       "highSchool": "Kent Denver - Colo.",
       "state": "",
       "commitmentDate": "2026-07-07"
@@ -3211,7 +3295,7 @@
       "playerName": "Avery Bowden",
       "college": "Cortland",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "LI Legacy 2027 Blue",
       "highSchool": "East Islip - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-07"
@@ -3225,6 +3309,30 @@
       "position": "FOGO",
       "clubTeam": "Team America 2026",
       "highSchool": "Louisville Trinity - Ky.",
+      "state": "",
+      "commitmentDate": "2026-07-07"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Lily Aweimrin",
+      "college": "Transylvania",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Lafayette - Ky.",
+      "state": "",
+      "commitmentDate": "2026-07-07"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Evalynn Fischer",
+      "college": "Barry",
+      "position": "Attack",
+      "clubTeam": "GRIT Austin 2027",
+      "highSchool": "Lake Travis - Texas",
       "state": "",
       "commitmentDate": "2026-07-07"
     },
@@ -3415,7 +3523,7 @@
       "playerName": "Caroline Zublionis",
       "college": "Bowdoin",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "LI Liberty 2027 Black",
       "highSchool": "Manhasset - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-06"
@@ -3427,7 +3535,7 @@
       "playerName": "Beau Davi",
       "college": "Chicago",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "LI Jesters 2027 Black",
       "highSchool": "St. Anthony's - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-06"
@@ -3597,6 +3705,54 @@
       "position": "Defense",
       "clubTeam": "Sweetlax FL 2027",
       "highSchool": "Benjamin - Fla.",
+      "state": "",
+      "commitmentDate": "2026-07-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ellsie Freitas",
+      "college": "Wesleyan",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "La Salle Academy - R.I.",
+      "state": "",
+      "commitmentDate": "2026-07-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2026",
+      "division": "",
+      "playerName": "Lindsay Smith",
+      "college": "Fredonia",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Brewster - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-07-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Kathryn Commoss",
+      "college": "Connecticut College",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "The Governor's Academy - Mass.",
+      "state": "",
+      "commitmentDate": "2026-07-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Linnaea Fung",
+      "college": "Messiah",
+      "position": "Middie",
+      "clubTeam": "Lakeshore Lacrosse National Premier 2027",
+      "highSchool": "Benet Academy - Ill.",
       "state": "",
       "commitmentDate": "2026-07-06"
     },
@@ -3775,7 +3931,7 @@
       "playerName": "Kelsey Kern",
       "college": "Connecticut College",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Tradition 2027",
       "highSchool": "Garden City - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-04"
@@ -3825,6 +3981,18 @@
       "position": "Defense",
       "clubTeam": "",
       "highSchool": "Oak Knoll School - N.J.",
+      "state": "",
+      "commitmentDate": "2026-07-04"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Tessa Gerrard",
+      "college": "Catholic",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Calhoun - N.Y.",
       "state": "",
       "commitmentDate": "2026-07-04"
     },
