@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-28T15:51:52.335Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8523,
+  "count": 8540,
   "recruits": [
     {
       "gender": "Boys",
@@ -17575,6 +17575,30 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
+      "playerName": "Ryan Criswell",
+      "college": "Loyola",
+      "position": "FOGO",
+      "clubTeam": "Annapolis Hawks 2025 Green",
+      "highSchool": "Archbishop Spalding - Md.",
+      "state": "",
+      "commitmentDate": "2026-03-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Oisin Brogan",
+      "college": "Saint Michael's",
+      "position": "LSM",
+      "clubTeam": "Fighting Clams 2026",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-03-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
       "playerName": "Garris Williams",
       "college": "Dominican (NY)",
       "position": "Middie",
@@ -17590,7 +17614,7 @@
       "playerName": "Jackson Phillips",
       "college": "Embry-Riddle",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Clippers 2027 Blue",
       "highSchool": "Severn - Md.",
       "state": "",
       "commitmentDate": "2026-03-08"
@@ -17602,7 +17626,7 @@
       "playerName": "Bishop Burman",
       "college": "Rutgers",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Evolve Elite 2027",
       "highSchool": "Hill Academy - ON",
       "state": "",
       "commitmentDate": "2026-03-08"
@@ -17614,7 +17638,7 @@
       "playerName": "Winston Wolfe",
       "college": "Montevallo",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "460 Lacrosse 2027 Red",
       "highSchool": "Salem - Va.",
       "state": "",
       "commitmentDate": "2026-03-08"
@@ -17671,10 +17695,22 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
+      "playerName": "Landon Gaurneri",
+      "college": "McDaniel",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Downingtown West - Pa.",
+      "state": "",
+      "commitmentDate": "2026-03-08"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
       "playerName": "Gavin Sutherland",
       "college": "Mary Washington",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Brotherly Love 2027 Apollo",
       "highSchool": "Worcester Prep - Md.",
       "state": "",
       "commitmentDate": "2026-03-07"
@@ -17710,7 +17746,7 @@
       "playerName": "Milan Easterbrook",
       "college": "Cleveland State",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Stars and Stripes 2027",
       "highSchool": "Cherokee - Ga.",
       "state": "",
       "commitmentDate": "2026-03-06"
@@ -17734,7 +17770,7 @@
       "playerName": "Roscoe Cox",
       "college": "Ursinus",
       "position": "SSDM",
-      "clubTeam": "",
+      "clubTeam": "Carolina Miners 2026",
       "highSchool": "Mount Tabor - N.C.",
       "state": "",
       "commitmentDate": "2026-03-06"
@@ -17758,7 +17794,7 @@
       "playerName": "James Sullivan",
       "college": "Oberlin",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Mad Dog North 2027 Black",
       "highSchool": "Dwight-Englewood - N.J.",
       "state": "",
       "commitmentDate": "2026-03-06"
@@ -17782,7 +17818,7 @@
       "playerName": "Trevor Quigley",
       "college": "Oneonta",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "LI Express 2026 Wieczorek",
       "highSchool": "Kings Park - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-06"
@@ -17806,7 +17842,7 @@
       "playerName": "Sammy Engle",
       "college": "Lynchburg",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Philadelphia Freedom 2027 Red",
       "highSchool": "Downingtown East - Pa.",
       "state": "",
       "commitmentDate": "2026-03-06"
@@ -17890,7 +17926,7 @@
       "playerName": "Jax Wagner",
       "college": "Penn State Harrisburg",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Team 91 Long Island 2027 Rage",
       "highSchool": "Long Beach - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-05"
@@ -17902,7 +17938,7 @@
       "playerName": "John Figueroa",
       "college": "SUNY Delhi",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Cold Brook 2026",
       "highSchool": "Chenango Forks - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-05"
@@ -17914,7 +17950,7 @@
       "playerName": "Jack Budelman",
       "college": "FDU-Florham",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Jersey Thunder 2027 Platinum",
       "highSchool": "Pompton Lakes - N.J.",
       "state": "",
       "commitmentDate": "2026-03-05"
@@ -17938,7 +17974,7 @@
       "playerName": "Connor Mineo",
       "college": "Stevens",
       "position": "SSDM",
-      "clubTeam": "",
+      "clubTeam": "NJ Riot 2027 Chaos",
       "highSchool": "Madison - N.J.",
       "state": "",
       "commitmentDate": "2026-03-05"
@@ -18022,7 +18058,7 @@
       "playerName": "Wesley Grant",
       "college": "Lees-McRae",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Rock Stars 2026",
       "highSchool": "Saugeen - ON",
       "state": "",
       "commitmentDate": "2026-03-04"
@@ -18106,7 +18142,7 @@
       "playerName": "Colton Murphy",
       "college": "Lynchburg",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "460 Lacrosse 2027 Red",
       "highSchool": "Jefferson Forest - Va.",
       "state": "",
       "commitmentDate": "2026-03-03"
@@ -18281,6 +18317,42 @@
     },
     {
       "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Gianni D'Ascensio",
+      "college": "Moravian",
+      "position": "LSM",
+      "clubTeam": "2KL 2027",
+      "highSchool": "Somerville - N.J.",
+      "state": "",
+      "commitmentDate": "2026-03-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "John Branam",
+      "college": "Stevens",
+      "position": "Defense",
+      "clubTeam": "NJ Riot 2027 Chaos",
+      "highSchool": "Randolph - N.J.",
+      "state": "",
+      "commitmentDate": "2026-03-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Mason Stott",
+      "college": "Westminster (Pa.)",
+      "position": "LSM",
+      "clubTeam": "",
+      "highSchool": "Ponderosa - Colo.",
+      "state": "",
+      "commitmentDate": "2026-03-03"
+    },
+    {
+      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Tyler Coote",
@@ -18346,7 +18418,7 @@
       "playerName": "Gavin Richardson",
       "college": "Lincoln Memorial",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Team 91 Charlotte 2027 White",
       "highSchool": "Pine Lake Prep - N.C.",
       "state": "",
       "commitmentDate": "2026-03-02"
@@ -18370,7 +18442,7 @@
       "playerName": "Michael Pompeii",
       "college": "Penn College",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Brotherly Love 2027 Apollo",
       "highSchool": "Salesianum - Del.",
       "state": "",
       "commitmentDate": "2026-03-02"
@@ -18547,6 +18619,42 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
+      "playerName": "Tyler Costa",
+      "college": "Penn State Harrisburg",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-03-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Danny Weber",
+      "college": "North Greenville",
+      "position": "Attack",
+      "clubTeam": "ADVNC PNW 2027",
+      "highSchool": "Emerald Ridge - Wash.",
+      "state": "",
+      "commitmentDate": "2026-03-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Jaxson Musshorn",
+      "college": "Belmont Abbey",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Southington - Conn.",
+      "state": "",
+      "commitmentDate": "2026-03-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
       "playerName": "Carter Germann",
       "college": "Thomas More",
       "position": "Defense",
@@ -18586,7 +18694,7 @@
       "playerName": "Danny Kirwan",
       "college": "Delaware",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "True Chesapeake 2027 Black",
       "highSchool": "Worcester Prep - Md.",
       "state": "",
       "commitmentDate": "2026-03-01"
@@ -18617,12 +18725,24 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Reid Croisdale",
+      "college": "Carthage",
+      "position": "FOGO",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-03-01"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Anderson Boyle",
       "college": "Penn College",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Brotherly Love 2027 Apollo",
       "highSchool": "Avon Grove - Pa.",
       "state": "",
       "commitmentDate": "2026-02-28"
@@ -18694,7 +18814,7 @@
       "playerName": "Nick Pompeii",
       "college": "Penn College",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Brotherly Love 2027 Zeus Mueller",
       "highSchool": "Salesianum - Del.",
       "state": "",
       "commitmentDate": "2026-02-27"
@@ -18718,7 +18838,7 @@
       "playerName": "Samuel Bruce",
       "college": "Mercer",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "DC Express 2027 Black",
       "highSchool": "West Potomac - Va.",
       "state": "",
       "commitmentDate": "2026-02-27"
@@ -18775,10 +18895,22 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
+      "playerName": "Ethyn Hom",
+      "college": "Aurora",
+      "position": "Defense",
+      "clubTeam": "ADVNC NDP 2027 White",
+      "highSchool": "Whitney - Calif.",
+      "state": "",
+      "commitmentDate": "2026-02-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
       "playerName": "Carter Doubman",
       "college": "Christopher Newport",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team 91 VA Gold",
       "highSchool": "North Cross - Va.",
       "state": "",
       "commitmentDate": "2026-02-26"
@@ -18845,12 +18977,24 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Meco Favors, Jr.",
+      "college": "Palm Beach Atlantic",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "St Pius X - Ga.",
+      "state": "",
+      "commitmentDate": "2026-02-26"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Clive Derba",
       "college": "Oberlin",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "NJ Riot 2027 Chaos",
       "highSchool": "Montclair - N.J.",
       "state": "",
       "commitmentDate": "2026-02-25"
@@ -18922,7 +19066,7 @@
       "playerName": "Caleb Finley",
       "college": "Mercyhurst",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Texas Nationals 2027",
       "highSchool": "Frisco - Texas",
       "state": "",
       "commitmentDate": "2026-02-25"
@@ -19013,12 +19157,24 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Mason O'Malley",
+      "college": "Roberts Wesleyan",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Hamburg - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-02-25"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Kelly Knapp",
       "college": "St. John's",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "LI Express 2027 Moran",
       "highSchool": "Chaminade - N.Y.",
       "state": "",
       "commitmentDate": "2026-02-24"
@@ -19030,7 +19186,7 @@
       "playerName": "Treyton McMahon",
       "college": "Embry-Riddle",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team 91 Carolina 2027",
       "highSchool": "Cardinal Gibbons - N.C.",
       "state": "",
       "commitmentDate": "2026-02-24"
@@ -19066,7 +19222,7 @@
       "playerName": "William Nylund",
       "college": "Mary Washington",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "True Colonial 2026",
       "highSchool": "Cosby - Va.",
       "state": "",
       "commitmentDate": "2026-02-24"
@@ -19078,7 +19234,7 @@
       "playerName": "Eli Stephan",
       "college": "Lafayette",
       "position": "FOGO",
-      "clubTeam": "",
+      "clubTeam": "Baltimore Crabs 2027",
       "highSchool": "Sewickley Academy - Pa.",
       "state": "",
       "commitmentDate": "2026-02-24"
@@ -19217,6 +19373,18 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Ethan Wechter",
+      "college": "Immaculata",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Washington Twp - N.J.",
+      "state": "",
+      "commitmentDate": "2026-02-24"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Robbie Granatell",
@@ -19258,7 +19426,7 @@
       "playerName": "Alexander Soffin",
       "college": "Flagler",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Silverbacks 2027",
       "highSchool": "St Francis-La Canada - Calif.",
       "state": "",
       "commitmentDate": "2026-02-23"
@@ -19270,7 +19438,7 @@
       "playerName": "Jacob Soffin",
       "college": "Flagler",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Silverbacks 2027",
       "highSchool": "St Francis-La Canada - Calif.",
       "state": "",
       "commitmentDate": "2026-02-23"
@@ -19483,10 +19651,22 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
+      "playerName": "Jake Eckes",
+      "college": "Kenyon",
+      "position": "FOGO",
+      "clubTeam": "Silverbacks 2027",
+      "highSchool": "New Albany - Ohio",
+      "state": "",
+      "commitmentDate": "2026-02-23"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
       "playerName": "Zac Coomer",
       "college": "Palm Beach Atlantic",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "True Baltimore 2027 Black",
       "highSchool": "Bartram Trail - Fla.",
       "state": "",
       "commitmentDate": "2026-02-22"
@@ -19522,7 +19702,7 @@
       "playerName": "Kaelum Chandler",
       "college": "Wagner",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Brotherly Love 2026 Odyssey",
       "highSchool": "Garnet Valley - Pa.",
       "state": "",
       "commitmentDate": "2026-02-22"
@@ -19546,7 +19726,7 @@
       "playerName": "Cheytan Pazienza",
       "college": "Mount St. Mary's",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Silverbacks 2027",
       "highSchool": "Louisville Trinity - Ky.",
       "state": "",
       "commitmentDate": "2026-02-22"
@@ -19558,7 +19738,7 @@
       "playerName": "Connor Gardner",
       "college": "Palm Beach Atlantic",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Clippers 2027 Blue",
       "highSchool": "Kent Island - Md.",
       "state": "",
       "commitmentDate": "2026-02-22"
@@ -19570,7 +19750,7 @@
       "playerName": "Talan Ladyga",
       "college": "St. Joseph (CT)",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "2Way North 2026",
       "highSchool": "Bacon Academy - Conn.",
       "state": "",
       "commitmentDate": "2026-02-22"
@@ -19709,12 +19889,24 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Alex Ciak",
+      "college": "North Central (Ill.)",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Notre Dame-Green Bay - Wis.",
+      "state": "",
+      "commitmentDate": "2026-02-22"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Noah Rosenfeld",
       "college": "Chatham",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Iron City 2027 Black",
       "highSchool": "Shady Side Academy - Pa.",
       "state": "",
       "commitmentDate": "2026-02-21"
@@ -19726,7 +19918,7 @@
       "playerName": "Sam Meyers",
       "college": "Wabash",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "True IN 2027AA",
       "highSchool": "Westfield - Ind.",
       "state": "",
       "commitmentDate": "2026-02-21"
@@ -19738,7 +19930,7 @@
       "playerName": "Sam Dickson",
       "college": "Wagner",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Team America 2027",
       "highSchool": "Green Level - N.C.",
       "state": "",
       "commitmentDate": "2026-02-21"
@@ -19762,7 +19954,7 @@
       "playerName": "John Mulhern, Jr.",
       "college": "Westminster (Pa.)",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Patriot Elite 2027 Chrome",
       "highSchool": "North Hunterdon - N.J.",
       "state": "",
       "commitmentDate": "2026-02-21"
@@ -19786,7 +19978,7 @@
       "playerName": "Thomas Pickering",
       "college": "DePauw",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Team Illinois 2027",
       "highSchool": "Loyola Academy - Ill.",
       "state": "",
       "commitmentDate": "2026-02-21"
@@ -19853,12 +20045,24 @@
     },
     {
       "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Owen Hanzl",
+      "college": "Clarkson",
+      "position": "Attack",
+      "clubTeam": "True PA Valley 2027",
+      "highSchool": "Nazareth Area - Pa.",
+      "state": "",
+      "commitmentDate": "2026-02-21"
+    },
+    {
+      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Brennan Lyons",
       "college": "Providence",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Leading Edge 2026",
       "highSchool": "Seton Hall Prep - N.J.",
       "state": "",
       "commitmentDate": "2026-02-20"
@@ -19870,7 +20074,7 @@
       "playerName": "Andrew Ioannou",
       "college": "Sacred Heart",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "LI Express 2027 Moran",
       "highSchool": "Syosset - N.Y.",
       "state": "",
       "commitmentDate": "2026-02-20"
