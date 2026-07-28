@@ -9763,7 +9763,7 @@
       "playerName": "Ben Hodakowski",
       "college": "Catholic",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Big 4 HHH 2027",
       "highSchool": "La Salle College High - Pa.",
       "state": "",
       "commitmentDate": "2026-05-29"
@@ -9952,6 +9952,18 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
+      "playerName": "Isaac Schaal",
+      "college": "Hope",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Spring Lake - Mich.",
+      "state": "",
+      "commitmentDate": "2026-05-28"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
       "playerName": "Jontae Walker",
       "college": "Point Park",
       "position": "Middie",
@@ -10072,6 +10084,18 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
+      "playerName": "Keyan Jensen",
+      "college": "Westminster (UT)",
+      "position": "Defense",
+      "clubTeam": "CitySide 2027",
+      "highSchool": "Glacier Peak - Wash.",
+      "state": "",
+      "commitmentDate": "2026-05-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
       "playerName": "Ryan Mattia",
       "college": "Ursinus",
       "position": "Attack",
@@ -10111,7 +10135,7 @@
       "playerName": "Aiden Charlette",
       "college": "North Greenville",
       "position": "FOGO",
-      "clubTeam": "",
+      "clubTeam": "Charleston Elite 2027",
       "highSchool": "St. James - S.C.",
       "state": "",
       "commitmentDate": "2026-05-26"
@@ -10171,7 +10195,7 @@
       "playerName": "Ethan Perez",
       "college": "Lander",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team 91 South 2027 Orange",
       "highSchool": "Buford - Ga.",
       "state": "",
       "commitmentDate": "2026-05-25"
@@ -10207,7 +10231,7 @@
       "playerName": "Mathew Stasinowsky",
       "college": "Stevenson",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "SoCal Bulls 2024-2025",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-05-24"
@@ -10363,7 +10387,7 @@
       "playerName": "Ethan Covey",
       "college": "Lincoln Memorial",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team 91 Charlotte 2027 White",
       "highSchool": "Chapin - S.C.",
       "state": "",
       "commitmentDate": "2026-05-20"
@@ -10483,7 +10507,7 @@
       "playerName": "Cayden Cargile",
       "college": "Lynn",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "3d Georgia 2026 Black",
       "highSchool": "Buford - Ga.",
       "state": "",
       "commitmentDate": "2026-05-19"
@@ -10519,7 +10543,7 @@
       "playerName": "Ryan Murgatroyd",
       "college": "Florida Southern",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "LI Legacy 2026 Eels",
       "highSchool": "Lindenhurst - N.Y.",
       "state": "",
       "commitmentDate": "2026-05-19"
@@ -10627,7 +10651,7 @@
       "playerName": "Richard Hale",
       "college": "Springfield",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Stallions West Navy 2027",
       "highSchool": "Minnechaug - Mass.",
       "state": "",
       "commitmentDate": "2026-05-17"
@@ -10735,7 +10759,7 @@
       "playerName": "Carlos Espinosa",
       "college": "Johnson & Wales",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Harlem National 2025 Silver",
       "highSchool": "The Laboratory School of Finance - N.Y.",
       "state": "",
       "commitmentDate": "2026-05-15"
@@ -10814,12 +10838,24 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Nicholas Hirsch",
+      "college": "Clarkson",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Trinity-Pawling - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-05-15"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Simeon Reid",
       "college": "Hampton",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "FCA MD 2027 White",
       "highSchool": "Mount St. Joseph - Md.",
       "state": "",
       "commitmentDate": "2026-05-14"
@@ -10843,7 +10879,7 @@
       "playerName": "Hayes Fisher",
       "college": "Hampden-Sydney",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Amped 2027",
       "highSchool": "Douglas Freeman - Va.",
       "state": "",
       "commitmentDate": "2026-05-14"
@@ -10999,7 +11035,7 @@
       "playerName": "Gavin White",
       "college": "Holy Cross",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "2Way 2026 Black",
       "highSchool": "Choate - Conn.",
       "state": "",
       "commitmentDate": "2026-05-13"
@@ -11011,7 +11047,7 @@
       "playerName": "Peter Lucanese",
       "college": "Penn College",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Team 11 2027",
       "highSchool": "Central Bucks West - Pa.",
       "state": "",
       "commitmentDate": "2026-05-13"
@@ -11023,7 +11059,7 @@
       "playerName": "Cooper Williams",
       "college": "Coast Guard",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Top Caliber 2026AA",
       "highSchool": "Madison - Va.",
       "state": "",
       "commitmentDate": "2026-05-13"
@@ -11085,6 +11121,54 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Vernon Township - N.J.",
+      "state": "",
+      "commitmentDate": "2026-05-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Sam Philion",
+      "college": "Franklin Pierce",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "St Johns Shrewsbury - Mass.",
+      "state": "",
+      "commitmentDate": "2026-05-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Grayson Gavlik",
+      "college": "William Jewell",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Bixby - Okla.",
+      "state": "",
+      "commitmentDate": "2026-05-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Luke Burmis",
+      "college": "William Jewell",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Rogers - Minn.",
+      "state": "",
+      "commitmentDate": "2026-05-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Michael Lutes",
+      "college": "Lincoln Memorial",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Cypress Creek - Fla.",
       "state": "",
       "commitmentDate": "2026-05-13"
     },
@@ -11263,8 +11347,20 @@
       "playerName": "Nathan Wortman",
       "college": "Merchant Marine",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Northstar 2027",
       "highSchool": "Southlake - Texas",
+      "state": "",
+      "commitmentDate": "2026-05-11"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Owen Marcolini",
+      "college": "Stevenson",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Lowville - N.Y.",
       "state": "",
       "commitmentDate": "2026-05-11"
     },
@@ -11299,7 +11395,7 @@
       "playerName": "Casey Jones",
       "college": "Lynn",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Mad Dog National Select 2027",
       "highSchool": "Simi Valley - Calif.",
       "state": "",
       "commitmentDate": "2026-05-10"
@@ -11371,7 +11467,7 @@
       "playerName": "Trevor Noble",
       "college": "Detroit Mercy",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Team Ontario 2025",
       "highSchool": "Hill Academy - ON",
       "state": "",
       "commitmentDate": "2026-05-08"
@@ -11383,7 +11479,7 @@
       "playerName": "Michael Savage",
       "college": "Syracuse",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "NH Tomahawks 2026 Purple",
       "highSchool": "Trinity-Pawling - N.Y.",
       "state": "",
       "commitmentDate": "2026-05-08"
@@ -11431,7 +11527,7 @@
       "playerName": "Richard Pilz",
       "college": "Catawba",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Rock Stars 2027",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-05-07"
@@ -11443,7 +11539,7 @@
       "playerName": "Caden Corcoran",
       "college": "St. Mary's (MD)",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Clippers 2027 Blue",
       "highSchool": "Crofton - Md.",
       "state": "",
       "commitmentDate": "2026-05-07"
@@ -11455,7 +11551,7 @@
       "playerName": "Cameron Gampfer",
       "college": "Aurora",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "True OH 2027 Black",
       "highSchool": "Milford - Ohio",
       "state": "",
       "commitmentDate": "2026-05-07"
@@ -11503,7 +11599,7 @@
       "playerName": "Patrick Bjelan",
       "college": "Lincoln Memorial",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Yeti 2026 Blue",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-05-06"
@@ -11539,7 +11635,7 @@
       "playerName": "Will Atkinson",
       "college": "Muhlenberg",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "NJ Riot 2026 Chaos",
       "highSchool": "Livingston - N.J.",
       "state": "",
       "commitmentDate": "2026-05-06"
@@ -11551,7 +11647,7 @@
       "playerName": "David Rothwell",
       "college": "Oberlin",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team Maryland 2027",
       "highSchool": "Boys' Latin - Md.",
       "state": "",
       "commitmentDate": "2026-05-06"
@@ -11695,7 +11791,7 @@
       "playerName": "Logan Riley",
       "college": "Bridgewater",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Rebels National 2026 Red",
       "highSchool": "Atlee - Va.",
       "state": "",
       "commitmentDate": "2026-05-05"
@@ -11705,6 +11801,42 @@
       "class": "2026",
       "division": "",
       "playerName": "Mark Borzillo",
+      "college": "Franklin Pierce",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "North Branford - Conn.",
+      "state": "",
+      "commitmentDate": "2026-05-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Sam Schewee",
+      "college": "Hendrix",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Hebron - Texas",
+      "state": "",
+      "commitmentDate": "2026-05-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Peter Gilhauley",
+      "college": "Cortland",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "William Floyd - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-05-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Mark Borzilo",
       "college": "Franklin Pierce",
       "position": "Attack",
       "clubTeam": "",
@@ -11839,7 +11971,7 @@
       "playerName": "Logan Filing",
       "college": "Palm Beach Atlantic",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Midwest Top Gun 2027",
       "highSchool": "Rockhurst Jesuit - Mo.",
       "state": "",
       "commitmentDate": "2026-05-04"
@@ -11851,8 +11983,20 @@
       "playerName": "Connor Currey",
       "college": "Point Park",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "White Rose 2027",
       "highSchool": "South-Western - Pa.",
+      "state": "",
+      "commitmentDate": "2026-05-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Mark Impemba",
+      "college": "St. Joseph's (L.I.)",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Wantagh - N.Y.",
       "state": "",
       "commitmentDate": "2026-05-04"
     },
@@ -11863,7 +12007,7 @@
       "playerName": "Berkley Everett",
       "college": "Rollins",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "True Illinois Premier 2027 AAA",
       "highSchool": "Lake Travis - Texas",
       "state": "",
       "commitmentDate": "2026-05-03"
@@ -11947,7 +12091,7 @@
       "playerName": "Adam Sullivan",
       "college": "Averett",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Supreme 2028",
       "highSchool": "Marshall - Va.",
       "state": "",
       "commitmentDate": "2026-05-01"
@@ -11971,7 +12115,7 @@
       "playerName": "Dillon Javadpour",
       "college": "Canisius",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Nationals Lacrosse Club 2026",
       "highSchool": "Westtown - Pa.",
       "state": "",
       "commitmentDate": "2026-05-01"
@@ -12043,7 +12187,7 @@
       "playerName": "Shane LaDuca",
       "college": "Tampa",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "BBL North 2026",
       "highSchool": "Ramapo - N.J.",
       "state": "",
       "commitmentDate": "2026-04-30"
@@ -12115,7 +12259,7 @@
       "playerName": "Matthew Giacobello",
       "college": "Pace",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "LI Legacy 2026 Eels",
       "highSchool": "Wantagh - N.Y.",
       "state": "",
       "commitmentDate": "2026-04-29"
@@ -12141,6 +12285,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Calvert Hall - Md.",
+      "state": "",
+      "commitmentDate": "2026-04-29"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Jake Henschel",
+      "college": "Merchant Marine",
+      "position": "FOGO",
+      "clubTeam": "",
+      "highSchool": "MacArthur - N.Y.",
       "state": "",
       "commitmentDate": "2026-04-29"
     },
