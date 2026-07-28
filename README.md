@@ -4,14 +4,41 @@ Automated scraper + WordPress filterable table for boys' and girls' lacrosse col
 
 ## What it does
 
-1. A GitHub Actions workflow runs `scraper.js` once per day using Playwright.
-2. The scraper visits ClubLacrosse, cycles through Gender and Class filters, and extracts the player commitment table.
-3. Cleaned data is saved to `recruits.json` and committed back to the repo.
-4. Your WordPress page loads `recruits.json` from GitHub and displays it with dropdown filters.
+1. A GitHub Actions workflow runs `scraper.js` once per day.
+2. The scraper pulls the public ClubLacrosse commitments API and keeps classes >= 2026.
+3. Any hand-curated entries in `manual_recruits.json` are merged in (deduped by player + college) so they survive the daily overwrite.
+4. The combined list is sorted newest-first, saved to `recruits.json`, and committed back to the repo.
+5. Your WordPress page loads `recruits.json` from GitHub and displays it with dropdown filters.
+
+## Adding commitments manually (that won't get overwritten)
+
+The daily scrape rewrites `recruits.json` from ClubLacrosse, so edits made directly to `recruits.json` are lost. To add commitments from another source (e.g. Inside Lacrosse) permanently, add them to **`manual_recruits.json`** instead:
+
+```json
+{
+  "recruits": [
+    {
+      "gender": "Boys",            // "Boys" or "Girls"
+      "class": "2027",
+      "division": "D1",
+      "playerName": "First Last",
+      "college": "School Name",
+      "position": "Attack",
+      "clubTeam": "Club",
+      "highSchool": "HS Name",
+      "state": "NY",
+      "commitmentDate": "2026-07-15"  // YYYY-MM-DD
+    }
+  ]
+}
+```
+
+Entries in `manual_recruits.json` are merged into `recruits.json` on every scrape. If a manual entry matches a scraped one (same player + college), the scraped one is kept so there are no duplicates.
 
 ## Files
 
-- `scraper.js` — Playwright scraper
+- `scraper.js` — scraper + manual-entry merge
+- `manual_recruits.json` — hand-curated commitments merged in and never overwritten
 - `package.json` — Node dependencies
 - `.github/workflows/scrape.yml` — GitHub Actions daily schedule
 - `wordpress-page.html` — Code to paste into a WordPress Custom HTML block
