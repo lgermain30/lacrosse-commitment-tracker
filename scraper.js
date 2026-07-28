@@ -18,6 +18,7 @@ function fetchJSON(url) {
 }
 
 const MANUAL_FILE = 'manual_recruits.json';
+const SUPPRESS_FILE = 'suppress_recruits.json';
 
 // Dedupe key: a recruit is uniquely identified by player + committed college.
 function recruitKey(r) {
@@ -25,6 +26,23 @@ function recruitKey(r) {
     .toLowerCase()
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+// Curated list of duplicate rows to drop: the same recruit entered under two
+// spellings by the upstream feed (e.g. "Rodriguez"/"Rodgriguez"). We keep the
+// correct spelling and suppress the other by exact player+college key. Kept as
+// an explicit list (not fuzzy matching) so real distinct players — including
+// siblings with similar names — are never removed by accident.
+function loadSuppress() {
+  if (!fs.existsSync(SUPPRESS_FILE)) return new Set();
+  try {
+    const data = JSON.parse(fs.readFileSync(SUPPRESS_FILE, 'utf8'));
+    const list = Array.isArray(data) ? data : (data.suppress || []);
+    return new Set(list.filter(r => r && r.playerName && r.college).map(recruitKey));
+  } catch (e) {
+    console.warn(`Could not read ${SUPPRESS_FILE}: ${e.message}`);
+    return new Set();
+  }
 }
 
 // Load manually curated commitments (e.g. from Inside Lacrosse). These are
@@ -54,7 +72,7 @@ async function scrape() {
 
   const CLASS_CUTOFF = 2026;
 
-  const recruits = json.commitments
+  let recruits = json.commitments
     .filter(c => {
       const year = parseInt(c.class_id, 10);
       return !isNaN(year) && year >= CLASS_CUTOFF;
@@ -88,6 +106,14 @@ async function scrape() {
     added++;
   }
   console.log(`Manual commitments: ${manual.length} loaded, ${added} added (rest were duplicates)`);
+
+  // Drop curated spelling-duplicate rows.
+  const suppress = loadSuppress();
+  if (suppress.size) {
+    const before = recruits.length;
+    recruits = recruits.filter(r => !suppress.has(recruitKey(r)));
+    console.log(`Suppressed ${before - recruits.length} duplicate spelling row(s)`);
+  }
 
   // Newest commitments first so recently-added entries surface at the top.
   recruits.sort((a, b) => (b.commitmentDate || '').localeCompare(a.commitmentDate || ''));
