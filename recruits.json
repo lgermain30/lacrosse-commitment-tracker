@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-28T15:51:52.335Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8585,
+  "count": 8591,
   "recruits": [
     {
       "gender": "Boys",
@@ -14998,7 +14998,7 @@
       "playerName": "Savannah Haugh",
       "college": "Thomas More",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Check-Hers Elite 2027",
       "highSchool": "Francis Scott Key - Md.",
       "state": "",
       "commitmentDate": "2026-04-02"
@@ -15022,7 +15022,7 @@
       "playerName": "Hailey Thompson",
       "college": "Rowan",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "HoCo 2027 Black",
       "highSchool": "Mount Hebron - Md.",
       "state": "",
       "commitmentDate": "2026-04-02"
@@ -15166,7 +15166,7 @@
       "playerName": "Harper Semlies",
       "college": "Chicago",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "FLG 2027 Navy",
       "highSchool": "Hotchkiss - Conn.",
       "state": "",
       "commitmentDate": "2026-04-01"
@@ -15192,6 +15192,18 @@
       "position": "Defense",
       "clubTeam": "",
       "highSchool": "Holmdel - N.J.",
+      "state": "",
+      "commitmentDate": "2026-04-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ava Minsker",
+      "college": "Edinboro",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Central Dauphin - Pa.",
       "state": "",
       "commitmentDate": "2026-04-01"
     },
@@ -15364,6 +15376,18 @@
       "commitmentDate": "2026-03-31"
     },
     {
+      "gender": "Girls",
+      "class": "2026",
+      "division": "",
+      "playerName": "Eres Delorey",
+      "college": "St. Lawrence",
+      "position": "Draw Control",
+      "clubTeam": "",
+      "highSchool": "Londonderry - N.H.",
+      "state": "",
+      "commitmentDate": "2026-03-31"
+    },
+    {
       "gender": "Boys",
       "class": "2026",
       "division": "",
@@ -15418,7 +15442,7 @@
       "playerName": "Gabriella Fisher",
       "college": "Florida Tech",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Mass Elite 2027 Red",
       "highSchool": "Duxbury - Mass.",
       "state": "",
       "commitmentDate": "2026-03-30"
@@ -15598,7 +15622,7 @@
       "playerName": "Courtney Brooks",
       "college": "Frostburg",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "HoCo 2027 Black",
       "highSchool": "Howard - Md.",
       "state": "",
       "commitmentDate": "2026-03-28"
@@ -15780,6 +15804,18 @@
       "position": "Attack",
       "clubTeam": "",
       "highSchool": "Muskego - Wis.",
+      "state": "",
+      "commitmentDate": "2026-03-26"
+    },
+    {
+      "gender": "Girls",
+      "class": "2026",
+      "division": "",
+      "playerName": "Camryn Hinsch",
+      "college": "Missouri Western",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Chisago Lakes - Minn.",
       "state": "",
       "commitmentDate": "2026-03-26"
     },
@@ -16006,7 +16042,7 @@
       "playerName": "Paloma Pepper",
       "college": "Sacred Heart",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Sound 2027",
       "highSchool": "Rye HS - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-24"
@@ -16210,7 +16246,7 @@
       "playerName": "Maggie Brown",
       "college": "Elizabethtown",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Coppermine 2027 Blue",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-03-22"
@@ -16222,7 +16258,7 @@
       "playerName": "Kaitlyn Laudico",
       "college": "Wooster",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Empress 2026 Blue",
       "highSchool": "Williamsville South - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-22"
@@ -16246,7 +16282,7 @@
       "playerName": "Kylee Jones",
       "college": "UVA Wise",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Coppermine 2027 Blue",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-03-22"
@@ -16260,6 +16296,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Cactus Shadows - Ariz.",
+      "state": "",
+      "commitmentDate": "2026-03-22"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Annika Jacques",
+      "college": "Framingham State",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "",
       "state": "",
       "commitmentDate": "2026-03-22"
     },
@@ -16834,7 +16882,7 @@
       "playerName": "Larkin Roney",
       "college": "Messiah",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "NEMS 2027",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-03-17"
@@ -17014,7 +17062,7 @@
       "playerName": "Rebecca Hymes",
       "college": "Oberlin",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Rebels 2027",
       "highSchool": "St Andrews Episcopal - Md.",
       "state": "",
       "commitmentDate": "2026-03-16"
@@ -17028,6 +17076,30 @@
       "position": "Defense",
       "clubTeam": "",
       "highSchool": "Queensbury - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-03-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Grace Lorang",
+      "college": "UIndy",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Schaumburg - Ill.",
+      "state": "",
+      "commitmentDate": "2026-03-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Abigail Barnes",
+      "college": "Mars Hill",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Marietta - Ga.",
       "state": "",
       "commitmentDate": "2026-03-16"
     },
@@ -17194,7 +17266,7 @@
       "playerName": "Lauren Reidy",
       "college": "Christopher Newport",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Integrity 2027 Green",
       "highSchool": "South River - Md.",
       "state": "",
       "commitmentDate": "2026-03-14"
@@ -17278,7 +17350,7 @@
       "playerName": "Kara Baroody",
       "college": "Gannon",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Orange Crush 2027",
       "highSchool": "Liverpool - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-13"
@@ -17518,7 +17590,7 @@
       "playerName": "Ella Marriott",
       "college": "Oneonta",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Evolve 2027",
       "highSchool": "Carthage - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-12"
