@@ -14695,7 +14695,7 @@
       "playerName": "Max Slattery",
       "college": "MIT",
       "position": "FOGO",
-      "clubTeam": "",
+      "clubTeam": "Prime Time 2027",
       "highSchool": "Lawrenceville - N.J.",
       "state": "",
       "commitmentDate": "2026-04-01"
@@ -14791,7 +14791,7 @@
       "playerName": "Ethan Ramsey",
       "college": "Salisbury",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Blue Star 2026 White",
       "highSchool": "La Costa Canyon - Calif.",
       "state": "",
       "commitmentDate": "2026-03-31"
@@ -14839,7 +14839,7 @@
       "playerName": "Cole Samson",
       "college": "Iona",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Pro Caliber 2026",
       "highSchool": "Terry Fox - BC",
       "state": "",
       "commitmentDate": "2026-03-31"
@@ -14971,7 +14971,7 @@
       "playerName": "Benjamin Williams",
       "college": "Denison",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Spiders 2026 Black",
       "highSchool": "MICDS - Mo.",
       "state": "",
       "commitmentDate": "2026-03-30"
@@ -14983,7 +14983,7 @@
       "playerName": "Aidan Gunther",
       "college": "Westminster (UT)",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Clippers 2027 Blue",
       "highSchool": "Severn - Md.",
       "state": "",
       "commitmentDate": "2026-03-30"
@@ -15103,7 +15103,7 @@
       "playerName": "Evan Poulin",
       "college": "Roger Williams",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Eclipse 2026 Red",
       "highSchool": "Somers - Conn.",
       "state": "",
       "commitmentDate": "2026-03-28"
@@ -15292,6 +15292,18 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
+      "playerName": "David Genay",
+      "college": "Trine",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Woodstock Academy - Conn.",
+      "state": "",
+      "commitmentDate": "2026-03-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "",
       "playerName": "Malachi Waduge",
       "college": "Coast Guard",
       "position": "Defense",
@@ -15403,7 +15415,7 @@
       "playerName": "Gavin Nuzzi",
       "college": "Mercy",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Shore 2 Shore 2027 Grizzlies",
       "highSchool": "Sachem North - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-25"
@@ -15463,7 +15475,7 @@
       "playerName": "Brayden Brown",
       "college": "Clarkson",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "True Upstate 2027",
       "highSchool": "Jamesville-DeWitt - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-24"
@@ -15475,7 +15487,7 @@
       "playerName": "Tate Shoemaker",
       "college": "Manhattan",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Team 11 2026",
       "highSchool": "Allentown Central Cath - Pa.",
       "state": "",
       "commitmentDate": "2026-03-24"
@@ -15499,7 +15511,7 @@
       "playerName": "Parker Ripley",
       "college": "Hampden-Sydney",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Team 91 VA Gold",
       "highSchool": "Jefferson Forest - Va.",
       "state": "",
       "commitmentDate": "2026-03-24"
@@ -15595,7 +15607,7 @@
       "playerName": "Wright Wanzenberg",
       "college": "Rollins",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Sweetlax FL 2027",
       "highSchool": "Winter Park - Fla.",
       "state": "",
       "commitmentDate": "2026-03-23"
@@ -15619,7 +15631,7 @@
       "playerName": "Trent Rash",
       "college": "Embry-Riddle",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "Team Carolina 2026",
       "highSchool": "Charlotte Catholic - N.C.",
       "state": "",
       "commitmentDate": "2026-03-23"
@@ -15631,7 +15643,7 @@
       "playerName": "Matthew Baglieri",
       "college": "Denison",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "SouthShore 2027",
       "highSchool": "Haddonfield Memorial - N.J.",
       "state": "",
       "commitmentDate": "2026-03-23"
@@ -15710,6 +15722,18 @@
     },
     {
       "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Alden Gooch",
+      "college": "Cleveland State",
+      "position": "Defense",
+      "clubTeam": "True OH 2027 Black",
+      "highSchool": "Milford - Ohio",
+      "state": "",
+      "commitmentDate": "2026-03-23"
+    },
+    {
+      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Gavin Kleis",
@@ -15727,7 +15751,7 @@
       "playerName": "Sean McGann",
       "college": "Clarkson",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "True Upstate 2027",
       "highSchool": "Westhill - N.Y.",
       "state": "",
       "commitmentDate": "2026-03-22"
@@ -15835,7 +15859,7 @@
       "playerName": "Brevin Harrison",
       "college": "Saint Leo",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Team 91 Georgia 2027",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-03-21"
@@ -15847,7 +15871,7 @@
       "playerName": "William Hennigar",
       "college": "Bowdoin",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "3D New England 2026 White",
       "highSchool": "Belmont Hill - Mass.",
       "state": "",
       "commitmentDate": "2026-03-21"
@@ -16034,6 +16058,18 @@
     },
     {
       "gender": "Boys",
+      "class": "2026",
+      "division": "",
+      "playerName": "Grayson Adams",
+      "college": "Alabama Huntsville",
+      "position": "SSDM",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-03-20"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "David Crumback",
@@ -16063,7 +16099,7 @@
       "playerName": "Dylan Gregson",
       "college": "Mary Washington",
       "position": "LSM",
-      "clubTeam": "",
+      "clubTeam": "True Colonial 2027",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-03-19"
