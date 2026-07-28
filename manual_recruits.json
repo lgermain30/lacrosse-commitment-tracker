@@ -6691,7 +6691,7 @@
       "playerName": "Laney Hinkle",
       "college": "Marywood",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Ultimate CC 2027 Premier",
       "highSchool": "DVFS - Pa.",
       "state": "",
       "commitmentDate": "2026-06-29"
@@ -6787,7 +6787,7 @@
       "playerName": "Kendyl Pollack",
       "college": "Liberty",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Monster Elite 2026 White",
       "highSchool": "Hill Academy - ON",
       "state": "",
       "commitmentDate": "2026-06-28"
@@ -6883,7 +6883,7 @@
       "playerName": "Lillian Warren",
       "college": "Skidmore",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Coppermine 2027 Blue",
       "highSchool": "Park School - Md.",
       "state": "",
       "commitmentDate": "2026-06-27"
@@ -6943,7 +6943,7 @@
       "playerName": "Addison Gillette",
       "college": "Gardner-Webb",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "3d Upstate 2027",
       "highSchool": "Penn Yan - N.Y.",
       "state": "",
       "commitmentDate": "2026-06-27"
@@ -6955,8 +6955,20 @@
       "playerName": "Beatrice Sim",
       "college": "Swarthmore",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "LI Legacy 2027 Blue",
       "highSchool": "Manhasset - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-06-27"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Natalie Byrns",
+      "college": "Stony Brook",
+      "position": "Middie",
+      "clubTeam": "Yellow Jackets 2027 Grazidei/Stadler",
+      "highSchool": "Massapequa - N.Y.",
       "state": "",
       "commitmentDate": "2026-06-27"
     },
@@ -7123,7 +7135,7 @@
       "playerName": "Keeley Kershner",
       "college": "Kutztown",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "PA Thunder 2027",
       "highSchool": "Nazareth Area - Pa.",
       "state": "",
       "commitmentDate": "2026-06-25"
@@ -7147,7 +7159,7 @@
       "playerName": "Sadie Bean",
       "college": "Chicago",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Team 180 2027",
       "highSchool": "St. Mary's Academy - Colo.",
       "state": "",
       "commitmentDate": "2026-06-25"
@@ -7273,6 +7285,30 @@
       "commitmentDate": "2026-06-24"
     },
     {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Allison Sculthorp",
+      "college": "Concordia-St. Paul",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Blaine - Minn.",
+      "state": "",
+      "commitmentDate": "2026-06-24"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Emma Dessi",
+      "college": "Scranton",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Manhasset - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-06-24"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -7351,7 +7387,7 @@
       "playerName": "Sierra Gilhuley",
       "college": "Manhattan",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "FLG 2027 Navy",
       "highSchool": "Wantagh - N.Y.",
       "state": "",
       "commitmentDate": "2026-06-23"
@@ -7363,7 +7399,7 @@
       "playerName": "Katie Hylock",
       "college": "Shepherd",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Check-Hers Elite 2027",
       "highSchool": "Liberty - Md.",
       "state": "",
       "commitmentDate": "2026-06-23"
@@ -7543,7 +7579,7 @@
       "playerName": "Jane Begley",
       "college": "Haverford",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "3D VA Metro 27 Navy",
       "highSchool": "Oakton - Va.",
       "state": "",
       "commitmentDate": "2026-06-22"
@@ -7629,6 +7665,18 @@
       "position": "Defense",
       "clubTeam": "NE Twisters 2027 Blue",
       "highSchool": "The Governor's Academy - Mass.",
+      "state": "",
+      "commitmentDate": "2026-06-22"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Braelyn Dalia",
+      "college": "Monmouth",
+      "position": "Defense",
+      "clubTeam": "Jersey Shore Select 2027 Blue",
+      "highSchool": "Shore Regional - N.J.",
       "state": "",
       "commitmentDate": "2026-06-22"
     },
@@ -7723,7 +7771,7 @@
       "playerName": "Kendall Hinson",
       "college": "Nova Southeastern",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "M&D Orlando 2027 Black",
       "highSchool": "Lake Mary - Fla.",
       "state": "",
       "commitmentDate": "2026-06-21"
@@ -8503,7 +8551,7 @@
       "playerName": "Sarah Urlacher",
       "college": "Gannon",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Monster Elite 2027 Purple",
       "highSchool": "Canandaigua - N.Y.",
       "state": "",
       "commitmentDate": "2026-06-13"
@@ -8515,7 +8563,7 @@
       "playerName": "Eliana Rector",
       "college": "Skidmore",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Oregon Pride 2027 AA",
       "highSchool": "Ida B Wells - Ore.",
       "state": "",
       "commitmentDate": "2026-06-13"
@@ -9307,7 +9355,7 @@
       "playerName": "Jaidyn Hart",
       "college": "McDaniel",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Limelight 2027",
       "highSchool": "Hereford - Md.",
       "state": "",
       "commitmentDate": "2026-06-05"
@@ -9427,7 +9475,7 @@
       "playerName": "Sadie Morton",
       "college": "Messiah",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Hurricanes 2025 Green",
       "highSchool": "North Hagerstown - Md.",
       "state": "",
       "commitmentDate": "2026-06-04"
@@ -9465,6 +9513,18 @@
       "position": "Attack",
       "clubTeam": "",
       "highSchool": "Hun School - N.J.",
+      "state": "",
+      "commitmentDate": "2026-06-04"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "",
+      "playerName": "Kami DiMeo",
+      "college": "Alma",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Lake Orion - Mich.",
       "state": "",
       "commitmentDate": "2026-06-04"
     },
@@ -9619,7 +9679,7 @@
       "playerName": "Paige Matthews",
       "college": "Emory & Henry",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Limelight 2027",
       "highSchool": "St Paul's - Md.",
       "state": "",
       "commitmentDate": "2026-06-02"
@@ -9643,7 +9703,7 @@
       "playerName": "Natalia Pagano",
       "college": "Manhattan",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "True Long Island 2026 Napoli",
       "highSchool": "The Stony Brook School - N.Y.",
       "state": "",
       "commitmentDate": "2026-06-02"
@@ -9823,7 +9883,7 @@
       "playerName": "Reagan Hoffner",
       "college": "Hood",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Limelight 2027",
       "highSchool": "Hereford - Md.",
       "state": "",
       "commitmentDate": "2026-06-01"
@@ -9835,7 +9895,7 @@
       "playerName": "Alli Denzel",
       "college": "Michigan",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "NXT 2027 Black",
       "highSchool": "Southern Lehigh - Pa.",
       "state": "",
       "commitmentDate": "2026-06-01"
@@ -9861,6 +9921,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Paul VI - Va.",
+      "state": "",
+      "commitmentDate": "2026-06-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2026",
+      "division": "",
+      "playerName": "Lillian Gazda",
+      "college": "Marymount",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Colgan - Va.",
       "state": "",
       "commitmentDate": "2026-06-01"
     },
@@ -9895,7 +9967,7 @@
       "playerName": "Charlotte Schmidt",
       "college": "Dominican (CA)",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "M&D Shore 2027 Black",
       "highSchool": "Queen Anne's County - Md.",
       "state": "",
       "commitmentDate": "2026-05-31"
@@ -9921,6 +9993,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Red Hook - N.Y.",
+      "state": "",
+      "commitmentDate": "2026-05-31"
+    },
+    {
+      "gender": "Girls",
+      "class": "2026",
+      "division": "",
+      "playerName": "Mya Fidaleo",
+      "college": "Union",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "New Fairfield - Conn.",
       "state": "",
       "commitmentDate": "2026-05-31"
     },
@@ -9955,7 +10039,7 @@
       "playerName": "Isabella Anzalone",
       "college": "UMBC",
       "position": "Middie",
-      "clubTeam": "",
+      "clubTeam": "Belles 2027 Elite Green",
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-05-30"
@@ -10063,7 +10147,7 @@
       "playerName": "Ella Davis",
       "college": "Florida",
       "position": "Goalie",
-      "clubTeam": "",
+      "clubTeam": "Integrity 2026 Green",
       "highSchool": "Archbishop Spalding - Md.",
       "state": "",
       "commitmentDate": "2026-05-29"
