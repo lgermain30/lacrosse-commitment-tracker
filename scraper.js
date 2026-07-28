@@ -115,6 +115,23 @@ async function scrape() {
     console.log(`Suppressed ${before - recruits.length} duplicate spelling row(s)`);
   }
 
+  // Collapse any remaining exact player+college duplicates. The upstream feed
+  // occasionally lists the same commitment twice (e.g. under two dates or club
+  // spellings); keep the newest by commitment date so a single row remains.
+  {
+    const byKey = new Map();
+    for (const r of recruits) {
+      const k = recruitKey(r);
+      const ex = byKey.get(k);
+      if (!ex || (r.commitmentDate || '') > (ex.commitmentDate || '')) byKey.set(k, r);
+    }
+    const before = recruits.length;
+    recruits = Array.from(byKey.values());
+    if (before !== recruits.length) {
+      console.log(`Collapsed ${before - recruits.length} exact duplicate row(s)`);
+    }
+  }
+
   // Newest commitments first so recently-added entries surface at the top.
   recruits.sort((a, b) => (b.commitmentDate || '').localeCompare(a.commitmentDate || ''));
 
