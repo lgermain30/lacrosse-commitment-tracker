@@ -1,0 +1,5 @@
+{
+  "_note": "Manually curated commitments (e.g. sourced from Inside Lacrosse). These are merged into recruits.json by scraper.js and are NOT overwritten by the daily ClubLacrosse scrape. Dedupe key = playerName + college (case/space-insensitive). Each entry uses the same schema as a scraped recruit.",
+  "recruits": [
+  ]
+}
