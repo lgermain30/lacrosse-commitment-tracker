@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-28T13:13:48.739Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 7510,
+  "count": 7483,
   "recruits": [
     {
       "gender": "Boys",
@@ -13229,18 +13229,6 @@
     },
     {
       "gender": "Girls",
-      "class": "2026",
-      "division": "D3",
-      "playerName": "Madeline Dacena",
-      "college": "MIT",
-      "position": "Attack",
-      "clubTeam": "Mad Dog West",
-      "highSchool": "Canyon Del Oro",
-      "state": "AZ",
-      "commitmentDate": "2025-12-19"
-    },
-    {
-      "gender": "Girls",
       "class": "2027",
       "division": "D1",
       "playerName": "Kayla Straker",
@@ -22073,18 +22061,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Max Morgernstern",
-      "college": "Drexel",
-      "position": "Attack",
-      "clubTeam": "Orange Crush",
-      "highSchool": "Pittsford Combined",
-      "state": "NY",
-      "commitmentDate": "2025-11-03"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "D1",
       "playerName": "Jackson Orcutt",
@@ -23479,18 +23455,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "D1",
-      "playerName": "Owen Lazewski",
-      "college": "Army",
-      "position": "FOGO",
-      "clubTeam": "TX NationalsMadLax",
-      "highSchool": "Highland Park",
-      "state": "TX",
-      "commitmentDate": "2025-10-26"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Luke St Pierre",
       "college": "North Carolina",
       "position": "Defense",
@@ -23779,18 +23743,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
-      "playerName": "Madeline Binsfield",
-      "college": "Duquesne",
-      "position": "Goalie",
-      "clubTeam": "NXT",
-      "highSchool": "Gwynedd Mercy",
-      "state": "PA",
-      "commitmentDate": "2025-10-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Sam Lineback",
       "college": "East Carolina",
       "position": "Goalie",
@@ -24067,18 +24019,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
-      "playerName": "Carlina DeFondi",
-      "college": "Syracuse",
-      "position": "Middie",
-      "clubTeam": "Monster",
-      "highSchool": "Victor",
-      "state": "NY",
-      "commitmentDate": "2025-10-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Makayla McLarney",
       "college": "UAlbany",
       "position": "Defense",
@@ -24097,18 +24037,6 @@
       "clubTeam": "TRUE",
       "highSchool": "Chatfield",
       "state": "CO",
-      "commitmentDate": "2025-10-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Finja Degi",
-      "college": "USC",
-      "position": "Middie",
-      "clubTeam": "PrimeTime",
-      "highSchool": "John Jay",
-      "state": "NY",
       "commitmentDate": "2025-10-26"
     },
     {
@@ -24865,18 +24793,6 @@
       "clubTeam": "Balance",
       "highSchool": "Jenison",
       "state": "MI",
-      "commitmentDate": "2025-10-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D3",
-      "playerName": "Peyton Laperie",
-      "college": "Norwich",
-      "position": "Middie",
-      "clubTeam": "Valkyries",
-      "highSchool": "Spaulding",
-      "state": "VT",
       "commitmentDate": "2025-10-26"
     },
     {
@@ -33151,18 +33067,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
-      "playerName": "Christiana Laracca",
-      "college": "Lehigh",
-      "position": "Middie",
-      "clubTeam": "STEPS NJ",
-      "highSchool": "West Morris Mendham",
-      "state": "NJ",
-      "commitmentDate": "2025-10-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Leah Babcock",
       "college": "Niagara",
       "position": "Middie",
@@ -33217,18 +33121,6 @@
       "clubTeam": "Iron Horse Dallas",
       "highSchool": "Spire Academy",
       "state": "OH",
-      "commitmentDate": "2025-10-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Zoe Brody",
-      "college": "Colgate",
-      "position": "Defense",
-      "clubTeam": "Sound",
-      "highSchool": "St Lukes School",
-      "state": "CT",
       "commitmentDate": "2025-10-01"
     },
     {
@@ -36337,18 +36229,6 @@
       "clubTeam": "Evolve Elite",
       "highSchool": "The Hill Academy",
       "state": "ON",
-      "commitmentDate": "2025-09-24"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Will Carpentier",
-      "college": "Mount St. Mary's",
-      "position": "Attack",
-      "clubTeam": "Big 4 HHH",
-      "highSchool": "La Salle College",
-      "state": "PA",
       "commitmentDate": "2025-09-24"
     },
     {
@@ -41011,18 +40891,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "D1",
-      "playerName": "Kellen Bladon",
-      "college": "Penn State",
-      "position": "Attack",
-      "clubTeam": "Evolve Elite",
-      "highSchool": "Western Reserve Academy",
-      "state": "OH",
-      "commitmentDate": "2025-09-16"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Jack Crowell",
       "college": "Princeton",
       "position": "Goalie",
@@ -42841,18 +42709,6 @@
       "clubTeam": "True Sunbelt",
       "highSchool": "Jesuit",
       "state": "FL",
-      "commitmentDate": "2025-09-14"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D3",
-      "playerName": "Megan Widler",
-      "college": "Colorado College",
-      "position": "Defense",
-      "clubTeam": "Gold Coast",
-      "highSchool": "Lawrenceville",
-      "state": "NJ",
       "commitmentDate": "2025-09-14"
     },
     {
@@ -46122,18 +45978,6 @@
     {
       "gender": "Boys",
       "class": "2026",
-      "division": "D3",
-      "playerName": "Lukas Muller",
-      "college": "Wooster",
-      "position": "Attack",
-      "clubTeam": "MESA",
-      "highSchool": "Malvern Prep",
-      "state": "PA",
-      "commitmentDate": "2025-09-08"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
       "division": "D2",
       "playerName": "Logan Dempsey",
       "college": "Wingate",
@@ -47761,18 +47605,6 @@
       "clubTeam": "Laxachusetts",
       "highSchool": "Mansfield",
       "state": "MA",
-      "commitmentDate": "2025-09-05"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Harrison Jacobsen",
-      "college": "Dartmouth",
-      "position": "Middie",
-      "clubTeam": "West Coast Starz",
-      "highSchool": "Torrey Pines",
-      "state": "CA",
       "commitmentDate": "2025-09-05"
     },
     {
@@ -50532,18 +50364,6 @@
       "position": "Goalie",
       "clubTeam": "Orange Crush",
       "highSchool": "Carthage",
-      "state": "NY",
-      "commitmentDate": "2025-08-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D2",
-      "playerName": "Emily Rodgriguez",
-      "college": "Pace",
-      "position": "Goalie",
-      "clubTeam": "Primetime",
-      "highSchool": "Nyack",
       "state": "NY",
       "commitmentDate": "2025-08-26"
     },
@@ -55765,18 +55585,6 @@
       "clubTeam": "Towermen",
       "highSchool": "Seton Hall Prep",
       "state": "NJ",
-      "commitmentDate": "2025-08-02"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Jackson Strzelcyk",
-      "college": "Quinnipiac",
-      "position": "FOGO",
-      "clubTeam": "Silverbacks",
-      "highSchool": "Homestead",
-      "state": "WI",
       "commitmentDate": "2025-08-02"
     },
     {
@@ -70339,18 +70147,6 @@
       "gender": "Boys",
       "class": "2026",
       "division": "D1",
-      "playerName": "Brendan DuFour",
-      "college": "Bucknell",
-      "position": "Middie",
-      "clubTeam": "DC Express",
-      "highSchool": "St Johns College",
-      "state": "DC",
-      "commitmentDate": "2024-12-05"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
       "playerName": "Casey Mork",
       "college": "Le Moyne",
       "position": "Goalie",
@@ -70429,18 +70225,6 @@
       "clubTeam": "Angels",
       "highSchool": "Woodstock",
       "state": "GA",
-      "commitmentDate": "2024-12-01"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Keegan Kroop",
-      "college": "LIU",
-      "position": "Attack",
-      "clubTeam": "Freedom",
-      "highSchool": "Downingtown East",
-      "state": "PA",
       "commitmentDate": "2024-12-01"
     },
     {
@@ -71353,18 +71137,6 @@
       "clubTeam": "Florida Crabs",
       "highSchool": "The Bolles School",
       "state": "FL",
-      "commitmentDate": "2024-11-24"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D3",
-      "playerName": "Caitlyn Millhof",
-      "college": "Salisbury",
-      "position": "Attack",
-      "clubTeam": "YJ Mid Atlantic",
-      "highSchool": "Kettle Run",
-      "state": "VA",
       "commitmentDate": "2024-11-24"
     },
     {
@@ -72757,18 +72529,6 @@
       "clubTeam": "Integrity",
       "highSchool": "Severn School",
       "state": "MD",
-      "commitmentDate": "2024-11-11"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Emma McGlothin",
-      "college": "Coastal Carolina",
-      "position": "Middie",
-      "clubTeam": "True Belles",
-      "highSchool": "Bishop Shanahan",
-      "state": "PA",
       "commitmentDate": "2024-11-11"
     },
     {
@@ -75040,18 +74800,6 @@
       "commitmentDate": "2024-10-20"
     },
     {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Sandy Hopper",
-      "college": "Quinnipiac",
-      "position": "Middie",
-      "clubTeam": "Mad Dog",
-      "highSchool": "The Hun School",
-      "state": "NJ",
-      "commitmentDate": "2024-10-20"
-    },
-    {
       "gender": "Girls",
       "class": "2026",
       "division": "D1",
@@ -76093,18 +75841,6 @@
       "clubTeam": "Big 4 HHH",
       "highSchool": "Plymouth Whitemarsh",
       "state": "PA",
-      "commitmentDate": "2024-10-13"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Evan Pagiaro",
-      "college": "Mercer",
-      "position": "Defense",
-      "clubTeam": "Team One",
-      "highSchool": "New Trier",
-      "state": "IL",
       "commitmentDate": "2024-10-13"
     },
     {
@@ -79147,18 +78883,6 @@
       "gender": "Boys",
       "class": "2026",
       "division": "D1",
-      "playerName": "Aaron Goldstain",
-      "college": "Drexel",
-      "position": "Attack",
-      "clubTeam": "TRUE",
-      "highSchool": "Penncrest",
-      "state": "PA",
-      "commitmentDate": "2024-10-06"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
       "playerName": "Cormac Trombley",
       "college": "Air Force",
       "position": "Defense",
@@ -80149,18 +79873,6 @@
       "clubTeam": "LI Elite",
       "highSchool": "St Anthonys",
       "state": "NY",
-      "commitmentDate": "2024-09-29"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Rowan Hiden",
-      "college": "Monmouth",
-      "position": "Goalie",
-      "clubTeam": "Phantastix",
-      "highSchool": "Marple Newtown",
-      "state": "PA",
       "commitmentDate": "2024-09-29"
     },
     {
@@ -83992,18 +83704,6 @@
       "commitmentDate": "2024-09-19"
     },
     {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Mason Bussman",
-      "college": "Lafayette",
-      "position": "Attack",
-      "clubTeam": "4Leaf",
-      "highSchool": "Northfield Mt Hermon",
-      "state": "MA",
-      "commitmentDate": "2024-09-19"
-    },
-    {
       "gender": "Girls",
       "class": "2026",
       "division": "D1",
@@ -84312,18 +84012,6 @@
       "position": "Middie",
       "clubTeam": "YJ Long Island",
       "highSchool": "Sayville",
-      "state": "NY",
-      "commitmentDate": "2024-09-19"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Payton Jeffery",
-      "college": "UAlbany",
-      "position": "Defense",
-      "clubTeam": "Aces",
-      "highSchool": "West Genesee",
       "state": "NY",
       "commitmentDate": "2024-09-19"
     },
@@ -87565,18 +87253,6 @@
       "clubTeam": "BBL",
       "highSchool": "West Morris Central",
       "state": "NJ",
-      "commitmentDate": "2024-09-10"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Beau Whaling",
-      "college": "Duke",
-      "position": "Attack",
-      "clubTeam": "Predators",
-      "highSchool": "Rye HS",
-      "state": "NY",
       "commitmentDate": "2024-09-10"
     },
     {
