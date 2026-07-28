@@ -12,13 +12,15 @@
       <input type="search" id="search-name" placeholder="Type a player name&hellip;" autocomplete="off">
     </div>
     <div class="filters">
-      <div class="filter-group">
+      <div class="filter-group has-pills">
         <label for="filter-gender">Gender</label>
-        <select id="filter-gender"><option value="">All</option></select>
+        <div class="pill-group" data-for="filter-gender" role="group" aria-label="Filter by gender"></div>
+        <select id="filter-gender" class="pill-source"><option value="">All</option></select>
       </div>
-      <div class="filter-group">
+      <div class="filter-group has-pills">
         <label for="filter-class">Class</label>
-        <select id="filter-class"><option value="">All</option></select>
+        <div class="pill-group" data-for="filter-class" role="group" aria-label="Filter by class"></div>
+        <select id="filter-class" class="pill-source"><option value="">All</option></select>
       </div>
       <div class="filter-group">
         <label for="filter-position">Position</label>
@@ -128,6 +130,34 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+  #commitment-tracker .filter-group.has-pills { flex: 0 0 auto; min-width: 0; justify-content: flex-start; }
+  #commitment-tracker select.pill-source { display: none; }
+  #commitment-tracker .pill-group {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    padding: 4px;
+    background: #eef0f2;
+    border-radius: 999px;
+    width: fit-content;
+  }
+  #commitment-tracker .pill {
+    border: 0;
+    background: transparent;
+    color: #34404d;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 7px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background .15s, color .15s;
+  }
+  #commitment-tracker .pill:hover { color: #0b1f3a; }
+  #commitment-tracker .pill.active { color: #fff; }
+  #commitment-tracker .pill-group[data-for="filter-gender"] .pill.active { background: #c8102e; }
+  #commitment-tracker .pill-group[data-for="filter-class"] .pill.active { background: #0b1f3a; }
 
   #commitment-tracker .tracker-toolbar {
     display: flex;
@@ -1324,7 +1354,7 @@
     if (!name) return safe;
     const bg = colorFromString(name);
     const initials = escapeHtml(collegeInitials(name));
-    const logoUrl = (String(division || '').toUpperCase() === 'D1') ? D1_LOGOS[name] : null;
+    const logoUrl = D1_LOGOS[name] || null;
     let img = '';
     if (logoUrl) {
       const el = document.createElement('img');
@@ -1449,6 +1479,37 @@
     return Array.from(new Set(allRecruits.map(r => r[key])));
   }
 
+  function pillGroupFor(select) {
+    return document.querySelector('.pill-group[data-for="' + select.id + '"]');
+  }
+
+  function buildPills(select) {
+    const wrap = pillGroupFor(select);
+    if (!wrap) return;
+    wrap.innerHTML = '';
+    Array.from(select.options).forEach(opt => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'pill' + (select.value === opt.value ? ' active' : '');
+      btn.textContent = opt.value === '' ? 'All' : opt.textContent;
+      btn.setAttribute('data-value', opt.value);
+      btn.addEventListener('click', () => {
+        select.value = opt.value;
+        syncPills(select);
+        update();
+      });
+      wrap.appendChild(btn);
+    });
+  }
+
+  function syncPills(select) {
+    const wrap = pillGroupFor(select);
+    if (!wrap) return;
+    wrap.querySelectorAll('.pill').forEach(b => {
+      b.classList.toggle('active', b.getAttribute('data-value') === select.value);
+    });
+  }
+
   function initControls() {
     populateSelect(elements.filters.gender, getUniqueValues('gender'));
     populateSelect(elements.filters.class, getUniqueValues('class'));
@@ -1456,6 +1517,9 @@
     populateSelect(elements.filters.clubTeam, getUniqueValues('clubTeam'));
     populateSelect(elements.filters.highSchool, getUniqueValues('highSchool'));
     populateSelect(elements.filters.college, getUniqueValues('college'));
+
+    buildPills(elements.filters.gender);
+    buildPills(elements.filters.class);
 
     Object.values(elements.filters).forEach(select => select.addEventListener('change', update));
 
@@ -1468,6 +1532,8 @@
     elements.reset.addEventListener('click', () => {
       Object.values(elements.filters).forEach(s => { s.value = ''; });
       elements.search.value = '';
+      syncPills(elements.filters.gender);
+      syncPills(elements.filters.class);
       update();
     });
   }
