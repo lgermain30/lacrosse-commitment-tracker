@@ -1354,7 +1354,7 @@
     if (!name) return safe;
     const bg = colorFromString(name);
     const initials = escapeHtml(collegeInitials(name));
-    const logoUrl = (String(division || '').toUpperCase() === 'D1') ? D1_LOGOS[name] : null;
+    const logoUrl = D1_LOGOS[name] || null;
     let img = '';
     if (logoUrl) {
       const el = document.createElement('img');
