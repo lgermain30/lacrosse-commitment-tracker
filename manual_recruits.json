@@ -25271,6 +25271,18 @@
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-01-20"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Carlina DiFondi",
+      "college": "Yale",
+      "position": "Middie",
+      "clubTeam": "Monster",
+      "highSchool": "Victor",
+      "state": "NY",
+      "commitmentDate": "2026-07-22"
     }
   ]
 }

@@ -60,6 +60,44 @@ function loadManual() {
   }
 }
 
+// AP-style state/province abbreviations (as the upstream feed sometimes appends
+// them to the high-school name, e.g. "Shawnee - N.J.") mapped to the two-letter
+// codes the State column already uses. Only these known abbreviations are
+// treated as a state; anything else after " - " is left in the school name so a
+// real school name containing a hyphen (e.g. "X - North Campus") is not mangled.
+const STATE_ABBR = {
+  'Ala.': 'AL', 'Ariz.': 'AZ', 'Ark.': 'AR', 'Calif.': 'CA', 'Colo.': 'CO',
+  'Conn.': 'CT', 'Del.': 'DE', 'Fla.': 'FL', 'Ga.': 'GA', 'Idaho': 'ID',
+  'Ill.': 'IL', 'Ind.': 'IN', 'Kan.': 'KS', 'Ky.': 'KY', 'La.': 'LA',
+  'Maine': 'ME', 'Mass.': 'MA', 'Md.': 'MD', 'Mich.': 'MI', 'Minn.': 'MN',
+  'Mo.': 'MO', 'Mont.': 'MT', 'Neb.': 'NE', 'Nev.': 'NV', 'N.C.': 'NC',
+  'N.D.': 'ND', 'N.H.': 'NH', 'N.J.': 'NJ', 'N.M.': 'NM', 'N.Y.': 'NY',
+  'Ohio': 'OH', 'Okla.': 'OK', 'Ore.': 'OR', 'Pa.': 'PA', 'R.I.': 'RI',
+  'S.C.': 'SC', 'S.D.': 'SD', 'Tenn.': 'TN', 'Texas': 'TX', 'Utah': 'UT',
+  'Va.': 'VA', 'Vt.': 'VT', 'Wash.': 'WA', 'W.Va.': 'WV', 'Wis.': 'WI',
+  'Wyo.': 'WY', 'D.C.': 'DC',
+  // Canadian provinces / already two-letter tails the feed uses as-is.
+  'AB': 'AB', 'BC': 'BC', 'MB': 'MB', 'ON': 'ON', 'QC': 'QC', 'DC': 'DC',
+};
+
+// Move a state that the feed tacked onto the end of the high-school name into
+// the dedicated `state` field, so it renders in the State column instead of
+// under High School. Only runs when `state` is empty and the trailing token is
+// a recognized abbreviation.
+function normalizeState(r) {
+  if (r.state && r.state.trim()) return r;
+  const hs = r.highSchool || '';
+  const idx = hs.lastIndexOf(' - ');
+  if (idx === -1) return r;
+  const tail = hs.slice(idx + 3).trim();
+  const code = STATE_ABBR[tail];
+  if (code) {
+    r.state = code;
+    r.highSchool = hs.slice(0, idx).trim();
+  }
+  return r;
+}
+
 async function scrape() {
   console.log('Fetching commitment data from API...');
   const json = await fetchJSON(API_URL);
@@ -131,6 +169,10 @@ async function scrape() {
       console.log(`Collapsed ${before - recruits.length} exact duplicate row(s)`);
     }
   }
+
+  // Pull any state the feed appended to the high-school name into the State
+  // column (applies to both scraped and manual rows).
+  recruits.forEach(normalizeState);
 
   // Newest commitments first so recently-added entries surface at the top.
   recruits.sort((a, b) => (b.commitmentDate || '').localeCompare(a.commitmentDate || ''));
