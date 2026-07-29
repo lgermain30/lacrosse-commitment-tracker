@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T15:51:52.335Z",
+  "generatedAt": "2026-07-29T08:18:07.612Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8591,
+  "count": 8593,
   "recruits": [
     {
       "gender": "Boys",
@@ -62225,6 +62225,18 @@
     },
     {
       "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Luke St. Pierre",
+      "college": "North Carolina",
+      "position": "Defense",
+      "clubTeam": "Leading Edge",
+      "highSchool": "Lawrenceville",
+      "state": "NJ",
+      "commitmentDate": "2025-09-02"
+    },
+    {
+      "gender": "Boys",
       "class": "2026",
       "division": "D3",
       "playerName": "Nick Todryk",
@@ -84085,6 +84097,18 @@
       "clubTeam": "MN Elite",
       "highSchool": "Prior Lake",
       "state": "MN",
+      "commitmentDate": "2024-11-24"
+    },
+    {
+      "gender": "Girls",
+      "class": "2026",
+      "division": "D1",
+      "playerName": "Caitlin Oguin",
+      "college": "Bryant",
+      "position": "Middie",
+      "clubTeam": "Triumph",
+      "highSchool": "Birmingham United",
+      "state": "MI",
       "commitmentDate": "2024-11-24"
     },
     {
