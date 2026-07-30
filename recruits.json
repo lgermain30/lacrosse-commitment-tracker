@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T08:18:07.612Z",
+  "generatedAt": "2026-07-30T08:06:00.040Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8593,
+  "count": 8594,
   "recruits": [
     {
       "gender": "Boys",
@@ -33343,7 +33343,7 @@
       "gender": "Boys",
       "class": "2026",
       "division": "D3",
-      "playerName": "Colton Sim\u00f5es",
+      "playerName": "Colton Simões",
       "college": "Maine Maritime",
       "position": "FOGO",
       "clubTeam": "No Club Found",
@@ -37363,6 +37363,18 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
+      "playerName": "Carlina DeFondi",
+      "college": "Syracuse",
+      "position": "Middie",
+      "clubTeam": "Monster",
+      "highSchool": "Victor",
+      "state": "NY",
+      "commitmentDate": "2025-10-26"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D1",
       "playerName": "Makayla McLarney",
       "college": "UAlbany",
       "position": "Defense",
@@ -41291,7 +41303,7 @@
       "college": "Quincy",
       "position": "Goalie",
       "clubTeam": "All American Aim",
-      "highSchool": "Holy Cross Academy \u2003",
+      "highSchool": "Holy Cross Academy  ",
       "state": "NJ",
       "commitmentDate": "2025-10-14"
     },
@@ -44611,7 +44623,7 @@
       "gender": "Girls",
       "class": "2026",
       "division": "D3",
-      "playerName": "Zo\u00eb Bosch",
+      "playerName": "Zoë Bosch",
       "college": "RPI",
       "position": "Defense",
       "clubTeam": "214",
