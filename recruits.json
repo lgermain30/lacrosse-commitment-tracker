@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-07-30T08:06:00.040Z",
+  "generatedAt": "2026-07-30T08:08:49.612Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8594,
+  "count": 8599,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ryan McCarthy",
+      "college": "Loyola",
+      "position": "Attack",
+      "clubTeam": "3d New England 2027 Red",
+      "highSchool": "St Johns Prep Danvers",
+      "state": "MA",
+      "commitmentDate": "2026-07-29"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -13,6 +25,66 @@
       "clubTeam": "Blue Star 2027 White",
       "highSchool": "Shawnee",
       "state": "NJ",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Nick Shanahan",
+      "college": "Trinity (CT)",
+      "position": "Defense",
+      "clubTeam": "Team Ten 2027",
+      "highSchool": "Haverford School",
+      "state": "PA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "George Leary",
+      "college": "Trinity (CT)",
+      "position": "FOGO",
+      "clubTeam": "ADVNC NDP 2027 White",
+      "highSchool": "Marin Academy",
+      "state": "CA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Wyatt Raleigh",
+      "college": "Saint Josephs",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "White Bear Lake",
+      "state": "MN",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ryan Martin",
+      "college": "Colby",
+      "position": "Attack",
+      "clubTeam": "Laxachusetts 2027 Black",
+      "highSchool": "Phillips Andover",
+      "state": "MA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Liam Zwanch",
+      "college": "Catholic",
+      "position": "Middie",
+      "clubTeam": "Big 4 HHH 2027",
+      "highSchool": "La Salle College High",
+      "state": "PA",
       "commitmentDate": "2026-07-27"
     },
     {
@@ -48445,18 +48517,6 @@
       "clubTeam": "BBL",
       "highSchool": "Don Bosco Prep",
       "state": "NJ",
-      "commitmentDate": "2025-09-26"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Ryan McCarthy",
-      "college": "Utah",
-      "position": "Attack",
-      "clubTeam": "3d NE",
-      "highSchool": "St Johns Preparatory School (MA)",
-      "state": "MA",
       "commitmentDate": "2025-09-26"
     },
     {
