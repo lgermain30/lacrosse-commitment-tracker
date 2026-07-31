@@ -1,8 +1,80 @@
 {
-  "generatedAt": "2026-07-30T08:06:00.040Z",
+  "generatedAt": "2026-07-31T08:32:00.873Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8594,
+  "count": 8485,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ryan McCarthy",
+      "college": "Loyola",
+      "position": "Attack",
+      "clubTeam": "3d New England 2027 Red",
+      "highSchool": "St Johns Prep Danvers",
+      "state": "MA",
+      "commitmentDate": "2026-07-29"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Nick Shanahan",
+      "college": "Trinity (CT)",
+      "position": "Defense",
+      "clubTeam": "Team Ten 2027",
+      "highSchool": "Haverford School",
+      "state": "PA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "George Leary",
+      "college": "Trinity (CT)",
+      "position": "FOGO",
+      "clubTeam": "ADVNC NDP 2027 White",
+      "highSchool": "Marin Academy",
+      "state": "CA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Wyatt Raleigh",
+      "college": "Saint Josephs",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "White Bear Lake",
+      "state": "MN",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ryan Martin",
+      "college": "Colby",
+      "position": "Attack",
+      "clubTeam": "Laxachusetts 2027 Black",
+      "highSchool": "Phillips Andover",
+      "state": "MA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Liam Zwanch",
+      "college": "Catholic",
+      "position": "Middie",
+      "clubTeam": "Big 4 HHH 2027",
+      "highSchool": "La Salle College High",
+      "state": "PA",
+      "commitmentDate": "2026-07-27"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -349,18 +421,6 @@
       "clubTeam": "",
       "highSchool": "Wayzata",
       "state": "MN",
-      "commitmentDate": "2026-07-19"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Ryan Czezuga",
-      "college": "Kean",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "West Milford",
-      "state": "NJ",
       "commitmentDate": "2026-07-19"
     },
     {
@@ -739,18 +799,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Jaxon Leonard",
-      "college": "Air Force",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Charlotte Catholic",
-      "state": "NC",
-      "commitmentDate": "2026-07-16"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Andrew Henson",
       "college": "Bates",
       "position": "LSM",
@@ -829,18 +877,6 @@
       "clubTeam": "",
       "highSchool": "Malvern Prep",
       "state": "PA",
-      "commitmentDate": "2026-07-16"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "AJ Allan",
-      "college": "Mercy",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "West Islip",
-      "state": "NY",
       "commitmentDate": "2026-07-16"
     },
     {
@@ -1012,30 +1048,6 @@
       "commitmentDate": "2026-07-16"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Canie Harkins",
-      "college": "York",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Parkside",
-      "state": "MD",
-      "commitmentDate": "2026-07-16"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Taylor Interrante",
-      "college": "Salve Regina",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Hopkinton",
-      "state": "MA",
-      "commitmentDate": "2026-07-16"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -1069,18 +1081,6 @@
       "clubTeam": "Mesa PA 2027",
       "highSchool": "Scranton Prep",
       "state": "PA",
-      "commitmentDate": "2026-07-15"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Hart Callahan",
-      "college": "Westminster (Pa.)",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Rutgers Prep",
-      "state": "NJ",
       "commitmentDate": "2026-07-15"
     },
     {
@@ -1864,18 +1864,6 @@
       "commitmentDate": "2026-07-13"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Vivian Lefkovits",
-      "college": "Saint Leo",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Dunwoody",
-      "state": "GA",
-      "commitmentDate": "2026-07-13"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -1976,18 +1964,6 @@
       "class": "2027",
       "division": "",
       "playerName": "Laney DelRosso",
-      "college": "Neumann",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "William Tennent",
-      "state": "PA",
-      "commitmentDate": "2026-07-12"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Laney DelRossi",
       "college": "Neumann",
       "position": "Attack",
       "clubTeam": "",
@@ -2305,18 +2281,6 @@
       "clubTeam": "",
       "highSchool": "Bellaire",
       "state": "TX",
-      "commitmentDate": "2026-07-10"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Aliza Schlef",
-      "college": "Williams",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Hall",
-      "state": "CT",
       "commitmentDate": "2026-07-10"
     },
     {
@@ -3004,18 +2968,6 @@
       "commitmentDate": "2026-07-08"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Stella Opanhoske",
-      "college": "William Smith",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Jordan-Elbridge",
-      "state": "NY",
-      "commitmentDate": "2026-07-08"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -3049,18 +3001,6 @@
       "clubTeam": "Team 91 South 2027 Blue",
       "highSchool": "Cannon School",
       "state": "NC",
-      "commitmentDate": "2026-07-07"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Elliott Exeter",
-      "college": "Iona",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "Louisville Trinity",
-      "state": "KY",
       "commitmentDate": "2026-07-07"
     },
     {
@@ -3415,18 +3355,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Kircher Brackswick",
-      "college": "Denison",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Cannon School",
-      "state": "NC",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Jack Shpiz",
       "college": "Williams",
       "position": "Attack",
@@ -3456,18 +3384,6 @@
       "position": "Middie",
       "clubTeam": "Shred Thread National 2026 Blue",
       "highSchool": "IMG National",
-      "state": "FL",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Joseph Kemp",
-      "college": "Tufts",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Benjamin",
       "state": "FL",
       "commitmentDate": "2026-07-06"
     },
@@ -3655,18 +3571,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "",
-      "playerName": "Linnea Fung",
-      "college": "Messiah",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Benet Academy",
-      "state": "IL",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
       "playerName": "Kate Martin",
       "college": "Washington and Lee",
       "position": "Middie",
@@ -3691,18 +3595,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Vincenzo Afflisio",
-      "college": "Arcadia",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Upper Dublin",
-      "state": "PA",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Kircher Bracksieck",
       "college": "Denison",
       "position": "Defense",
@@ -3721,42 +3613,6 @@
       "clubTeam": "Sweetlax FL 2027",
       "highSchool": "Benjamin",
       "state": "FL",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Ellsie Freitas",
-      "college": "Wesleyan",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "La Salle Academy",
-      "state": "RI",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "",
-      "playerName": "Lindsay Smith",
-      "college": "Fredonia",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Brewster",
-      "state": "NY",
-      "commitmentDate": "2026-07-06"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Kathryn Commoss",
-      "college": "Connecticut College",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "The Governor's Academy",
-      "state": "MA",
       "commitmentDate": "2026-07-06"
     },
     {
@@ -3997,18 +3853,6 @@
       "clubTeam": "",
       "highSchool": "Oak Knoll School",
       "state": "NJ",
-      "commitmentDate": "2026-07-04"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Tessa Gerrard",
-      "college": "Catholic",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Calhoun",
-      "state": "NY",
       "commitmentDate": "2026-07-04"
     },
     {
@@ -4345,18 +4189,6 @@
       "clubTeam": "",
       "highSchool": "Darien",
       "state": "CT",
-      "commitmentDate": "2026-07-03"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Colette Millison",
-      "college": "Occidental",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Holy Names Acad, WA",
-      "state": "WA",
       "commitmentDate": "2026-07-03"
     },
     {
@@ -4951,18 +4783,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "",
-      "playerName": "Carleigh Mascio",
-      "college": "Tufts",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Darien",
-      "state": "CT",
-      "commitmentDate": "2026-07-02"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
       "playerName": "Tatum Donovan",
       "college": "Bates",
       "position": "Middie",
@@ -5101,18 +4921,6 @@
       "clubTeam": "LI Express 2027 Moran",
       "highSchool": "St. Anthony's",
       "state": "NY",
-      "commitmentDate": "2026-07-01"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Luke Barni",
-      "college": "Washington and Lee",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "New Albany",
-      "state": "OH",
       "commitmentDate": "2026-07-01"
     },
     {
@@ -5641,18 +5449,6 @@
       "clubTeam": "Upper Level Elite 2027",
       "highSchool": "St Joseph Metuchen",
       "state": "NJ",
-      "commitmentDate": "2026-07-01"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Edward Gnauty",
-      "college": "Amherst",
-      "position": "LSM",
-      "clubTeam": "",
-      "highSchool": "Episcopal HS",
-      "state": "VA",
       "commitmentDate": "2026-07-01"
     },
     {
@@ -6355,18 +6151,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Michael Rodosky",
-      "college": "Amherst",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Western Reserve Academy",
-      "state": "OH",
-      "commitmentDate": "2026-07-01"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Edward Grasty",
       "college": "Amherst",
       "position": "LSM",
@@ -6385,30 +6169,6 @@
       "clubTeam": "4Leaf Army 2027",
       "highSchool": "Avon Old Farms",
       "state": "CT",
-      "commitmentDate": "2026-07-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Grace Hankes",
-      "college": "Occidental",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Cape Elizabeth",
-      "state": "ME",
-      "commitmentDate": "2026-07-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Chloe Tupis",
-      "college": "Amherst",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Cardinal Gibbons",
-      "state": "NC",
       "commitmentDate": "2026-07-01"
     },
     {
@@ -6727,18 +6487,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Davis Oakley",
-      "college": "Washington and Lee",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "St Anne's-Belfield",
-      "state": "VA",
-      "commitmentDate": "2026-06-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Michael Biehn",
       "college": "Maine Maritime",
       "position": "Goalie",
@@ -6919,18 +6667,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "",
-      "playerName": "Natalie Byrne",
-      "college": "Stony Brook",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Massapequa",
-      "state": "NY",
-      "commitmentDate": "2026-06-27"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
       "playerName": "Lily Keene",
       "college": "Roanoke",
       "position": "Defense",
@@ -7075,18 +6811,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Liam Tresser",
-      "college": "Salve Regina",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": "2026-06-26"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Ben Cushing",
       "college": "Rhodes",
       "position": "Defense",
@@ -7193,18 +6917,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Anza Alota",
-      "college": "Providence",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Mater Dei",
-      "state": "CA",
-      "commitmentDate": "2026-06-24"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Mason Schembri",
@@ -7297,30 +7009,6 @@
       "clubTeam": "Mad Dog West Elite Boys 2027",
       "highSchool": "Mater Dei",
       "state": "CA",
-      "commitmentDate": "2026-06-24"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Allison Sculthorp",
-      "college": "Concordia-St. Paul",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Blaine",
-      "state": "MN",
-      "commitmentDate": "2026-06-24"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Emma Dessi",
-      "college": "Scranton",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Manhasset",
-      "state": "NY",
       "commitmentDate": "2026-06-24"
     },
     {
@@ -7471,18 +7159,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Matthew Brisette",
-      "college": "Misericordia",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Bethpage",
-      "state": "NY",
-      "commitmentDate": "2026-06-23"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "William Dunn",
       "college": "Kenyon",
       "position": "LSM",
@@ -7525,18 +7201,6 @@
       "clubTeam": "",
       "highSchool": "Haverford HS",
       "state": "PA",
-      "commitmentDate": "2026-06-22"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Justin Balagus",
-      "college": "Babson",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "The Governor's Academy",
-      "state": "MA",
       "commitmentDate": "2026-06-22"
     },
     {
@@ -7660,18 +7324,6 @@
       "commitmentDate": "2026-06-22"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Braelyn Daka",
-      "college": "Monmouth",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Shore Regional",
-      "state": "NJ",
-      "commitmentDate": "2026-06-22"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -7756,18 +7408,6 @@
       "commitmentDate": "2026-06-21"
     },
     {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Luke Kwitkowski",
-      "college": "St. John Fisher",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Independence",
-      "state": "VA",
-      "commitmentDate": "2026-06-21"
-    },
-    {
       "gender": "Girls",
       "class": "2027",
       "division": "",
@@ -7789,18 +7429,6 @@
       "clubTeam": "M&D Orlando 2027 Black",
       "highSchool": "Lake Mary",
       "state": "FL",
-      "commitmentDate": "2026-06-21"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Xander Viens",
-      "college": "Salve Regina",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "North Kingstown",
-      "state": "RI",
       "commitmentDate": "2026-06-21"
     },
     {
@@ -7927,18 +7555,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Emmett Hega",
-      "college": "Alabama Huntsville",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Roswell",
-      "state": "GA",
-      "commitmentDate": "2026-06-19"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Carson Garon",
       "college": "Saint Anselm",
       "position": "Middie",
@@ -8017,18 +7633,6 @@
       "clubTeam": "",
       "highSchool": "Rock Canyon",
       "state": "CO",
-      "commitmentDate": "2026-06-19"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Danny Wagner",
-      "college": "Mary Washington",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "Springfield-Delco",
-      "state": "PA",
       "commitmentDate": "2026-06-19"
     },
     {
@@ -8273,18 +7877,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Ryan Theilen",
-      "college": "Rhodes",
-      "position": "LSM",
-      "clubTeam": "",
-      "highSchool": "West Seattle",
-      "state": "WA",
-      "commitmentDate": "2026-06-17"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Tatum Little",
@@ -8293,18 +7885,6 @@
       "clubTeam": "True FL 2026 Black Baron",
       "highSchool": "Benjamin",
       "state": "FL",
-      "commitmentDate": "2026-06-16"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Michael Fyre",
-      "college": "Binghamton",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Putnam Valley",
-      "state": "NY",
       "commitmentDate": "2026-06-16"
     },
     {
@@ -8839,18 +8419,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Josh Mega",
-      "college": "Saint Vincent",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Penn Trafford",
-      "state": "PA",
-      "commitmentDate": "2026-06-10"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Nolan Cranmer",
       "college": "Saint Vincent",
       "position": "Attack",
@@ -9025,18 +8593,6 @@
       "clubTeam": "Red Hots 2027 AA",
       "highSchool": "Penn Trafford",
       "state": "PA",
-      "commitmentDate": "2026-06-10"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Maxx Jason",
-      "college": "Hope",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Grand Rapids Kenowa Hills",
-      "state": "MI",
       "commitmentDate": "2026-06-10"
     },
     {
@@ -9532,18 +9088,6 @@
       "commitmentDate": "2026-06-04"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Kami DiMeo",
-      "college": "Alma",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Lake Orion",
-      "state": "MI",
-      "commitmentDate": "2026-06-04"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -9565,18 +9109,6 @@
       "clubTeam": "",
       "highSchool": "Bayport-Blue Point",
       "state": "NY",
-      "commitmentDate": "2026-06-03"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Dane Heidtoch",
-      "college": "Maryville",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Orchard Lake St Mary's",
-      "state": "MI",
       "commitmentDate": "2026-06-03"
     },
     {
@@ -9785,18 +9317,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Hudson Prois",
-      "college": "John Carroll",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "McQuaid Jesuit",
-      "state": "NY",
-      "commitmentDate": "2026-06-01"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Cole Hannigan",
@@ -9928,30 +9448,6 @@
       "commitmentDate": "2026-06-01"
     },
     {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Charlies Carey",
-      "college": "Franciscan",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Paul VI",
-      "state": "VA",
-      "commitmentDate": "2026-06-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "",
-      "playerName": "Lillian Gazda",
-      "college": "Marymount",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Colgan",
-      "state": "VA",
-      "commitmentDate": "2026-06-01"
-    },
-    {
       "gender": "Girls",
       "class": "2027",
       "division": "",
@@ -10009,18 +9505,6 @@
       "clubTeam": "",
       "highSchool": "Red Hook",
       "state": "NY",
-      "commitmentDate": "2026-05-31"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "",
-      "playerName": "Mya Fidaleo",
-      "college": "Union",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "New Fairfield",
-      "state": "CT",
       "commitmentDate": "2026-05-31"
     },
     {
@@ -10267,18 +9751,6 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
-      "playerName": "Isaac Schaal",
-      "college": "Hope",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Spring Lake",
-      "state": "MI",
-      "commitmentDate": "2026-05-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
       "playerName": "Jontae Walker",
       "college": "Point Park",
       "position": "Middie",
@@ -10297,18 +9769,6 @@
       "clubTeam": "",
       "highSchool": "Forman School",
       "state": "CT",
-      "commitmentDate": "2026-05-27"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Kevan Jensen",
-      "college": "Westminster (UT)",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Glacier Peak",
-      "state": "WA",
       "commitmentDate": "2026-05-27"
     },
     {
@@ -10708,18 +10168,6 @@
       "commitmentDate": "2026-05-20"
     },
     {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Andrew McDonald",
-      "college": "Delaware",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Boys' Latin",
-      "state": "MD",
-      "commitmentDate": "2026-05-20"
-    },
-    {
       "gender": "Girls",
       "class": "2027",
       "division": "",
@@ -10972,18 +10420,6 @@
       "commitmentDate": "2026-05-18"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Layla Paole",
-      "college": "Roanoke",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "East Catholic",
-      "state": "CT",
-      "commitmentDate": "2026-05-18"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -11092,18 +10528,6 @@
       "commitmentDate": "2026-05-16"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Brooke Kemish",
-      "college": "Bridgewater State",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Berlin",
-      "state": "CT",
-      "commitmentDate": "2026-05-16"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -11185,30 +10609,6 @@
       "clubTeam": "",
       "highSchool": "Lacey Township",
       "state": "NJ",
-      "commitmentDate": "2026-05-15"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Nicholas Hirsch",
-      "college": "Clarkson",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Trinity-Pawling",
-      "state": "NY",
-      "commitmentDate": "2026-05-15"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Remy Terranova",
-      "college": "Drew",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Portledge",
-      "state": "NY",
       "commitmentDate": "2026-05-15"
     },
     {
@@ -11341,30 +10741,6 @@
       "clubTeam": "",
       "highSchool": "Downers Grove Co-Op",
       "state": "IL",
-      "commitmentDate": "2026-05-14"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Greta Shepanski",
-      "college": "Seton Hill",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Lower Cape May",
-      "state": "NJ",
-      "commitmentDate": "2026-05-14"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Laila Thomas",
-      "college": "Ithaca",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "East Syracuse-Minoa",
-      "state": "NY",
       "commitmentDate": "2026-05-14"
     },
     {
@@ -11509,54 +10885,6 @@
       "clubTeam": "",
       "highSchool": "Vernon Township",
       "state": "NJ",
-      "commitmentDate": "2026-05-13"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Sam Philion",
-      "college": "Franklin Pierce",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "St Johns Shrewsbury",
-      "state": "MA",
-      "commitmentDate": "2026-05-13"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Grayson Gavlik",
-      "college": "William Jewell",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Bixby",
-      "state": "OK",
-      "commitmentDate": "2026-05-13"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Luke Burmis",
-      "college": "William Jewell",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Rogers",
-      "state": "MN",
-      "commitmentDate": "2026-05-13"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Michael Lutes",
-      "college": "Lincoln Memorial",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Cypress Creek",
-      "state": "FL",
       "commitmentDate": "2026-05-13"
     },
     {
@@ -11737,18 +11065,6 @@
       "clubTeam": "Northstar 2027",
       "highSchool": "Southlake",
       "state": "TX",
-      "commitmentDate": "2026-05-11"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Owen Marcolini",
-      "college": "Stevenson",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Lowville",
-      "state": "NY",
       "commitmentDate": "2026-05-11"
     },
     {
@@ -12196,42 +11512,6 @@
       "commitmentDate": "2026-05-05"
     },
     {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Sam Schewee",
-      "college": "Hendrix",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Hebron",
-      "state": "TX",
-      "commitmentDate": "2026-05-05"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Peter Gilhauley",
-      "college": "Cortland",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "William Floyd",
-      "state": "NY",
-      "commitmentDate": "2026-05-05"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Mark Borzilo",
-      "college": "Franklin Pierce",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "North Branford",
-      "state": "CT",
-      "commitmentDate": "2026-05-05"
-    },
-    {
       "gender": "Girls",
       "class": "2026",
       "division": "",
@@ -12388,18 +11668,6 @@
       "commitmentDate": "2026-05-04"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Sierra Enfonde",
-      "college": "Ashland",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Penfield",
-      "state": "NY",
-      "commitmentDate": "2026-05-04"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -12529,18 +11797,6 @@
       "clubTeam": "",
       "highSchool": "South Hagerstown",
       "state": "MD",
-      "commitmentDate": "2026-05-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "",
-      "playerName": "Madeline Wiesenhofer",
-      "college": "Lees-McRae",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
       "commitmentDate": "2026-05-01"
     },
     {
@@ -12700,18 +11956,6 @@
       "commitmentDate": "2026-04-29"
     },
     {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Jake Henschel",
-      "college": "Merchant Marine",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "MacArthur",
-      "state": "NY",
-      "commitmentDate": "2026-04-29"
-    },
-    {
       "gender": "Girls",
       "class": "2027",
       "division": "",
@@ -12841,18 +12085,6 @@
       "clubTeam": "",
       "highSchool": "St. Stephen's",
       "state": "NC",
-      "commitmentDate": "2026-04-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Maxx Shone",
-      "college": "Lafayette",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Western Reserve Academy",
-      "state": "OH",
       "commitmentDate": "2026-04-28"
     },
     {
@@ -13435,18 +12667,6 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
-      "playerName": "Matthew Tench",
-      "college": "Coast Guard",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "DeMatha",
-      "state": "MD",
-      "commitmentDate": "2026-04-20"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
       "playerName": "Brogan Casper",
       "college": "Marywood",
       "position": "Goalie",
@@ -13975,18 +13195,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "",
-      "playerName": "Audrey Filaci",
-      "college": "Clarkson",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Pittsford",
-      "state": "NY",
-      "commitmentDate": "2026-04-14"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
       "playerName": "Kacey Straub",
       "college": "Tusculum",
       "position": "Defense",
@@ -14161,18 +13369,6 @@
       "clubTeam": "",
       "highSchool": "Lincoln-Sudbury",
       "state": "MA",
-      "commitmentDate": "2026-04-13"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Jacob Burack",
-      "college": "Curry",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Harrison",
-      "state": "NY",
       "commitmentDate": "2026-04-13"
     },
     {
@@ -15208,18 +14404,6 @@
       "commitmentDate": "2026-04-01"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Ava Minsker",
-      "college": "Edinboro",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Central Dauphin",
-      "state": "PA",
-      "commitmentDate": "2026-04-01"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -15739,18 +14923,6 @@
       "gender": "Boys",
       "class": "2026",
       "division": "",
-      "playerName": "David Genay",
-      "college": "Trine",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Woodstock Academy",
-      "state": "CT",
-      "commitmentDate": "2026-03-27"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
       "playerName": "Malachi Waduge",
       "college": "Coast Guard",
       "position": "Defense",
@@ -15817,18 +14989,6 @@
       "clubTeam": "",
       "highSchool": "Muskego",
       "state": "WI",
-      "commitmentDate": "2026-03-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "",
-      "playerName": "Camryn Hinsch",
-      "college": "Missouri Western",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Chisago Lakes",
-      "state": "MN",
       "commitmentDate": "2026-03-26"
     },
     {
@@ -16075,18 +15235,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Aiden Gooch",
-      "college": "Cleveland State",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Milford",
-      "state": "OH",
-      "commitmentDate": "2026-03-23"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Trent Rash",
       "college": "Embry-Riddle",
       "position": "LSM",
@@ -16312,18 +15460,6 @@
       "commitmentDate": "2026-03-22"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Annika Jacques",
-      "college": "Framingham State",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": "2026-03-22"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -16525,18 +15661,6 @@
       "clubTeam": "",
       "highSchool": "North Dorchester",
       "state": "MD",
-      "commitmentDate": "2026-03-20"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Grayson Adams",
-      "college": "Alabama Huntsville",
-      "position": "SSDM",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
       "commitmentDate": "2026-03-20"
     },
     {
@@ -17089,18 +16213,6 @@
       "clubTeam": "",
       "highSchool": "Queensbury",
       "state": "NY",
-      "commitmentDate": "2026-03-16"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Grace Lorang",
-      "college": "UIndy",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Schaumburg",
-      "state": "IL",
       "commitmentDate": "2026-03-16"
     },
     {
@@ -17932,30 +17044,6 @@
       "commitmentDate": "2026-03-09"
     },
     {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Ryan Croswell",
-      "college": "Loyola",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "Archbishop Spalding",
-      "state": "MD",
-      "commitmentDate": "2026-03-09"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Ooin Brogan",
-      "college": "Saint Michael's",
-      "position": "LSM",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": "2026-03-09"
-    },
-    {
       "gender": "Girls",
       "class": "2027",
       "division": "",
@@ -18181,18 +17269,6 @@
       "clubTeam": "",
       "highSchool": "St John's DC",
       "state": "DC",
-      "commitmentDate": "2026-03-08"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Landon Gaurneri",
-      "college": "McDaniel",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Downingtown West",
-      "state": "PA",
       "commitmentDate": "2026-03-08"
     },
     {
@@ -18641,18 +17717,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Gianni D'Ascenzo",
-      "college": "Moravian",
-      "position": "LSM",
-      "clubTeam": "",
-      "highSchool": "Somerville",
-      "state": "NJ",
-      "commitmentDate": "2026-03-03"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Zachary Conners",
@@ -18829,18 +17893,6 @@
       "clubTeam": "NJ Riot 2027 Chaos",
       "highSchool": "Randolph",
       "state": "NJ",
-      "commitmentDate": "2026-03-03"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Mason Stott",
-      "college": "Westminster (Pa.)",
-      "position": "LSM",
-      "clubTeam": "",
-      "highSchool": "Ponderosa",
-      "state": "CO",
       "commitmentDate": "2026-03-03"
     },
     {
@@ -19109,18 +18161,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Tyler Costa",
-      "college": "Penn State Harrisburg",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": "2026-03-02"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Danny Weber",
@@ -19217,18 +18257,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Reid Croisdale",
-      "college": "Carthage",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": "2026-03-01"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Anderson Boyle",
@@ -19286,18 +18314,6 @@
       "highSchool": "Blaine",
       "state": "MN",
       "commitmentDate": "2026-02-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Ethyn Horn",
-      "college": "Aurora",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Whitney",
-      "state": "CA",
-      "commitmentDate": "2026-02-27"
     },
     {
       "gender": "Boys",
@@ -19469,18 +18485,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Meco Favors, Jr.",
-      "college": "Palm Beach Atlantic",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "St Pius X",
-      "state": "GA",
-      "commitmentDate": "2026-02-26"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Clive Derba",
@@ -19645,18 +18649,6 @@
       "clubTeam": "",
       "highSchool": "Kell",
       "state": "GA",
-      "commitmentDate": "2026-02-25"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Mason O'Malley",
-      "college": "Roberts Wesleyan",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Hamburg",
-      "state": "NY",
       "commitmentDate": "2026-02-25"
     },
     {
@@ -19897,18 +18889,6 @@
       "clubTeam": "",
       "highSchool": "North Hunterdon",
       "state": "NJ",
-      "commitmentDate": "2026-02-23"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Jake Eckos",
-      "college": "Kenyon",
-      "position": "FOGO",
-      "clubTeam": "",
-      "highSchool": "New Albany",
-      "state": "OH",
       "commitmentDate": "2026-02-23"
     },
     {
@@ -20381,18 +19361,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Alex Ciak",
-      "college": "North Central (Ill.)",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Notre Dame-Green Bay",
-      "state": "WI",
-      "commitmentDate": "2026-02-22"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Noah Rosenfeld",
@@ -20449,18 +19417,6 @@
       "clubTeam": "Patriot Elite 2027 Chrome",
       "highSchool": "North Hunterdon",
       "state": "NJ",
-      "commitmentDate": "2026-02-21"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Owen Hazul",
-      "college": "Clarkson",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Nazareth Area",
-      "state": "PA",
       "commitmentDate": "2026-02-21"
     },
     {
@@ -21313,18 +20269,6 @@
       "clubTeam": "Team 91 Northside 2027",
       "highSchool": "Resurrection Christian",
       "state": "CO",
-      "commitmentDate": "2026-02-16"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Mackay Chace",
-      "college": "Rhodes",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Georgetown Prep",
-      "state": "MD",
       "commitmentDate": "2026-02-16"
     },
     {
@@ -22637,18 +21581,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Devin Shah",
-      "college": "Stevens",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Ridgewood",
-      "state": "NJ",
-      "commitmentDate": "2026-02-06"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Jack Kelly",
@@ -22949,18 +21881,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Bodie Darcy",
-      "college": "SUNY Maritime",
-      "position": "LSM",
-      "clubTeam": "",
-      "highSchool": "Fairview",
-      "state": "PA",
-      "commitmentDate": "2026-02-04"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "James Liptak",
@@ -23101,30 +22021,6 @@
       "clubTeam": "",
       "highSchool": "Wiregrass Ranch",
       "state": "FL",
-      "commitmentDate": "2026-02-03"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Elijah Pawluk-Zacharias",
-      "college": "Mercyhurst",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Fork Union Military Academy",
-      "state": "VA",
-      "commitmentDate": "2026-02-03"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Rhett Schnetzmeier",
-      "college": "Rollins",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Marietta",
-      "state": "GA",
       "commitmentDate": "2026-02-03"
     },
     {
@@ -23527,18 +22423,6 @@
       "gender": "Boys",
       "class": "2027",
       "division": "",
-      "playerName": "Jason Biondi",
-      "college": "LIU",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Ward Melville",
-      "state": "NY",
-      "commitmentDate": "2026-02-02"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
       "playerName": "Ryan Madden",
       "college": "Scranton",
       "position": "LSM",
@@ -23753,18 +22637,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Jaxon Wilkinson",
-      "college": "Manhattan",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "St Augustine Prep",
-      "state": "NJ",
-      "commitmentDate": "2026-01-31"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "John Rovegno",
@@ -23833,18 +22705,6 @@
       "clubTeam": "",
       "highSchool": "",
       "state": "",
-      "commitmentDate": "2026-01-30"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Connor Garochow",
-      "college": "Le Moyne",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Oak Park & River Forest",
-      "state": "IL",
       "commitmentDate": "2026-01-30"
     },
     {
@@ -24149,18 +23009,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Michael Matan",
-      "college": "Tampa",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Gonzaga",
-      "state": "DC",
-      "commitmentDate": "2026-01-29"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Brody Gallant",
@@ -24265,30 +23113,6 @@
       "clubTeam": "Fusion West 2027",
       "highSchool": "",
       "state": "",
-      "commitmentDate": "2026-01-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Hudson Hall",
-      "college": "Queens",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Wheaton Academy",
-      "state": "IL",
-      "commitmentDate": "2026-01-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Colin Wallace",
-      "college": "Eastern",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Thunder Ridge",
-      "state": "CO",
       "commitmentDate": "2026-01-28"
     },
     {
@@ -37339,18 +36163,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
-      "playerName": "Enna Corely",
-      "college": "Stanford",
-      "position": "Attack",
-      "clubTeam": "Hero's",
-      "highSchool": "Marlborough",
-      "state": "CA",
-      "commitmentDate": "2025-10-26"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Cameron Baker",
       "college": "Stetson",
       "position": "Middie",
@@ -40098,18 +38910,6 @@
     {
       "gender": "Girls",
       "class": "2027",
-      "division": "D2",
-      "playerName": "Jade O'Neil",
-      "college": "West Chester",
-      "position": "Middie",
-      "clubTeam": "SJ Select",
-      "highSchool": "Mainland Regional",
-      "state": "NJ",
-      "commitmentDate": "2025-10-19"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
       "division": "D3",
       "playerName": "Emerson Byrd",
       "college": "Meredith",
@@ -41389,18 +40189,6 @@
       "clubTeam": "True Illinois Premier",
       "highSchool": "St Viator",
       "state": "IL",
-      "commitmentDate": "2025-10-14"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Chris Mattot",
-      "college": "Fairfield",
-      "position": "Attack",
-      "clubTeam": "Orange Crush",
-      "highSchool": "Liverpool",
-      "state": "NY",
       "commitmentDate": "2025-10-14"
     },
     {
@@ -45112,18 +43900,6 @@
       "commitmentDate": "2025-10-04"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Marianna Chimienti",
-      "college": "Rhode Island",
-      "position": "Attack",
-      "clubTeam": "LI Jesters",
-      "highSchool": "Long Beach",
-      "state": "NY",
-      "commitmentDate": "2025-10-04"
-    },
-    {
       "gender": "Boys",
       "class": "2026",
       "division": "D2",
@@ -48445,18 +47221,6 @@
       "clubTeam": "BBL",
       "highSchool": "Don Bosco Prep",
       "state": "NJ",
-      "commitmentDate": "2025-09-26"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Ryan McCarthy",
-      "college": "Utah",
-      "position": "Attack",
-      "clubTeam": "3d NE",
-      "highSchool": "St Johns Preparatory School (MA)",
-      "state": "MA",
       "commitmentDate": "2025-09-26"
     },
     {
@@ -54751,18 +53515,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
-      "playerName": "Ana Galati",
-      "college": "UMASS Lowell",
-      "position": "Middie",
-      "clubTeam": "Mad Dog",
-      "highSchool": "Clarkstown South",
-      "state": "NY",
-      "commitmentDate": "2025-09-16"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
       "playerName": "Mckenna Witwer",
       "college": "Villanova",
       "position": "Attack",
@@ -57961,18 +56713,6 @@
       "clubTeam": "Utah Summit",
       "highSchool": "Judge Memorial Catholic",
       "state": "UT",
-      "commitmentDate": "2025-09-11"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Harper Hazelton",
-      "college": "Louisville",
-      "position": "Defense",
-      "clubTeam": "CT Grizzlies",
-      "highSchool": "Darien",
-      "state": "CT",
       "commitmentDate": "2025-09-11"
     },
     {
@@ -62233,18 +60973,6 @@
       "clubTeam": "Texas Nationals",
       "highSchool": "Highland Park",
       "state": "TX",
-      "commitmentDate": "2025-09-02"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Luke St. Pierre",
-      "college": "North Carolina",
-      "position": "Defense",
-      "clubTeam": "Leading Edge",
-      "highSchool": "Lawrenceville",
-      "state": "NJ",
       "commitmentDate": "2025-09-02"
     },
     {
@@ -80467,18 +79195,6 @@
       "gender": "Boys",
       "class": "2026",
       "division": "D1",
-      "playerName": "Emanuel Jastrzebski",
-      "college": "Rutgers",
-      "position": "Attack",
-      "clubTeam": "Mad Dog",
-      "highSchool": "Notre Dame",
-      "state": "NJ",
-      "commitmentDate": "2025-01-15"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D1",
       "playerName": "Hunter Cristo",
       "college": "Dartmouth",
       "position": "Middie",
@@ -84109,18 +82825,6 @@
       "clubTeam": "MN Elite",
       "highSchool": "Prior Lake",
       "state": "MN",
-      "commitmentDate": "2024-11-24"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Caitlin Oguin",
-      "college": "Bryant",
-      "position": "Middie",
-      "clubTeam": "Triumph",
-      "highSchool": "Birmingham United",
-      "state": "MI",
       "commitmentDate": "2024-11-24"
     },
     {
@@ -88993,18 +87697,6 @@
       "clubTeam": "Texas Nationals",
       "highSchool": "Highland Park",
       "state": "TX",
-      "commitmentDate": "2024-10-14"
-    },
-    {
-      "gender": "Girls",
-      "class": "2026",
-      "division": "D1",
-      "playerName": "Sacrlett Gilner",
-      "college": "Elon",
-      "position": "Middie",
-      "clubTeam": "Team 91 Carolina",
-      "highSchool": "Chapel Hill",
-      "state": "NC",
       "commitmentDate": "2024-10-14"
     },
     {
