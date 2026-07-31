@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:08:49.612Z",
+  "generatedAt": "2026-07-31T08:32:00.873Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 8485,
   "recruits": [
@@ -14,18 +14,6 @@
       "highSchool": "St Johns Prep Danvers",
       "state": "MA",
       "commitmentDate": "2026-07-29"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Jackson Hays",
-      "college": "Hamilton",
-      "position": "Defense",
-      "clubTeam": "Blue Star 2027 White",
-      "highSchool": "Shawnee",
-      "state": "NJ",
-      "commitmentDate": "2026-07-27"
     },
     {
       "gender": "Boys",
@@ -85,6 +73,18 @@
       "clubTeam": "Big 4 HHH 2027",
       "highSchool": "La Salle College High",
       "state": "PA",
+      "commitmentDate": "2026-07-27"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Jackson Hays",
+      "college": "Hamilton",
+      "position": "Defense",
+      "clubTeam": "Blue Star 2027 White",
+      "highSchool": "Shawnee",
+      "state": "NJ",
       "commitmentDate": "2026-07-27"
     },
     {
