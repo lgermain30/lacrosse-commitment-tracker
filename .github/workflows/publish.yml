@@ -1,0 +1,67 @@
+name: Publish Commitment Edits
+
+# On-demand publisher for manually curated commitment edits.
+# It pulls the edited manual_recruits.json / suppress_recruits.json from a
+# source branch, re-runs the scraper (so recruits.json is regenerated with the
+# edits merged + stale rows suppressed), and commits the result to main. This
+# reuses the same bot-writes-to-main pattern as the daily scrape workflow, so
+# curated edits can go live without a manual PR merge.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: 'Branch/ref holding updated manual_recruits.json & suppress_recruits.json'
+        required: true
+        default: 'commit-updates'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Pull curated edits from source ref
+        run: |
+          git fetch origin "${{ github.event.inputs.source_ref }}"
+          git checkout FETCH_HEAD -- manual_recruits.json suppress_recruits.json
+
+      - name: Run scraper (regenerate recruits.json with edits applied)
+        run: npm run scrape
+
+      - name: Upload debug files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-debug
+          path: |
+            scraper-error.png
+            scraper-error.html
+            debug-*.png
+
+      - name: Commit and push to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manual_recruits.json suppress_recruits.json recruits.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+          else
+            git commit -m "Publish curated commitment edits [skip ci]"
+            git push origin HEAD:main
+          fi
