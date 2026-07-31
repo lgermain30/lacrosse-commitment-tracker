@@ -24107,6 +24107,18 @@
       "highSchool": "Victor",
       "state": "NY",
       "commitmentDate": "2026-07-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Gavin O'Brien",
+      "college": "Virginia",
+      "position": "Middie",
+      "clubTeam": "Team 91 Long Island",
+      "highSchool": "Northport",
+      "state": "NY",
+      "commitmentDate": "2026-07-17"
     }
   ],
   "count": 2009
