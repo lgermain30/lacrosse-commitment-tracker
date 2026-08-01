@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:26:58.076Z",
+  "generatedAt": "2026-08-01T20:34:13.389Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 8500,
   "recruits": [
@@ -22,7 +22,7 @@
       "playerName": "Matthew Petterson",
       "college": "High Point",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Hilltop",
       "highSchool": "Western Reserve Academy",
       "state": "OH",
       "commitmentDate": "2026-08-02"
@@ -34,7 +34,7 @@
       "playerName": "John Everett",
       "college": "Bucknell",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Kings 2027",
       "highSchool": "Valor Christian",
       "state": "CO",
       "commitmentDate": "2026-08-02"
@@ -82,21 +82,21 @@
       "playerName": "Braydon Uricchio",
       "college": "Muhlenberg",
       "position": "FOGO",
-      "clubTeam": "True Black Widow",
+      "clubTeam": "True Lacrosse",
       "highSchool": "Northwestern Lehigh",
       "state": "PA",
       "commitmentDate": "2026-08-01"
     },
     {
       "gender": "Boys",
-      "class": "2027",
+      "class": "2028",
       "division": "D1",
       "playerName": "Preston Penn",
       "college": "Hobart",
-      "position": "",
-      "clubTeam": "",
+      "position": "Middie",
+      "clubTeam": "Team 91 Connecticut Cavalry",
       "highSchool": "",
-      "state": "",
+      "state": "CT",
       "commitmentDate": "2026-08-01"
     },
     {
@@ -105,8 +105,8 @@
       "division": "D1",
       "playerName": "Ben Pagano",
       "college": "St. John's",
-      "position": "",
-      "clubTeam": "",
+      "position": "Defense",
+      "clubTeam": "Freedom Red",
       "highSchool": "Hill School",
       "state": "PA",
       "commitmentDate": "2026-08-01"
@@ -202,7 +202,7 @@
       "playerName": "Charlie Peters",
       "college": "Navy",
       "position": "Defense",
-      "clubTeam": "",
+      "clubTeam": "Express North Lacrosse",
       "highSchool": "Morgantown",
       "state": "WV",
       "commitmentDate": "2026-07-28"
