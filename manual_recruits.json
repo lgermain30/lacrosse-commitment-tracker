@@ -3,6 +3,18 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D1",
+      "playerName": "Lucas Nuccitelli",
+      "college": "Iona",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Webster Thomas",
+      "state": "NY",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "",
       "playerName": "Ryan McCarthy",
       "college": "Loyola",
