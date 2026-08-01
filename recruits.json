@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T22:40:46.267Z",
+  "generatedAt": "2026-08-01T23:06:17.352Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 8510,
   "recruits": [
@@ -57,8 +57,8 @@
       "division": "D3",
       "playerName": "Cade Johnston",
       "college": "Rivier",
-      "position": "",
-      "clubTeam": "NH Tomahawks",
+      "position": "Attack",
+      "clubTeam": "New Hampshire Tomahawks",
       "highSchool": "Pinkerton Academy",
       "state": "NH",
       "commitmentDate": "2026-08-01"
@@ -69,8 +69,8 @@
       "division": "D3",
       "playerName": "Ryan Janese",
       "college": "RIT",
-      "position": "",
-      "clubTeam": "",
+      "position": "Middie",
+      "clubTeam": "Buffalo Lacrosse Academy",
       "highSchool": "The Kiski School",
       "state": "PA",
       "commitmentDate": "2026-08-01"
@@ -91,12 +91,12 @@
       "gender": "Boys",
       "class": "2028",
       "division": "D1",
-      "playerName": "Wyatt Branssen",
+      "playerName": "Wyatt Franssen",
       "college": "Air Force",
-      "position": "",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "position": "FOGO",
+      "clubTeam": "Silverbacks 2028",
+      "highSchool": "Norwell High School",
+      "state": "MA",
       "commitmentDate": "2026-08-01"
     },
     {
@@ -105,8 +105,8 @@
       "division": "D2",
       "playerName": "Rupert Ingram",
       "college": "Saint Anselm",
-      "position": "",
-      "clubTeam": "",
+      "position": "Middie",
+      "clubTeam": "Fighting Clams 2027",
       "highSchool": "New Hampton School",
       "state": "NH",
       "commitmentDate": "2026-08-01"
@@ -117,10 +117,10 @@
       "division": "D2",
       "playerName": "Andrew Neilson",
       "college": "Rollins",
-      "position": "Middie",
-      "clubTeam": "LXT Lacrosse",
-      "highSchool": "",
-      "state": "DE",
+      "position": "Attack",
+      "clubTeam": "Denver Elite Lacrosse Club",
+      "highSchool": "The Classical Academy",
+      "state": "CO",
       "commitmentDate": "2026-08-01"
     },
     {
