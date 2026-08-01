@@ -3,6 +3,150 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D3",
+      "playerName": "Zack Rossignol",
+      "college": "RIT",
+      "position": "LSM",
+      "clubTeam": "Harvest Lacrosse",
+      "highSchool": "Brighton",
+      "state": "NY",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Cade Johnston",
+      "college": "Rivier",
+      "position": "",
+      "clubTeam": "NH Tomahawks",
+      "highSchool": "Pinkerton Academy",
+      "state": "NH",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Ryan Janese",
+      "college": "RIT",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "The Kiski School",
+      "state": "PA",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Aidan Concannon",
+      "college": "Army",
+      "position": "Middie",
+      "clubTeam": "Prime Time",
+      "highSchool": "Yorktown",
+      "state": "NY",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Wyatt Branssen",
+      "college": "Air Force",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Rupert Ingram",
+      "college": "Saint Anselm",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "New Hampton School",
+      "state": "NH",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Andrew Neilson",
+      "college": "Rollins",
+      "position": "Middie",
+      "clubTeam": "LXT Lacrosse",
+      "highSchool": "",
+      "state": "DE",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "D1",
+      "playerName": "Parker Williams",
+      "college": "Iona",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Garnet Valley",
+      "state": "PA",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Quinn Lynch",
+      "college": "Colgate",
+      "position": "Attack",
+      "clubTeam": "3d Georgia",
+      "highSchool": "Boys' Latin",
+      "state": "MD",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Harrison Hantman",
+      "college": "Holy Cross",
+      "position": "Defense",
+      "clubTeam": "Eclipse",
+      "highSchool": "Brunswick School",
+      "state": "CT",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Darrius Whitfield",
+      "college": "York (PA)",
+      "position": "Middie",
+      "clubTeam": "NXT / NRS",
+      "highSchool": "Episcopal Academy",
+      "state": "PA",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Liam Smith",
+      "college": "Saint John Fisher",
+      "position": "Attack",
+      "clubTeam": "Red Hots National",
+      "highSchool": "Wilton",
+      "state": "CT",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "D1",
       "playerName": "Lucas Nuccitelli",
       "college": "Iona",
@@ -24301,5 +24445,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2025
+  "count": 2037
 }
