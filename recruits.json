@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-01T22:07:15.190Z",
+  "generatedAt": "2026-08-01T22:12:32.906Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8500,
+  "count": 8499,
   "recruits": [
     {
       "gender": "Boys",
@@ -66661,18 +66661,6 @@
       "clubTeam": "3d Upstate",
       "highSchool": "Penfield",
       "state": "NY",
-      "commitmentDate": "2025-08-06"
-    },
-    {
-      "gender": "Boys",
-      "class": "2026",
-      "division": "D3",
-      "playerName": "Michael Banks",
-      "college": "Saint John Fisher",
-      "position": "Middie",
-      "clubTeam": "Big 4 HHH",
-      "highSchool": "William Penn Charter",
-      "state": "PA",
       "commitmentDate": "2025-08-06"
     },
     {
