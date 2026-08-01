@@ -24191,7 +24191,115 @@
       "highSchool": "Lake Stevens",
       "state": "WA",
       "commitmentDate": "2026-07-29"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Ryan Whitman",
+      "college": "Colgate",
+      "position": "Defense",
+      "clubTeam": "FCA Maryland",
+      "highSchool": "Boys' Latin",
+      "state": "MD",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Matthew Petterson",
+      "college": "High Point",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Western Reserve Academy",
+      "state": "OH",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Nick Hansen",
+      "college": "Navy",
+      "position": "Middie",
+      "clubTeam": "ADVNC NDP",
+      "highSchool": "Berkshire School",
+      "state": "MA",
+      "commitmentDate": "2026-07-28"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Braydon Uricchio",
+      "college": "Muhlenberg",
+      "position": "FOGO",
+      "clubTeam": "True Black Widow",
+      "highSchool": "Northwestern Lehigh",
+      "state": "PA",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Charlie Peters",
+      "college": "Navy",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Morgantown",
+      "state": "WV",
+      "commitmentDate": "2026-07-28"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Preston Penn",
+      "college": "Hobart",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Ben Pagano",
+      "college": "St. John's",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Hill School",
+      "state": "PA",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "John Everett",
+      "college": "Bucknell",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Valor Christian",
+      "state": "CO",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Doreyen Jackson",
+      "college": "Holy Cross",
+      "position": "FOGO",
+      "clubTeam": "FCA Maryland / Hilltop",
+      "highSchool": "Calvert Hall",
+      "state": "MD",
+      "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2015
+  "count": 2025
 }
