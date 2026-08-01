@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-01T13:46:35.453Z",
+  "generatedAt": "2026-08-01T19:56:41.881Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8486,
+  "count": 8487,
   "recruits": [
     {
       "gender": "Boys",
@@ -12,6 +12,18 @@
       "position": "Middie",
       "clubTeam": "",
       "highSchool": "Webster Thomas",
+      "state": "NY",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Tim Tourangeau",
+      "college": "Canisius",
+      "position": "Middie",
+      "clubTeam": "3D Upstate",
+      "highSchool": "Brighton",
       "state": "NY",
       "commitmentDate": "2026-08-01"
     },
