@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-01T19:56:41.881Z",
+  "generatedAt": "2026-08-01T20:01:33.638Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8487,
+  "count": 8491,
   "recruits": [
     {
       "gender": "Boys",
@@ -30,6 +30,30 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D3",
+      "playerName": "Colin Blekicki",
+      "college": "Wesleyan",
+      "position": "Attack",
+      "clubTeam": "Tri-State 2027AA",
+      "highSchool": "Pingry",
+      "state": "NJ",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "House Young",
+      "college": "Trinity (CT)",
+      "position": "Attack",
+      "clubTeam": "Big 4 HHH 2027",
+      "highSchool": "Malvern Prep",
+      "state": "PA",
+      "commitmentDate": "2026-07-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "D1",
       "playerName": "Gavin O'Brien",
       "college": "Virginia",
@@ -42,6 +66,18 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D1",
+      "playerName": "Brayden Tedio",
+      "college": "Mount St. Mary's",
+      "position": "Defense",
+      "clubTeam": "Baltimore Crabs 2027",
+      "highSchool": "Saint Viator",
+      "state": "IL",
+      "commitmentDate": "2026-07-30"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "",
       "playerName": "Ryan McCarthy",
       "college": "Loyola",
@@ -49,6 +85,18 @@
       "clubTeam": "3d New England 2027 Red",
       "highSchool": "St Johns Prep Danvers",
       "state": "MA",
+      "commitmentDate": "2026-07-29"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Faolan Olson",
+      "college": "Westminster (UT)",
+      "position": "Middie",
+      "clubTeam": "Seattle Starz 2027",
+      "highSchool": "Lake Stevens",
+      "state": "WA",
       "commitmentDate": "2026-07-29"
     },
     {

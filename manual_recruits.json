@@ -24143,7 +24143,55 @@
       "highSchool": "Brighton",
       "state": "NY",
       "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Colin Blekicki",
+      "college": "Wesleyan",
+      "position": "Attack",
+      "clubTeam": "Tri-State 2027AA",
+      "highSchool": "Pingry",
+      "state": "NJ",
+      "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "House Young",
+      "college": "Trinity (CT)",
+      "position": "Attack",
+      "clubTeam": "Big 4 HHH 2027",
+      "highSchool": "Malvern Prep",
+      "state": "PA",
+      "commitmentDate": "2026-07-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Brayden Tedio",
+      "college": "Mount St. Mary's",
+      "position": "Defense",
+      "clubTeam": "Baltimore Crabs 2027",
+      "highSchool": "Saint Viator",
+      "state": "IL",
+      "commitmentDate": "2026-07-30"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Faolan Olson",
+      "college": "Westminster (UT)",
+      "position": "Middie",
+      "clubTeam": "Seattle Starz 2027",
+      "highSchool": "Lake Stevens",
+      "state": "WA",
+      "commitmentDate": "2026-07-29"
     }
   ],
-  "count": 2011
+  "count": 2015
 }
