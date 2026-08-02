@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T13:38:19.016Z",
+  "generatedAt": "2026-08-02T14:03:53.248Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8516,
+  "count": 8517,
   "recruits": [
     {
       "gender": "Boys",
@@ -19,8 +19,32 @@
       "gender": "Boys",
       "class": "2027",
       "division": "D3",
-      "playerName": "Chris Petty",
+      "playerName": "Chris Petty Jr",
       "college": "UMass Boston",
+      "position": "Defense",
+      "clubTeam": "Fighting Clams",
+      "highSchool": "",
+      "state": "MA",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Charlie Abramo",
+      "college": "Wingate",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Max Romano",
+      "college": "Denison",
       "position": "",
       "clubTeam": "",
       "highSchool": "",
@@ -33,22 +57,10 @@
       "division": "D3",
       "playerName": "Holden Leidl",
       "college": "Drew",
-      "position": "",
-      "clubTeam": "",
+      "position": "Middie",
+      "clubTeam": "Patriot Lacrosse",
       "highSchool": "Delbarton",
       "state": "NJ",
-      "commitmentDate": "2026-08-02"
-    },
-    {
-      "gender": "Boys",
-      "class": "",
-      "division": "D1",
-      "playerName": "Tyler White",
-      "college": "Duke",
-      "position": "",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
       "commitmentDate": "2026-08-02"
     },
     {
