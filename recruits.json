@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T13:17:25.761Z",
+  "generatedAt": "2026-08-02T13:30:30.704Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8511,
+  "count": 8513,
   "recruits": [
     {
       "gender": "Boys",
@@ -9,10 +9,10 @@
       "division": "D3",
       "playerName": "Liam Hardy",
       "college": "Hampden-Sydney",
-      "position": "",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "position": "Attack",
+      "clubTeam": "FCA Coastal Virginia",
+      "highSchool": "Cape Henry Collegiate",
+      "state": "VA",
       "commitmentDate": "2026-08-02"
     },
     {
@@ -142,7 +142,7 @@
       "playerName": "Parker Williams",
       "college": "Iona",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Big 4 HHH",
       "highSchool": "Garnet Valley",
       "state": "PA",
       "commitmentDate": "2026-08-01"
@@ -394,7 +394,7 @@
       "playerName": "Wyatt Raleigh",
       "college": "Saint Josephs",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Minnesota Loons Lacrosse",
       "highSchool": "White Bear Lake",
       "state": "MN",
       "commitmentDate": "2026-07-27"
@@ -443,8 +443,8 @@
       "college": "Navy",
       "position": "Attack",
       "clubTeam": "Annapolis Hawks 2028 Green",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Broadneck High School",
+      "state": "MD",
       "commitmentDate": "2026-07-23"
     },
     {
@@ -482,6 +482,30 @@
       "highSchool": "Springside Chestnut",
       "state": "PA",
       "commitmentDate": "2026-07-23"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ethan Lott",
+      "college": "College of Idaho",
+      "position": "Defense",
+      "clubTeam": "Team 91 Northside",
+      "highSchool": "Mountain Range",
+      "state": "CO",
+      "commitmentDate": "2026-07-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Jacoby Lynch",
+      "college": "Hampton",
+      "position": "SSDM",
+      "clubTeam": "Sweetlax Carolina",
+      "highSchool": "Blue Ridge School",
+      "state": "VA",
+      "commitmentDate": "2026-07-22"
     },
     {
       "gender": "Boys",
@@ -4307,7 +4331,7 @@
       "college": "Tufts",
       "position": "Middie",
       "clubTeam": "",
-      "highSchool": "Marin Catholic",
+      "highSchool": "Marin Catholic High School",
       "state": "CA",
       "commitmentDate": "2026-07-03"
     },
