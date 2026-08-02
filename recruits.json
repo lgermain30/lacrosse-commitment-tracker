@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:02:16.521Z",
+  "generatedAt": "2026-08-02T21:48:39.268Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 8452,
   "recruits": [
@@ -21,9 +21,9 @@
       "division": "D3",
       "playerName": "Griffin Singer",
       "college": "Vassar",
-      "position": "",
+      "position": "Defense",
       "clubTeam": "",
-      "highSchool": "Saratoga Springs",
+      "highSchool": "Saratoga Springs High School",
       "state": "NY",
       "commitmentDate": "2026-08-03"
     },
@@ -35,8 +35,8 @@
       "college": "Tampa",
       "position": "Attack",
       "clubTeam": "Kings Lacrosse Club",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Valor Christian",
+      "state": "CO",
       "commitmentDate": "2026-08-03"
     },
     {
@@ -45,8 +45,8 @@
       "division": "D3",
       "playerName": "Hunter Miller",
       "college": "SUNY New Paltz",
-      "position": "",
-      "clubTeam": "",
+      "position": "Attack",
+      "clubTeam": "Legacy Lacrosse East",
       "highSchool": "Connetquot",
       "state": "NY",
       "commitmentDate": "2026-08-03"
