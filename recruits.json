@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T14:49:25.278Z",
+  "generatedAt": "2026-08-02T14:56:53.601Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8517,
+  "count": 8523,
   "recruits": [
     {
       "gender": "Boys",
@@ -16649,6 +16649,54 @@
     },
     {
       "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Matt Haugh",
+      "college": "Quinnipiac",
+      "position": "LSM",
+      "clubTeam": "",
+      "highSchool": "Fairport",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Charles Hezel",
+      "college": "Lehigh",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Pittsford",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Anthony Rause",
+      "college": "Saint Vincent",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Fairport",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Chancellor Williams",
+      "college": "Hampton",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "East United-Eastridge",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Desh Havens",
@@ -24900,6 +24948,18 @@
       "position": "Defense",
       "clubTeam": "",
       "highSchool": "Sayville",
+      "state": "NY",
+      "commitmentDate": "2026-01-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Jake Maurer",
+      "college": "Colgate",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Penfield",
       "state": "NY",
       "commitmentDate": "2026-01-02"
     },
@@ -34980,6 +35040,18 @@
       "position": "Goalie",
       "clubTeam": "ADK Power",
       "highSchool": "South Glens Falls",
+      "state": "NY",
+      "commitmentDate": "2025-11-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Will Simpson",
+      "college": "Brown",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Victor",
       "state": "NY",
       "commitmentDate": "2025-11-01"
     },
