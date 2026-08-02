@@ -14,6 +14,30 @@
     },
     {
       "gender": "Boys",
+      "class": "2027",
+      "division": "",
+      "playerName": "Ethan Lott",
+      "college": "College of Idaho",
+      "position": "Defense",
+      "clubTeam": "Team 91 Northside",
+      "highSchool": "Mountain Range",
+      "state": "CO",
+      "commitmentDate": "2026-07-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Jacoby Lynch",
+      "college": "Hampton",
+      "position": "SSDM",
+      "clubTeam": "Sweetlax Carolina",
+      "highSchool": "Blue Ridge School",
+      "state": "VA",
+      "commitmentDate": "2026-07-22"
+    },
+    {
+      "gender": "Boys",
       "class": "2026",
       "division": "D3",
       "playerName": "Jack Barton",
@@ -24457,5 +24481,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2038
+  "count": 2040
 }
