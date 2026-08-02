@@ -1,8 +1,56 @@
 {
-  "generatedAt": "2026-08-02T16:38:56.960Z",
+  "generatedAt": "2026-08-02T21:02:16.521Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8448,
+  "count": 8452,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Ryan Chabus",
+      "college": "Lehigh",
+      "position": "FOGO",
+      "clubTeam": "Team 91 Long Island",
+      "highSchool": "Massapequa",
+      "state": "NY",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Griffin Singer",
+      "college": "Vassar",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Saratoga Springs",
+      "state": "NY",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Torin LaSelle",
+      "college": "Tampa",
+      "position": "Attack",
+      "clubTeam": "Kings Lacrosse Club",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Hunter Miller",
+      "college": "SUNY New Paltz",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Connetquot",
+      "state": "NY",
+      "commitmentDate": "2026-08-03"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -954,10 +1002,10 @@
     {
       "gender": "Boys",
       "class": "2027",
-      "division": "",
+      "division": "D3",
       "playerName": "John Caricati",
       "college": "Stevenson",
-      "position": "Middie",
+      "position": "FOGO",
       "clubTeam": "Harvest 2027",
       "highSchool": "Webster Schroeder",
       "state": "NY",
@@ -1290,7 +1338,7 @@
     {
       "gender": "Boys",
       "class": "2027",
-      "division": "",
+      "division": "D1",
       "playerName": "Kemp Kelly",
       "college": "Colgate",
       "position": "Middie",
@@ -22090,9 +22138,9 @@
       "playerName": "Sylas Twiss",
       "college": "Aurora",
       "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "clubTeam": "ADVNC Lacrosse",
+      "highSchool": "Granada",
+      "state": "CA",
       "commitmentDate": "2026-02-05"
     },
     {
@@ -22307,8 +22355,8 @@
       "college": "Davis & Elkins",
       "position": "Attack",
       "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Lincoln High School",
+      "state": "WI",
       "commitmentDate": "2026-02-04"
     },
     {
@@ -23147,8 +23195,8 @@
       "college": "Hartwick",
       "position": "Middie",
       "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Half Hollow Hills",
+      "state": "NY",
       "commitmentDate": "2026-01-30"
     },
     {
@@ -23303,8 +23351,8 @@
       "college": "Washington College",
       "position": "Attack",
       "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Perryville High School",
+      "state": "MD",
       "commitmentDate": "2026-01-29"
     },
     {
@@ -23459,8 +23507,8 @@
       "college": "Mercer",
       "position": "Middie",
       "clubTeam": "Clippers 2027 Blue",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Saint Mary's",
+      "state": "MD",
       "commitmentDate": "2026-01-28"
     },
     {
@@ -23495,8 +23543,8 @@
       "college": "Young Harris",
       "position": "Defense",
       "clubTeam": "Fusion West 2027",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Grandview Heights Secondary",
+      "state": "BC",
       "commitmentDate": "2026-01-28"
     },
     {
@@ -23555,8 +23603,8 @@
       "college": "Wagner",
       "position": "LSM",
       "clubTeam": "Fusion West 2027",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Terry Fox Secondary",
+      "state": "BC",
       "commitmentDate": "2026-01-28"
     },
     {
