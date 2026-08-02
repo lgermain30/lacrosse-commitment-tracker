@@ -4,6 +4,30 @@
       "gender": "Boys",
       "class": "2027",
       "division": "D3",
+      "playerName": "Liam Hardy",
+      "college": "Hampden-Sydney",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "D3",
+      "playerName": "Jack Barton",
+      "college": "Utica",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Ithaca",
+      "state": "NY",
+      "commitmentDate": "2026-07-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
       "playerName": "Zack Rossignol",
       "college": "RIT",
       "position": "LSM",
@@ -24445,5 +24469,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2037
+  "count": 2039
 }
