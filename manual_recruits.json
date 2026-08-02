@@ -15,6 +15,42 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D3",
+      "playerName": "Chris Petty",
+      "college": "UMass Boston",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Holden Leidl",
+      "college": "Drew",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Delbarton",
+      "state": "NJ",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "",
+      "division": "D1",
+      "playerName": "Tyler White",
+      "college": "Duke",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "",
       "playerName": "Ethan Lott",
       "college": "College of Idaho",
@@ -24481,5 +24517,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2040
+  "count": 2043
 }
