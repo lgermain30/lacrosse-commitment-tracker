@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-08-02T08:03:35.880Z",
+  "generatedAt": "2026-08-02T13:08:37.968Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8510,
+  "count": 8512,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Liam Hardy",
+      "college": "Hampden-Sydney",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-02"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -554,6 +566,18 @@
       "highSchool": "Chesapeake-AA",
       "state": "MD",
       "commitmentDate": "2026-07-21"
+    },
+    {
+      "gender": "Boys",
+      "class": "2026",
+      "division": "D3",
+      "playerName": "Jack Barton",
+      "college": "Utica",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Ithaca",
+      "state": "NY",
+      "commitmentDate": "2026-07-20"
     },
     {
       "gender": "Boys",
