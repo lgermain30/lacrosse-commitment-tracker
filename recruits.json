@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T14:03:53.248Z",
+  "generatedAt": "2026-08-02T14:49:25.278Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 8517,
   "recruits": [
@@ -23,8 +23,8 @@
       "college": "UMass Boston",
       "position": "Defense",
       "clubTeam": "Fighting Clams",
-      "highSchool": "",
-      "state": "MA",
+      "highSchool": "Mount St. Charles",
+      "state": "RI",
       "commitmentDate": "2026-08-02"
     },
     {
@@ -33,22 +33,22 @@
       "division": "D2",
       "playerName": "Charlie Abramo",
       "college": "Wingate",
-      "position": "",
+      "position": "Attack",
       "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Bethpage High School",
+      "state": "NY",
       "commitmentDate": "2026-08-02"
     },
     {
       "gender": "Boys",
       "class": "2027",
       "division": "D3",
-      "playerName": "Max Romano",
+      "playerName": "Maximus Romano",
       "college": "Denison",
-      "position": "",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "position": "Middie",
+      "clubTeam": "Thunder Lacrosse Club",
+      "highSchool": "St. Paul's School",
+      "state": "NH",
       "commitmentDate": "2026-08-02"
     },
     {
