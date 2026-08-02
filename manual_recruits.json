@@ -51,6 +51,78 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D1",
+      "playerName": "Matt Haugh",
+      "college": "Quinnipiac",
+      "position": "LSM",
+      "clubTeam": "",
+      "highSchool": "Fairport",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Charles Hezel",
+      "college": "Lehigh",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Pittsford",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Jake Maurer",
+      "college": "Colgate",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Penfield",
+      "state": "NY",
+      "commitmentDate": "2026-01-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Anthony Rause",
+      "college": "Saint Vincent",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Fairport",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Will Simpson",
+      "college": "Brown",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Victor",
+      "state": "NY",
+      "commitmentDate": "2025-11-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Chancellor Williams",
+      "college": "Hampton",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "East United-Eastridge",
+      "state": "NY",
+      "commitmentDate": "2026-03-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "D3",
       "playerName": "Holden Leidl",
       "college": "Drew",
@@ -24529,5 +24601,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2044
+  "count": 2050
 }
