@@ -6,10 +6,10 @@
       "division": "D3",
       "playerName": "Liam Hardy",
       "college": "Hampden-Sydney",
-      "position": "",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
+      "position": "Attack",
+      "clubTeam": "FCA Coastal Virginia",
+      "highSchool": "Cape Henry Collegiate",
+      "state": "VA",
       "commitmentDate": "2026-08-02"
     },
     {
@@ -139,7 +139,7 @@
       "playerName": "Parker Williams",
       "college": "Iona",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Big 4 HHH",
       "highSchool": "Garnet Valley",
       "state": "PA",
       "commitmentDate": "2026-08-01"
@@ -247,7 +247,7 @@
       "playerName": "Wyatt Raleigh",
       "college": "Saint Josephs",
       "position": "Attack",
-      "clubTeam": "",
+      "clubTeam": "Minnesota Loons Lacrosse",
       "highSchool": "White Bear Lake - Minn.",
       "state": "",
       "commitmentDate": "2026-07-27"
@@ -296,8 +296,8 @@
       "college": "Navy",
       "position": "Attack",
       "clubTeam": "Annapolis Hawks 2028 Green",
-      "highSchool": "",
-      "state": "",
+      "highSchool": "Broadneck High School",
+      "state": "MD",
       "commitmentDate": "2026-07-23"
     },
     {
@@ -4136,8 +4136,8 @@
       "college": "Tufts",
       "position": "Middie",
       "clubTeam": "",
-      "highSchool": "Marin Catholic - Calif.",
-      "state": "",
+      "highSchool": "Marin Catholic High School",
+      "state": "CA",
       "commitmentDate": "2026-07-03"
     },
     {
