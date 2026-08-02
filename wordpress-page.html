@@ -204,6 +204,8 @@
 
   /* College monogram avatar */
   .college-cell { display: flex; align-items: center; gap: 8px; }
+  a.college-link { color: inherit; text-decoration: none; }
+  a.college-link:hover span:last-child { text-decoration: underline; color: #c8102e; }
   .college-logo {
     position: relative;
     flex: 0 0 auto;
@@ -1967,8 +1969,13 @@
       el.setAttribute('onerror', 'this.remove()');
       img = el.outerHTML;
     }
-    return '<span class="college-cell"><span class="college-logo" style="background:' + bg + '" aria-hidden="true">' +
-      initials + img + '</span><span>' + safe + '</span></span>';
+    const inner = '<span class="college-logo" style="background:' + bg + '" aria-hidden="true">' +
+      initials + img + '</span><span>' + safe + '</span>';
+    const url = teamUrl(name, gender);
+    if (url) {
+      return '<a class="college-cell college-link" href="' + escapeHtml(url) + '">' + inner + '</a>';
+    }
+    return '<span class="college-cell">' + inner + '</span>';
   }
 
   function renderHead() {
