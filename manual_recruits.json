@@ -18974,18 +18974,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2026",
-      "division": "",
-      "playerName": "Ethan Wechter",
-      "college": "Immaculate",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Washington Twp - N.J.",
-      "state": "",
-      "commitmentDate": "2026-02-24"
-    },
-    {
-      "gender": "Boys",
       "class": "2027",
       "division": "",
       "playerName": "Jimmy Heffernan",
@@ -24601,5 +24589,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2050
+  "count": 2049
 }
