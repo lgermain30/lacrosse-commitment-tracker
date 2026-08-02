@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T13:30:30.704Z",
+  "generatedAt": "2026-08-02T13:38:19.016Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8513,
+  "count": 8516,
   "recruits": [
     {
       "gender": "Boys",
@@ -13,6 +13,42 @@
       "clubTeam": "FCA Coastal Virginia",
       "highSchool": "Cape Henry Collegiate",
       "state": "VA",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Chris Petty",
+      "college": "UMass Boston",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Holden Leidl",
+      "college": "Drew",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "Delbarton",
+      "state": "NJ",
+      "commitmentDate": "2026-08-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "",
+      "division": "D1",
+      "playerName": "Tyler White",
+      "college": "Duke",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
       "commitmentDate": "2026-08-02"
     },
     {
