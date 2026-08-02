@@ -1,5 +1,301 @@
 [
   {
+    "playerName": "James Cassata",
+    "college": "Air Force"
+  },
+  {
+    "playerName": "Trey Neally",
+    "college": "Army"
+  },
+  {
+    "playerName": "Lucy Timmer",
+    "college": "Gordon"
+  },
+  {
+    "playerName": "Tessa Papadopoulos",
+    "college": "Elon"
+  },
+  {
+    "playerName": "Cortlandt Reidenouer",
+    "college": "Tufts"
+  },
+  {
+    "playerName": "Colton Sirois",
+    "college": "Stony Brook"
+  },
+  {
+    "playerName": "Anya Everett",
+    "college": "Concordia (St. Paul)"
+  },
+  {
+    "playerName": "Rachel Russo",
+    "college": "Sweet Briar"
+  },
+  {
+    "playerName": "Carlos Espinosa",
+    "college": "Clark"
+  },
+  {
+    "playerName": "Michael Savage",
+    "college": "North Carolina"
+  },
+  {
+    "playerName": "Gabe Moore",
+    "college": "Navy"
+  },
+  {
+    "playerName": "Ethan Moore",
+    "college": "Brown"
+  },
+  {
+    "playerName": "William Wilson",
+    "college": "UMASS"
+  },
+  {
+    "playerName": "Logan Hinton",
+    "college": "RIT"
+  },
+  {
+    "playerName": "Joey Schreiber",
+    "college": "UMASS"
+  },
+  {
+    "playerName": "Nate Maurillo",
+    "college": "Colgate"
+  },
+  {
+    "playerName": "Kieran Zulauf",
+    "college": "Franklin & Marshall"
+  },
+  {
+    "playerName": "Brode Frink",
+    "college": "Saint Josephs"
+  },
+  {
+    "playerName": "Benjamin Phillips",
+    "college": "Bucknell"
+  },
+  {
+    "playerName": "Will Trymbiski",
+    "college": "Hofstra"
+  },
+  {
+    "playerName": "Brendan Sim",
+    "college": "Cornell"
+  },
+  {
+    "playerName": "Kathryn Paul",
+    "college": "Rider"
+  },
+  {
+    "playerName": "Sedona Brown",
+    "college": "UMBC"
+  },
+  {
+    "playerName": "Amber Kinsey",
+    "college": "Nova Southeastern"
+  },
+  {
+    "playerName": "Cole Jackson",
+    "college": "Hobart"
+  },
+  {
+    "playerName": "Noel Mendez",
+    "college": "Dickinson"
+  },
+  {
+    "playerName": "Evalynn Fischer",
+    "college": "Nova Southeastern"
+  },
+  {
+    "playerName": "Beau Davi",
+    "college": "Boston U"
+  },
+  {
+    "playerName": "William Grace",
+    "college": "Robert Morris"
+  },
+  {
+    "playerName": "Ethan Abdella",
+    "college": "Boston U"
+  },
+  {
+    "playerName": "Ryan Lasko",
+    "college": "Boston U"
+  },
+  {
+    "playerName": "Alasdair McDonough",
+    "college": "Holy Cross"
+  },
+  {
+    "playerName": "Ezra Williams",
+    "college": "Vermont"
+  },
+  {
+    "playerName": "Cooper Rice",
+    "college": "Mercer"
+  },
+  {
+    "playerName": "Cara Nielsen",
+    "college": "Lindenwood"
+  },
+  {
+    "playerName": "Natalie Byrns",
+    "college": "Binghamton"
+  },
+  {
+    "playerName": "Davis Bates",
+    "college": "Stevenson"
+  },
+  {
+    "playerName": "Landry Struble",
+    "college": "Monmouth"
+  },
+  {
+    "playerName": "Braelyn Dalia",
+    "college": "Rider"
+  },
+  {
+    "playerName": "Carson Barber",
+    "college": "Air Force"
+  },
+  {
+    "playerName": "Cameron McGovern",
+    "college": "UMBC"
+  },
+  {
+    "playerName": "Brynn Bartlett",
+    "college": "UMBC"
+  },
+  {
+    "playerName": "Tatum Little",
+    "college": "Queens"
+  },
+  {
+    "playerName": "Clayton Penzien",
+    "college": "Palm Beach Atlantic"
+  },
+  {
+    "playerName": "Paden Wein",
+    "college": "Frostburg State"
+  },
+  {
+    "playerName": "Trey Johnson",
+    "college": "Navy"
+  },
+  {
+    "playerName": "Hunter Harris",
+    "college": "Lafayette"
+  },
+  {
+    "playerName": "Alli Denzel",
+    "college": "Boston College"
+  },
+  {
+    "playerName": "Ella Davis",
+    "college": "Virginia"
+  },
+  {
+    "playerName": "Ava Findora",
+    "college": "Virginia"
+  },
+  {
+    "playerName": "Brinn Findora",
+    "college": "Virginia"
+  },
+  {
+    "playerName": "Ellie King",
+    "college": "Butler"
+  },
+  {
+    "playerName": "Kathleen Devine",
+    "college": "Navy"
+  },
+  {
+    "playerName": "Shane LaDuca",
+    "college": "Saint Anselm"
+  },
+  {
+    "playerName": "Matthew Giacobello",
+    "college": "Saint Anselm"
+  },
+  {
+    "playerName": "Kassidy Stewart",
+    "college": "Fort Lewis"
+  },
+  {
+    "playerName": "Brogan Casper",
+    "college": "Averett"
+  },
+  {
+    "playerName": "Brody Nyitrai",
+    "college": "UMASS Lowell"
+  },
+  {
+    "playerName": "Rhys Butler",
+    "college": "Vassar"
+  },
+  {
+    "playerName": "Cormac Trombley",
+    "college": "Air Force"
+  },
+  {
+    "playerName": "Milla DePrince",
+    "college": "Holy Family"
+  },
+  {
+    "playerName": "Ben Halpert",
+    "college": "Trinity"
+  },
+  {
+    "playerName": "Max Slattery",
+    "college": "Williams"
+  },
+  {
+    "playerName": "Zach Mangiafico",
+    "college": "Detroit Mercy"
+  },
+  {
+    "playerName": "Kaitlyn Laudico",
+    "college": "Detroit Mercy"
+  },
+  {
+    "playerName": "Oisin Brogan",
+    "college": "St. Michaels"
+  },
+  {
+    "playerName": "Wesley Grant",
+    "college": "RIT"
+  },
+  {
+    "playerName": "Danny Kirwan",
+    "college": "Bucknell"
+  },
+  {
+    "playerName": "Kyleigh Rabazzi",
+    "college": "Denver"
+  },
+  {
+    "playerName": "Persephone Rohrer",
+    "college": "Utica"
+  },
+  {
+    "playerName": "Kasey Dwyer",
+    "college": "Penn State"
+  },
+  {
+    "playerName": "Aarez Ahmed",
+    "college": "Duke"
+  },
+  {
+    "playerName": "Ava Motto",
+    "college": "Rider"
+  },
+  {
+    "playerName": "Julia Seewald",
+    "college": "Springfield College"
+  },
+  {
     "playerName": "Quinn Lynch",
     "college": "Hofstra"
   },
