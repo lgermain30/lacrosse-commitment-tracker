@@ -12650,18 +12650,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Carter Derousse",
-      "college": "William Jewell",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": "2026-04-23"
-    },
-    {
-      "gender": "Boys",
       "class": "2026",
       "division": "",
       "playerName": "Brady Trucksess",
@@ -24469,5 +24457,5 @@
       "commitmentDate": "2026-08-01"
     }
   ],
-  "count": 2039
+  "count": 2038
 }
