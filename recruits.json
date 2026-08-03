@@ -1,8 +1,20 @@
 {
   "generatedAt": "2026-08-03T09:18:57.587Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8452,
+  "count": 8453,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Sergio Garcia",
+      "college": "Washington College",
+      "position": "Defense",
+      "clubTeam": "3d Upstate",
+      "highSchool": "Fayetteville-Manlius High School",
+      "state": "NY",
+      "commitmentDate": "2026-08-03"
+    },
     {
       "gender": "Boys",
       "class": "2027",

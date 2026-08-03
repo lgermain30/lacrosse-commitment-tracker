@@ -3,6 +3,18 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D3",
+      "playerName": "Sergio Garcia",
+      "college": "Washington College",
+      "position": "Defense",
+      "clubTeam": "3d Upstate",
+      "highSchool": "Fayetteville-Manlius High School",
+      "state": "NY",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "D1",
       "playerName": "Ryan Chabus",
       "college": "Lehigh",
