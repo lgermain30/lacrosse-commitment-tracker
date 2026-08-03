@@ -4,6 +4,18 @@
       "gender": "Boys",
       "class": "2027",
       "division": "D3",
+      "playerName": "Ethan Roberts",
+      "college": "Denison",
+      "position": "Attack",
+      "clubTeam": "ADVNC Lacrosse",
+      "highSchool": "Mount Si High School",
+      "state": "WA",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
       "playerName": "Sergio Garcia",
       "college": "Washington College",
       "position": "Defense",
