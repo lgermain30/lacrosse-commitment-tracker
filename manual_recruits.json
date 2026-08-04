@@ -24719,6 +24719,18 @@
       "highSchool": "Calvert Hall",
       "state": "MD",
       "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "",
+      "division": "D3",
+      "playerName": "Angello Fontana",
+      "college": "Springfield College",
+      "position": "",
+      "clubTeam": "Team 91 Machine",
+      "highSchool": "Ward Melville",
+      "state": "NY",
+      "commitmentDate": ""
     }
   ],
   "count": 2060
