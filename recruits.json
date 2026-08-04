@@ -5,6 +5,18 @@
   "recruits": [
     {
       "gender": "Boys",
+      "class": "",
+      "division": "D3",
+      "playerName": "Matthew Button",
+      "college": "SUNY Brockport",
+      "position": "",
+      "clubTeam": "Legacy",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": ""
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "D3",
       "playerName": "Trent Becker",
