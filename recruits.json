@@ -1,56 +1,8 @@
 {
-  "generatedAt": "2026-08-03T09:18:57.587Z",
+  "generatedAt": "2026-08-04T08:17:38.374Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 8458,
   "recruits": [
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D2",
-      "playerName": "Jackson Snipes",
-      "college": "Wingate",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "Colonial Forge High School",
-      "state": "VA",
-      "commitmentDate": ""
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D2",
-      "playerName": "James Branch",
-      "college": "Molloy",
-      "position": "Defense",
-      "clubTeam": "",
-      "highSchool": "Seaford High School",
-      "state": "NY",
-      "commitmentDate": ""
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D2",
-      "playerName": "Andrew Polisoto",
-      "college": "Lynn",
-      "position": "Middie",
-      "clubTeam": "",
-      "highSchool": "St. Joseph's Collegiate Institute",
-      "state": "NY",
-      "commitmentDate": ""
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D2",
-      "playerName": "Carter Walrond",
-      "college": "Anderson (SC)",
-      "position": "Goalie",
-      "clubTeam": "Edge 8 Lacrosse",
-      "highSchool": "The Kiski School",
-      "state": "PA",
-      "commitmentDate": ""
-    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -101498,6 +101450,54 @@
       "highSchool": "Haddonfield Memorial",
       "state": "NJ",
       "commitmentDate": "2022-12-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Jackson Snipes",
+      "college": "Wingate",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Colonial Forge High School",
+      "state": "VA",
+      "commitmentDate": ""
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "James Branch",
+      "college": "Molloy",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Seaford High School",
+      "state": "NY",
+      "commitmentDate": ""
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Andrew Polisoto",
+      "college": "Lynn",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "St. Joseph's Collegiate Institute",
+      "state": "NY",
+      "commitmentDate": ""
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Carter Walrond",
+      "college": "Anderson (SC)",
+      "position": "Goalie",
+      "clubTeam": "Edge 8 Lacrosse",
+      "highSchool": "The Kiski School",
+      "state": "PA",
+      "commitmentDate": ""
     }
   ]
 }
