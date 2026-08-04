@@ -13,7 +13,7 @@
       "clubTeam": "Hilltop Lax",
       "highSchool": "Sewickley Academy",
       "state": "PA",
-      "commitmentDate": ""
+      "commitmentDate": "2026-07-17"
     },
     {
       "gender": "Boys",
@@ -101509,6 +101509,18 @@
       "clubTeam": "Edge 8 Lacrosse",
       "highSchool": "The Kiski School",
       "state": "PA",
+      "commitmentDate": ""
+    },
+    {
+      "gender": "Boys",
+      "class": "",
+      "division": "D3",
+      "playerName": "Angello Fontana",
+      "college": "Springfield College",
+      "position": "",
+      "clubTeam": "Team 91 Machine",
+      "highSchool": "Ward Melville",
+      "state": "NY",
       "commitmentDate": ""
     }
   ]
