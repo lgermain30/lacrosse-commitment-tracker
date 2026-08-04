@@ -1,8 +1,20 @@
 {
   "generatedAt": "2026-08-03T09:18:57.587Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8458,
+  "count": 8459,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Jacob Donesec",
+      "college": "Salisbury",
+      "position": "Middie",
+      "clubTeam": "Hilltop Lax",
+      "highSchool": "Sewickley Academy",
+      "state": "PA",
+      "commitmentDate": ""
+    },
     {
       "gender": "Boys",
       "class": "2027",
