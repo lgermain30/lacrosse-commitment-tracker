@@ -1,8 +1,20 @@
 {
   "generatedAt": "2026-08-04T08:17:38.374Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8459,
+  "count": 8460,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "",
+      "division": "D3",
+      "playerName": "Angello Fontana",
+      "college": "Springfield College",
+      "position": "",
+      "clubTeam": "Team 91 Machine",
+      "highSchool": "Ward Melville",
+      "state": "NY",
+      "commitmentDate": ""
+    },
     {
       "gender": "Boys",
       "class": "2027",
