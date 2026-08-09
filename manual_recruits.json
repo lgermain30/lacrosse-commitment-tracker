@@ -118,18 +118,6 @@
     },
     {
       "gender": "Boys",
-      "class": "2027",
-      "division": "D3",
-      "playerName": "Trent Becker",
-      "college": "Stockton",
-      "position": "",
-      "clubTeam": "",
-      "highSchool": "",
-      "state": "",
-      "commitmentDate": ""
-    },
-    {
-      "gender": "Boys",
       "class": "2028",
       "division": "D1",
       "playerName": "Nolan Dowling",
@@ -24885,5 +24873,5 @@
       "commitmentDate": ""
     }
   ],
-  "count": 2125
+  "count": 2124
 }
