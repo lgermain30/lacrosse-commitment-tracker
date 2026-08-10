@@ -1,8 +1,140 @@
 {
-  "generatedAt": "2026-08-09T06:36:52.898Z",
+  "generatedAt": "2026-08-10T07:07:58.030Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 8508,
+  "count": 8522,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Brody Booen",
+      "college": "Loyola",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Santa Margarita Catholic",
+      "state": "CA",
+      "commitmentDate": "2026-08-07"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Colin Brown",
+      "college": "Bates",
+      "position": "FOGO",
+      "clubTeam": "",
+      "highSchool": "Proctor Academy",
+      "state": "NH",
+      "commitmentDate": "2026-08-06"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Ezekiel Porter",
+      "college": "Kenyon",
+      "position": "Middie",
+      "clubTeam": "True Illinois 2027 Premier AA",
+      "highSchool": "Phillips Andover",
+      "state": "MA",
+      "commitmentDate": "2026-08-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Mason Joiner",
+      "college": "Wingate",
+      "position": "Defense",
+      "clubTeam": "Stars and Stripes 2027",
+      "highSchool": "South Walton",
+      "state": "FL",
+      "commitmentDate": "2026-08-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Ryan McDermott",
+      "college": "Army",
+      "position": "LSM",
+      "clubTeam": "Madlax-Capital 2028",
+      "highSchool": "Lake Braddock",
+      "state": "VA",
+      "commitmentDate": "2026-08-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Payton Green",
+      "college": "Palm Beach Atlantic",
+      "position": "LSM",
+      "clubTeam": "",
+      "highSchool": "St Ignatius",
+      "state": "OH",
+      "commitmentDate": "2026-08-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "AJ Hatfield",
+      "college": "UMass Boston",
+      "position": "LSM",
+      "clubTeam": "Honey National 2027",
+      "highSchool": "Shelton",
+      "state": "CT",
+      "commitmentDate": "2026-08-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Leon Yoo",
+      "college": "Kenyon",
+      "position": "Defense",
+      "clubTeam": "3d New England 2027 Red",
+      "highSchool": "BB&N",
+      "state": "MA",
+      "commitmentDate": "2026-08-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Tristan Maricondo",
+      "college": "Mercy",
+      "position": "Defense",
+      "clubTeam": "Rebels LC 2027 United",
+      "highSchool": "Bethpage",
+      "state": "NY",
+      "commitmentDate": "2026-08-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Blake Griswold",
+      "college": "Salisbury",
+      "position": "Defense",
+      "clubTeam": "BBL Shore 2027",
+      "highSchool": "Christian Brothers Academy",
+      "state": "NJ",
+      "commitmentDate": "2026-08-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Blake Brena",
+      "college": "St. John Fisher",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Tatnall School",
+      "state": "DE",
+      "commitmentDate": "2026-08-04"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -26,6 +158,42 @@
       "highSchool": "Souderton",
       "state": "PA",
       "commitmentDate": "2026-08-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Carson Jakuc",
+      "college": "Bates",
+      "position": "FOGO",
+      "clubTeam": "Brotherly Love 2027 Zeus Mueller",
+      "highSchool": "Episcopal Academy",
+      "state": "PA",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Chase Althouse",
+      "college": "UMBC",
+      "position": "FOGO",
+      "clubTeam": "True Baltimore 2027 Black",
+      "highSchool": "Sherwood",
+      "state": "MD",
+      "commitmentDate": "2026-08-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Austin Garcia",
+      "college": "Mercy",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Bloomingdale",
+      "state": "FL",
+      "commitmentDate": "2026-08-03"
     },
     {
       "gender": "Boys",
@@ -902,6 +1070,18 @@
       "highSchool": "Calvert Hall",
       "state": "MD",
       "commitmentDate": "2026-08-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D2",
+      "playerName": "Chelsea McCormack",
+      "college": "Lewis",
+      "position": "Goalie",
+      "clubTeam": "Second City 2028",
+      "highSchool": "Warren Township",
+      "state": "IL",
+      "commitmentDate": "2026-07-31"
     },
     {
       "gender": "Boys",
@@ -46753,18 +46933,6 @@
       "clubTeam": "Shore",
       "highSchool": "Cold Spring Harbor",
       "state": "NY",
-      "commitmentDate": "2025-09-29"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Brody Booen",
-      "college": "Virginia",
-      "position": "Attack",
-      "clubTeam": "Mad Dog",
-      "highSchool": "Santa Margarita Catholic",
-      "state": "CA",
       "commitmentDate": "2025-09-29"
     },
     {
