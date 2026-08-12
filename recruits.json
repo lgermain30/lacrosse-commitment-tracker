@@ -1,8 +1,80 @@
 {
-  "generatedAt": "2026-08-11T06:45:27.619Z",
+  "generatedAt": "2026-08-12T07:06:41.074Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9116,
+  "count": 9122,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Finn Dreywood",
+      "college": "Air Force",
+      "position": "Defense",
+      "clubTeam": "Sweetlax",
+      "highSchool": "Pittsford",
+      "state": "NY",
+      "commitmentDate": "2026-08-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Carter Mitchell",
+      "college": "SUNY Brockport",
+      "position": "Middie",
+      "clubTeam": "Grizzly Upstate",
+      "highSchool": "",
+      "state": "NY",
+      "commitmentDate": "2026-08-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Caden Nicholl",
+      "college": "Belmont Abbey",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Lucas Phippen",
+      "college": "Baldwin Wallace",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Valen Delaney",
+      "college": "Dominican (NY)",
+      "position": "",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Charles Piluso",
+      "college": "Union",
+      "position": "",
+      "clubTeam": "Mad Dog Atlantic",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-10"
+    },
     {
       "gender": "Boys",
       "class": "2027",
