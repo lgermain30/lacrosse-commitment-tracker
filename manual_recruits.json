@@ -25472,6 +25472,12 @@
     {"gender":"Girls","class":"2027","division":"D1","playerName":"Kaitlyn Welsh","college":"Stetson","position":"Middie","clubTeam":"Heros","highSchool":"Catonsville","state":"MD","commitmentDate":"2026-01-01"},
     {"gender":"Girls","class":"2027","division":"D1","playerName":"Margaret Lynch","college":"Manhattan","position":"Goalie","clubTeam":"FLG/LI Empire","highSchool":"St Anthonys","state":"NY","commitmentDate":"2026-01-01"},
     {"gender":"Girls","class":"2027","division":"D1","playerName":"Morgan Bieberach","college":"East Carolina","position":"Defense","clubTeam":"AA Aim","highSchool":"Bishop Eustace Prep","state":"NJ","commitmentDate":"2026-01-01"}
+,
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Walker Evans","college":"Merchant Marine","position":"Defense","clubTeam":"Honey National 2027","highSchool":"Lamar","state":"TX","commitmentDate":"2026-08-08"},
+    {"gender":"Boys","class":"2027","division":"D2","playerName":"Aidan Duggan","college":"Flagler","position":"Defense","clubTeam":"3D Georgia 2027 Red","highSchool":"Roswell","state":"GA","commitmentDate":"2026-08-07"},
+    {"gender":"Boys","class":"2027","division":"D2","playerName":"Dylan Berndt","college":"Lewis","position":"","clubTeam":"","highSchool":"","state":"","commitmentDate":"2026-08-11"},
+    {"gender":"Boys","class":"2027","division":"D2","playerName":"Joe Larson","college":"Saint Michael's","position":"Defense","clubTeam":"Team MN 2027","highSchool":"Saint Thomas Academy","state":"MN","commitmentDate":"2026-08-10"},
+    {"gender":"Boys","class":"2027","division":"D2","playerName":"Zack Mattera","college":"Saint Anselm","position":"","clubTeam":"","highSchool":"Walpole","state":"MA","commitmentDate":"2026-08-11"}
   ],
-  "count": 2724
+  "count": 2729
 }
