@@ -1,5 +1,16 @@
 {
   "recruits": [
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Greyson Egan","college":"Middlebury","position":"Middie","clubTeam":"Midwest Top Gun 2027","highSchool":"Pembroke Hill","state":"MO","commitmentDate":"2026-08-13"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Brett Taylor","college":"Kenyon","position":"Middie","clubTeam":"3d New England 2027 Blue","highSchool":"Pilgrim","state":"RI","commitmentDate":"2026-08-13"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Wilkie Plumb","college":"Trinity (CT)","position":"Attack","clubTeam":"Mesa PA 2027","highSchool":"St George's","state":"RI","commitmentDate":"2026-08-13"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Henry Alnwick","college":"Trinity (CT)","position":"Middie","clubTeam":"Utah Summit 2027","highSchool":"Park City","state":"UT","commitmentDate":"2026-08-13"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Matthew Shannon","college":"Kean","position":"Middie","clubTeam":"NJ Riot 2027 Chaos","highSchool":"Somerville","state":"NJ","commitmentDate":"2026-08-12"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Nicholas Hughes","college":"Stevenson","position":"Goalie","clubTeam":"NJLC 2027 Gold","highSchool":"Southern Regional","state":"NJ","commitmentDate":"2026-08-12"},
+    {"gender":"Boys","class":"2027","division":"D2","playerName":"Alex Planer","college":"Queens","position":"Defense","clubTeam":"","highSchool":"Marcellus","state":"NY","commitmentDate":"2026-08-10"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"James Gooder","college":"Oberlin","position":"Attack","clubTeam":"True National 2027 White","highSchool":"St Paul's","state":"MD","commitmentDate":"2026-08-10"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Hunter Helmick","college":"Connecticut College","position":"Middie","clubTeam":"Silverbacks 2027","highSchool":"Woodberry Forest","state":"VA","commitmentDate":"2026-08-10"},
+    {"gender":"Boys","class":"2027","division":"D3","playerName":"Nick Hoffmann","college":"Kenyon","position":"Middie","clubTeam":"","highSchool":"St. Albans","state":"DC","commitmentDate":"2026-08-09"},
+    {"gender":"Boys","class":"2027","division":"D2","playerName":"Gavin Lynch","college":"Lander","position":"Middie","clubTeam":"True NY Empire 2027","highSchool":"St. Anthony's","state":"NY","commitmentDate":"2026-08-09"},
     {"gender":"Boys","class":"2028","division":"D1","playerName":"Finn Dreywood","college":"Air Force","position":"Defense","clubTeam":"Sweetlax","highSchool":"Pittsford","state":"NY","commitmentDate":"2026-08-10"},
     {"gender":"Boys","class":"2027","division":"D3","playerName":"Carter Mitchell","college":"SUNY Brockport","position":"Middie","clubTeam":"Grizzly Upstate","highSchool":"","state":"NY","commitmentDate":"2026-08-10"},
     {"gender":"Boys","class":"2027","division":"D2","playerName":"Caden Nicholl","college":"Belmont Abbey","position":"Attack","clubTeam":"Silverbacks 2027 Carolina","highSchool":"Milford","state":"OH","commitmentDate":"2026-08-10"},
@@ -25479,5 +25490,5 @@
     {"gender":"Boys","class":"2027","division":"D2","playerName":"Joe Larson","college":"Saint Michael's","position":"Defense","clubTeam":"Team MN 2027","highSchool":"Saint Thomas Academy","state":"MN","commitmentDate":"2026-08-10"},
     {"gender":"Boys","class":"2027","division":"D2","playerName":"Zack Mattera","college":"Saint Anselm","position":"","clubTeam":"","highSchool":"Walpole","state":"MA","commitmentDate":"2026-08-11"}
   ],
-  "count": 2729
+  "count": 2740
 }
