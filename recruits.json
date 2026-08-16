@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-08-16T06:21:07.020Z",
+  "generatedAt": "2026-08-16T20:47:06.297Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9137,
+  "count": 9141,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Ty Haqq",
+      "college": "Robert Morris",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Dublin Jerome",
+      "state": "OH",
+      "commitmentDate": "2026-08-14"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Brody Knox",
+      "college": "Queens",
+      "position": "Defense",
+      "clubTeam": "True Upstate 2027 Black",
+      "highSchool": "West Genesee",
+      "state": "NY",
+      "commitmentDate": "2026-08-14"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -49,6 +73,30 @@
       "clubTeam": "Utah Summit 2027",
       "highSchool": "Park City",
       "state": "UT",
+      "commitmentDate": "2026-08-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Aedan Bok",
+      "college": "Kenyon",
+      "position": "Attack",
+      "clubTeam": "Sixers 2027",
+      "highSchool": "Colorado Academy",
+      "state": "CO",
+      "commitmentDate": "2026-08-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Ethan Macnab",
+      "college": "Susquehanna",
+      "position": "Goalie",
+      "clubTeam": "Patriot Elite 2027 Chrome",
+      "highSchool": "Cranford",
+      "state": "NJ",
       "commitmentDate": "2026-08-13"
     },
     {
