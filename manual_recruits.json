@@ -32927,7 +32927,19 @@
       "highSchool": "Cranford",
       "state": "NJ",
       "commitmentDate": "2026-08-13"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Jamie McCracken",
+      "college": "Penn",
+      "position": "Middie",
+      "clubTeam": "Team Ten",
+      "highSchool": "Malvern Prep",
+      "state": "PA",
+      "commitmentDate": "2026-08-17"
     }
   ],
-  "count": 2744
+  "count": 2745
 }

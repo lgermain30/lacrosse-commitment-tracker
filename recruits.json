@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-08-18T06:23:52.432Z",
+  "generatedAt": "2026-08-18T06:26:29.572Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 9141,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Jamie McCracken",
+      "college": "Penn",
+      "position": "Middie",
+      "clubTeam": "Team Ten",
+      "highSchool": "Malvern Prep",
+      "state": "PA",
+      "commitmentDate": "2026-08-17"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -64981,18 +64993,6 @@
       "clubTeam": "Shore2Shore",
       "highSchool": "East Islip",
       "state": "NY",
-      "commitmentDate": "2025-09-10"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Jamie McCracken",
-      "college": "Brown",
-      "position": "Middie",
-      "clubTeam": "Team Ten",
-      "highSchool": "Malvern Prep",
-      "state": "PA",
       "commitmentDate": "2025-09-10"
     },
     {
