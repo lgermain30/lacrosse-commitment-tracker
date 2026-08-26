@@ -33131,7 +33131,19 @@
       "highSchool": "Malvern Prep",
       "state": "PA",
       "commitmentDate": "2026-08-17"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Danny Sullivan",
+      "college": "Boston U",
+      "position": "Defense",
+      "clubTeam": "Mad Dog National",
+      "highSchool": "Rumson-Fair Haven",
+      "state": "NJ",
+      "commitmentDate": "2026-08-26"
     }
   ],
-  "count": 2745
+  "count": 2762
 }
