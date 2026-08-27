@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T20:45:16.381Z",
+  "generatedAt": "2026-08-27T11:52:47.037Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9157,
+  "count": 9158,
   "recruits": [
     {
       "gender": "Boys",
@@ -14,6 +14,30 @@
       "highSchool": "Rumson-Fair Haven",
       "state": "NJ",
       "commitmentDate": "2026-08-26"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Harrison Penn",
+      "college": "Mercer",
+      "position": "Defense",
+      "clubTeam": "3D Georgia 2027 Red",
+      "highSchool": "IMG National",
+      "state": "FL",
+      "commitmentDate": "2026-08-24"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Rocco Spallina",
+      "college": "Virginia",
+      "position": "Attack",
+      "clubTeam": "Team 91 Long Island 2027 Machine",
+      "highSchool": "Massapequa",
+      "state": "NY",
+      "commitmentDate": "2026-08-23"
     },
     {
       "gender": "Boys",
@@ -57,8 +81,8 @@
       "division": "D3",
       "playerName": "Gavin Banks",
       "college": "Elizabethtown",
-      "position": "Defense",
-      "clubTeam": "",
+      "position": "LSM",
+      "clubTeam": "Fusion 2027",
       "highSchool": "Penn Charter",
       "state": "PA",
       "commitmentDate": "2026-08-20"
@@ -58201,18 +58225,6 @@
       "clubTeam": "3d GA",
       "highSchool": "Milton",
       "state": "GA",
-      "commitmentDate": "2025-09-22"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Rocco Spallina",
-      "college": "PENN",
-      "position": "Attack",
-      "clubTeam": "Team 91 Long Island",
-      "highSchool": "Massapequa",
-      "state": "NY",
       "commitmentDate": "2025-09-22"
     },
     {

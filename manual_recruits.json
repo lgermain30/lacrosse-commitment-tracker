@@ -3,6 +3,30 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D1",
+      "playerName": "Harrison Penn",
+      "college": "Mercer",
+      "position": "Defense",
+      "clubTeam": "3D Georgia 2027 Red",
+      "highSchool": "IMG National",
+      "state": "FL",
+      "commitmentDate": "2026-08-24"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Rocco Spallina",
+      "college": "Virginia",
+      "position": "Attack",
+      "clubTeam": "Team 91 Long Island 2027 Machine",
+      "highSchool": "Massapequa",
+      "state": "NY",
+      "commitmentDate": "2026-08-23"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "D3",
       "playerName": "Calvin Wolfgram",
       "college": "UMass Boston",
@@ -42,8 +66,8 @@
       "division": "D3",
       "playerName": "Gavin Banks",
       "college": "Elizabethtown",
-      "position": "Defense",
-      "clubTeam": "",
+      "position": "LSM",
+      "clubTeam": "Fusion 2027",
       "highSchool": "Penn Charter",
       "state": "PA",
       "commitmentDate": "2026-08-20"
@@ -33145,5 +33169,5 @@
       "commitmentDate": "2026-08-26"
     }
   ],
-  "count": 2762
+  "count": 2764
 }
