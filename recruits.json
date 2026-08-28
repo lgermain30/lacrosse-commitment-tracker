@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-08-27T17:02:34.094Z",
+  "generatedAt": "2026-08-27T17:05:12.845Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 9158,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Danny Sullivan",
+      "college": "Boston U",
+      "position": "Defense",
+      "clubTeam": "Mad Dog National",
+      "highSchool": "Rumson-Fair Haven",
+      "state": "NJ",
+      "commitmentDate": "2026-08-26"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -69013,18 +69025,6 @@
       "clubTeam": "West Coast Starz",
       "highSchool": "Taft",
       "state": "CT",
-      "commitmentDate": "2025-09-02"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Danny Sullivan",
-      "college": "Virginia",
-      "position": "Defense",
-      "clubTeam": "Mad Dog National",
-      "highSchool": "Rumson-Fair Haven",
-      "state": "NJ",
       "commitmentDate": "2025-09-02"
     },
     {
