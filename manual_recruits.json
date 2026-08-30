@@ -2644,18 +2644,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "",
-      "playerName": "Carrie Harkins",
-      "college": "York",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Parkside - Md.",
-      "state": "",
-      "commitmentDate": "2026-07-16"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
       "playerName": "Alice Holtzen",
       "college": "Occidental",
       "position": "Middie",
@@ -2697,18 +2685,6 @@
       "position": "Defense",
       "clubTeam": "",
       "highSchool": "Chardon - Ohio",
-      "state": "",
-      "commitmentDate": "2026-07-16"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Taylor Internante",
-      "college": "Salve Regina",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Hopkinton - Mass.",
       "state": "",
       "commitmentDate": "2026-07-16"
     },
@@ -30358,7 +30334,7 @@
       "clubTeam": "STEPS",
       "highSchool": "Westfield",
       "state": "NJ",
-      "commitmentDate": "2026-01-01"
+      "commitmentDate": "2026-07-23"
     },
     {
       "gender": "Girls",
@@ -30694,18 +30670,6 @@
       "clubTeam": "Phantastix",
       "highSchool": "Penn Manor",
       "state": "PA",
-      "commitmentDate": "2026-01-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D3",
-      "playerName": "Taylor Interante",
-      "college": "Salve Regina",
-      "position": "Attack",
-      "clubTeam": "Laxachusetts",
-      "highSchool": "Hopkinton",
-      "state": "MA",
       "commitmentDate": "2026-01-01"
     },
     {
@@ -33167,7 +33131,55 @@
       "highSchool": "Rumson-Fair Haven",
       "state": "NJ",
       "commitmentDate": "2026-08-26"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Alex Rogers",
+      "college": "Monmouth",
+      "position": "Defense",
+      "clubTeam": "All Lax Select 2027",
+      "highSchool": "Red Bank Catholic",
+      "state": "NJ",
+      "commitmentDate": "2026-08-27"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Katelyn Finlay",
+      "college": "Lycoming",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-18"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Canie Harkins",
+      "college": "York",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Parkside",
+      "state": "MD",
+      "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Taylor Interrante",
+      "college": "Salve Regina",
+      "position": "Attack",
+      "clubTeam": "Laxachusetts",
+      "highSchool": "Hopkinton",
+      "state": "MA",
+      "commitmentDate": "2026-07-16"
     }
   ],
-  "count": 2764
+  "count": 2765
 }

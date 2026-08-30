@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-08-30T10:52:43.708Z",
+  "generatedAt": "2026-08-30T13:08:38.775Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9158,
+  "count": 9159,
   "recruits": [
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Alex Rogers",
+      "college": "Monmouth",
+      "position": "Defense",
+      "clubTeam": "All Lax Select 2027",
+      "highSchool": "Red Bank Catholic",
+      "state": "NJ",
+      "commitmentDate": "2026-08-27"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -193,6 +205,18 @@
       "clubTeam": "4Leaf Army 2027",
       "highSchool": "St Johns Prep Danvers",
       "state": "MA",
+      "commitmentDate": "2026-08-18"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Katelyn Finlay",
+      "college": "Lycoming",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
       "commitmentDate": "2026-08-18"
     },
     {
@@ -1936,6 +1960,18 @@
       "commitmentDate": "2026-07-23"
     },
     {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Skylar Abo",
+      "college": "Connecticut College",
+      "position": "Attack",
+      "clubTeam": "STEPS",
+      "highSchool": "Westfield",
+      "state": "NJ",
+      "commitmentDate": "2026-07-23"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -2803,18 +2839,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "",
-      "playerName": "Carrie Harkins",
-      "college": "York",
-      "position": "Goalie",
-      "clubTeam": "",
-      "highSchool": "Parkside",
-      "state": "MD",
-      "commitmentDate": "2026-07-16"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
       "playerName": "Alice Holtzen",
       "college": "Occidental",
       "position": "Middie",
@@ -2860,18 +2884,6 @@
       "commitmentDate": "2026-07-16"
     },
     {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "",
-      "playerName": "Taylor Internante",
-      "college": "Salve Regina",
-      "position": "Attack",
-      "clubTeam": "",
-      "highSchool": "Hopkinton",
-      "state": "MA",
-      "commitmentDate": "2026-07-16"
-    },
-    {
       "gender": "Boys",
       "class": "2027",
       "division": "",
@@ -2893,6 +2905,30 @@
       "clubTeam": "Igloo 2027 Kodiak Rush",
       "highSchool": "West Islip",
       "state": "NY",
+      "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Canie Harkins",
+      "college": "York",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Parkside",
+      "state": "MD",
+      "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Taylor Interrante",
+      "college": "Salve Regina",
+      "position": "Attack",
+      "clubTeam": "Laxachusetts",
+      "highSchool": "Hopkinton",
+      "state": "MA",
       "commitmentDate": "2026-07-16"
     },
     {
@@ -30691,18 +30727,6 @@
       "gender": "Girls",
       "class": "2027",
       "division": "D3",
-      "playerName": "Skylar Abo",
-      "college": "Connecticut College",
-      "position": "Attack",
-      "clubTeam": "STEPS",
-      "highSchool": "Westfield",
-      "state": "NJ",
-      "commitmentDate": "2026-01-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D3",
       "playerName": "Marianna Rafailides",
       "college": "Denison",
       "position": "Goalie",
@@ -31033,18 +31057,6 @@
       "clubTeam": "Phantastix",
       "highSchool": "Penn Manor",
       "state": "PA",
-      "commitmentDate": "2026-01-01"
-    },
-    {
-      "gender": "Girls",
-      "class": "2027",
-      "division": "D3",
-      "playerName": "Taylor Interante",
-      "college": "Salve Regina",
-      "position": "Attack",
-      "clubTeam": "Laxachusetts",
-      "highSchool": "Hopkinton",
-      "state": "MA",
       "commitmentDate": "2026-01-01"
     },
     {
