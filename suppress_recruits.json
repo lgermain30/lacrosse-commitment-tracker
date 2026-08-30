@@ -460,20 +460,12 @@
     "college": "Providence"
   },
   {
-    "playerName": "Canie Harkins",
-    "college": "York"
-  },
-  {
     "playerName": "Colette Millison",
     "college": "Occidental"
   },
   {
     "playerName": "Grace Hankes",
     "college": "Occidental"
-  },
-  {
-    "playerName": "Taylor Interrante",
-    "college": "Salve Regina"
   },
   {
     "playerName": "Hart Callahan",
@@ -902,5 +894,17 @@
   {
     "playerName": "Danny Sullivan",
     "college": "Virginia"
+  },
+  {
+    "playerName": "Carrie Harkins",
+    "college": "York"
+  },
+  {
+    "playerName": "Taylor Internante",
+    "college": "Salve Regina"
+  },
+  {
+    "playerName": "Taylor Interante",
+    "college": "Salve Regina"
   }
 ]
