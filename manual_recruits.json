@@ -33179,7 +33179,19 @@
       "highSchool": "Hopkinton",
       "state": "MA",
       "commitmentDate": "2026-07-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Lilly Downs",
+      "college": "Navy",
+      "position": "Middie",
+      "clubTeam": "Hero's",
+      "highSchool": "Archbishop Spalding",
+      "state": "MD",
+      "commitmentDate": "2026-08-31"
     }
   ],
-  "count": 2765
+  "count": 2766
 }
