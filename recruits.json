@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-08-31T12:05:02.745Z",
+  "generatedAt": "2026-09-01T10:43:16.959Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9159,
+  "count": 9160,
   "recruits": [
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Lilly Downs",
+      "college": "Navy",
+      "position": "Middie",
+      "clubTeam": "Hero's",
+      "highSchool": "Archbishop Spalding",
+      "state": "MD",
+      "commitmentDate": "2026-08-31"
+    },
     {
       "gender": "Girls",
       "class": "2027",
