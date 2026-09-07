@@ -33191,7 +33191,43 @@
       "highSchool": "Archbishop Spalding",
       "state": "MD",
       "commitmentDate": "2026-08-31"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Caitlin McAleenan",
+      "college": "Penn State",
+      "position": "Middie",
+      "clubTeam": "Capital Lacrosse",
+      "highSchool": "St. John's College",
+      "state": "VA",
+      "commitmentDate": "2026-09-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Molly Pepper",
+      "college": "Dartmouth",
+      "position": "Middie",
+      "clubTeam": "STEPS California",
+      "highSchool": "Sacred Heart Prep",
+      "state": "CA",
+      "commitmentDate": "2026-09-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Chloe Castro",
+      "college": "San Diego State",
+      "position": "Attack",
+      "clubTeam": "Florida Select",
+      "highSchool": "Cardinal Newman",
+      "state": "FL",
+      "commitmentDate": "2026-09-01"
     }
   ],
-  "count": 2766
+  "count": 2769
 }
