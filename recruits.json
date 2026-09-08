@@ -1,8 +1,80 @@
 {
-  "generatedAt": "2026-09-07T10:58:56.561Z",
+  "generatedAt": "2026-09-08T10:14:36.454Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9160,
+  "count": 9171,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Justin Bossolina",
+      "college": "Fairfield",
+      "position": "Defense",
+      "clubTeam": "BBL Elite",
+      "highSchool": "Don Bosco Prep",
+      "state": "NJ",
+      "commitmentDate": "2026-09-05"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Nick Shanahan",
+      "college": "Villanova",
+      "position": "Defense",
+      "clubTeam": "Team Ten",
+      "highSchool": "Haverford School",
+      "state": "PA",
+      "commitmentDate": "2026-09-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Ryan Mueller",
+      "college": "Elmhurst",
+      "position": "Middie",
+      "clubTeam": "Alpha",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-09-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "MJ Femenella",
+      "college": "Franklin & Marshall",
+      "position": "Goalie",
+      "clubTeam": "3D Garden State",
+      "highSchool": "Manasquan",
+      "state": "NJ",
+      "commitmentDate": "2026-09-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Otis Hodson",
+      "college": "Delaware Valley",
+      "position": "Goalie",
+      "clubTeam": "Midwest Top Gun",
+      "highSchool": "Pembroke Hill",
+      "state": "MO",
+      "commitmentDate": "2026-09-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Joey Gerard",
+      "college": "CUI",
+      "position": "LSM",
+      "clubTeam": "Midwest Top Gun",
+      "highSchool": "Westside",
+      "state": "NE",
+      "commitmentDate": "2026-09-01"
+    },
     {
       "gender": "Girls",
       "class": "2028",
@@ -14,6 +86,102 @@
       "highSchool": "Archbishop Spalding",
       "state": "MD",
       "commitmentDate": "2026-08-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Andrew Esslinger",
+      "college": "Mount Union",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Iroquois",
+      "state": "NY",
+      "commitmentDate": "2026-08-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Brady Flynn",
+      "college": "Ohio Wesleyan",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Holy Ghost Prep",
+      "state": "PA",
+      "commitmentDate": "2026-08-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Cody Philpott",
+      "college": "Franklin & Marshall",
+      "position": "Goalie",
+      "clubTeam": "Mad Dog National",
+      "highSchool": "Lawrence Academy",
+      "state": "MA",
+      "commitmentDate": "2026-08-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Cole Fritsche",
+      "college": "Stevens",
+      "position": "Attack",
+      "clubTeam": "Team 11",
+      "highSchool": "Delaware Valley",
+      "state": "NJ",
+      "commitmentDate": "2026-08-30"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Jude Perea",
+      "college": "Immaculata",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Linfield Christian",
+      "state": "CA",
+      "commitmentDate": "2026-08-30"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Levi Fay",
+      "college": "Belmont Abbey",
+      "position": "Middie",
+      "clubTeam": "Team Carolina",
+      "highSchool": "Lake Norman Charter",
+      "state": "NC",
+      "commitmentDate": "2026-08-30"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Gavin Furness",
+      "college": "Westminster (UT)",
+      "position": "LSM",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-08-29"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "William Berard",
+      "college": "Christopher Newport",
+      "position": "Goalie",
+      "clubTeam": "BBL Elite",
+      "highSchool": "Glen Rock",
+      "state": "NJ",
+      "commitmentDate": "2026-08-28"
     },
     {
       "gender": "Girls",
@@ -1850,18 +2018,6 @@
       "highSchool": "Morgantown",
       "state": "WV",
       "commitmentDate": "2026-07-28"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "",
-      "playerName": "Nick Shanahan",
-      "college": "Trinity (CT)",
-      "position": "Defense",
-      "clubTeam": "Team Ten 2027",
-      "highSchool": "Haverford School",
-      "state": "PA",
-      "commitmentDate": "2026-07-27"
     },
     {
       "gender": "Boys",
@@ -27745,18 +27901,6 @@
       "clubTeam": "NJ Riot",
       "highSchool": "Don Bosco Prep",
       "state": "NY",
-      "commitmentDate": "2026-01-01"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D3",
-      "playerName": "Nicholas Shanahan",
-      "college": "Trinity (CT)",
-      "position": "Defense",
-      "clubTeam": "TeamTen",
-      "highSchool": "Haverford School",
-      "state": "PA",
       "commitmentDate": "2026-01-01"
     },
     {
@@ -57385,18 +57529,6 @@
       "clubTeam": "ADVNC NDP NorCal",
       "highSchool": "St Ignatius Prep",
       "state": "CA",
-      "commitmentDate": "2025-09-23"
-    },
-    {
-      "gender": "Boys",
-      "class": "2027",
-      "division": "D1",
-      "playerName": "Justin Bossolina",
-      "college": "Virginia",
-      "position": "Defense",
-      "clubTeam": "Towermen",
-      "highSchool": "Don Bosco Prep",
-      "state": "NJ",
       "commitmentDate": "2025-09-23"
     },
     {
