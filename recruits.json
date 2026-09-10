@@ -1,8 +1,128 @@
 {
-  "generatedAt": "2026-09-09T10:19:56.430Z",
+  "generatedAt": "2026-09-10T09:16:06.610Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9171,
+  "count": 9184,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Johnny Hayden II",
+      "college": "North Carolina",
+      "position": "Defense",
+      "clubTeam": "3d New England",
+      "highSchool": "St. Sebastian's",
+      "state": "MA",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Cooper Augustine",
+      "college": "North Carolina",
+      "position": "Middie",
+      "clubTeam": "Sweetlax FL",
+      "highSchool": "Salisbury School",
+      "state": "CT",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Tyler Watts",
+      "college": "Penn",
+      "position": "LSM",
+      "clubTeam": "3d Georgia",
+      "highSchool": "Berkeley Prep",
+      "state": "FL",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Grady Paltos",
+      "college": "Boston U",
+      "position": "Middie",
+      "clubTeam": "Leading Edge",
+      "highSchool": "Seton Hall Prep",
+      "state": "NJ",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Winn Hapgood",
+      "college": "Dartmouth",
+      "position": "Defense",
+      "clubTeam": "Eclipse",
+      "highSchool": "Darien",
+      "state": "CT",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Morgan Olivier",
+      "college": "Georgetown",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Lovett",
+      "state": "GA",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Vincent Ward",
+      "college": "Virginia",
+      "position": "Attack",
+      "clubTeam": "Rock Stars",
+      "highSchool": "Hill Academy",
+      "state": "ON",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Luke Valenti",
+      "college": "Roanoke",
+      "position": "Middie",
+      "clubTeam": "Eclipse",
+      "highSchool": "Darien",
+      "state": "CT",
+      "commitmentDate": "2026-09-08"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Wayde Smith",
+      "college": "Washington College",
+      "position": "Attack",
+      "clubTeam": "Tri-State",
+      "highSchool": "St. Joseph Metuchen",
+      "state": "NJ",
+      "commitmentDate": "2026-09-06"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Hendrix Warburton",
+      "college": "St. Mary's (MD)",
+      "position": "Defense",
+      "clubTeam": "Team Maryland",
+      "highSchool": "Urbana",
+      "state": "MD",
+      "commitmentDate": "2026-09-06"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -26,6 +146,30 @@
       "highSchool": "Haverford School",
       "state": "PA",
       "commitmentDate": "2026-09-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "William Olstad",
+      "college": "Aurora",
+      "position": "Goalie",
+      "clubTeam": "True MN",
+      "highSchool": "Eastview",
+      "state": "MN",
+      "commitmentDate": "2026-09-04"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Greyson Caulk",
+      "college": "Christopher Newport",
+      "position": "Middie",
+      "clubTeam": "Madlax-Capital",
+      "highSchool": "Cosby",
+      "state": "VA",
+      "commitmentDate": "2026-09-03"
     },
     {
       "gender": "Boys",
@@ -73,6 +217,18 @@
       "clubTeam": "Midwest Top Gun",
       "highSchool": "Westside",
       "state": "NE",
+      "commitmentDate": "2026-09-01"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Miles Fuss",
+      "college": "CUI",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Bainbridge Island",
+      "state": "WA",
       "commitmentDate": "2026-09-01"
     },
     {
