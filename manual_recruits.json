@@ -33791,7 +33791,115 @@
       "highSchool": "Notre Dame Academy",
       "state": "PA",
       "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Logan Eriksen",
+      "college": "Army",
+      "position": "Attack",
+      "clubTeam": "Sweetlax FL",
+      "highSchool": "Tampa Jesuit",
+      "state": "FL",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Dylan Franzen",
+      "college": "UMass",
+      "position": "Attack",
+      "clubTeam": "Laxachusetts",
+      "highSchool": "Catholic Memorial",
+      "state": "MA",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Mac Brooker",
+      "college": "North Carolina",
+      "position": "Goalie",
+      "clubTeam": "Mad Dog National",
+      "highSchool": "Episcopal Dallas",
+      "state": "TX",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Troy Ress",
+      "college": "Pace",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Tucker White",
+      "college": "Michigan",
+      "position": "Goalie",
+      "clubTeam": "3d Georgia",
+      "highSchool": "Salisbury School",
+      "state": "CT",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Dylan Choi",
+      "college": "Notre Dame",
+      "position": "Goalie",
+      "clubTeam": "Thunder",
+      "highSchool": "Culver Academy",
+      "state": "IN",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jack Brock",
+      "college": "Lafayette",
+      "position": "Attack",
+      "clubTeam": "Predators",
+      "highSchool": "Briarcliff",
+      "state": "NY",
+      "commitmentDate": "2026-09-10"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Brady Cornett",
+      "college": "Salisbury",
+      "position": "Attack",
+      "clubTeam": "Clippers",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-09-09"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "William Dodds",
+      "college": "Boston U",
+      "position": "Middie",
+      "clubTeam": "Team 91 Charlotte",
+      "highSchool": "Culver Academy",
+      "state": "IN",
+      "commitmentDate": "2026-09-09"
     }
   ],
-  "count": 2816
+  "count": 2825
 }
