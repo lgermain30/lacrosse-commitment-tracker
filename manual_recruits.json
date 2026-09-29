@@ -2,6 +2,42 @@
   "recruits": [
     {
       "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Chase Russo",
+      "college": "Wagner",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Kimball Union",
+      "state": "NH",
+      "commitmentDate": "2026-09-28"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jack Schild",
+      "college": "UMBC",
+      "position": "Defense",
+      "clubTeam": "Sweetlax Upstate 2028",
+      "highSchool": "Pittsford",
+      "state": "NY",
+      "commitmentDate": "2026-09-28"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Preston True",
+      "college": "Siena",
+      "position": "Defense",
+      "clubTeam": "ADVNC NDP Black 2028",
+      "highSchool": "Issaquah",
+      "state": "WA",
+      "commitmentDate": "2026-09-28"
+    },
+    {
+      "gender": "Boys",
       "class": "2027",
       "division": "D1",
       "playerName": "Logan Ciomperlik",
