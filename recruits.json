@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T11:45:52.744Z",
+  "generatedAt": "2026-10-12T12:07:17.324Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9799,
+  "count": 9831,
   "recruits": [
     {
       "gender": "Boys",
@@ -136,6 +136,54 @@
       "commitmentDate": "2026-10-09"
     },
     {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Paige Turski",
+      "college": "Merrimack",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Cheshire HS",
+      "state": "CT",
+      "commitmentDate": "2026-10-08"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Emilie Crump",
+      "college": "William Smith",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Severn",
+      "state": "MD",
+      "commitmentDate": "2026-10-08"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Molly Waltz",
+      "college": "UC Davis",
+      "position": "Middie",
+      "clubTeam": "ADVNC 2028AA",
+      "highSchool": "Archbishop Mitty",
+      "state": "CA",
+      "commitmentDate": "2026-10-08"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Audra Dixon",
+      "college": "Eastern Michigan",
+      "position": "Defense",
+      "clubTeam": "Lacrosse Monkey 2028",
+      "highSchool": "Mounds View",
+      "state": "MN",
+      "commitmentDate": "2026-10-08"
+    },
+    {
       "gender": "Boys",
       "class": "2028",
       "division": "D1",
@@ -194,6 +242,42 @@
       "highSchool": "Downers Grove",
       "state": "IL",
       "commitmentDate": "2026-10-08"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Colette Printup",
+      "college": "Hofstra",
+      "position": "Defense",
+      "clubTeam": "Monster Elite 2027 Purple",
+      "highSchool": "Niagara Falls",
+      "state": "NY",
+      "commitmentDate": "2026-10-07"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Ellianne Barlow",
+      "college": "Iona",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-07"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Bowen Schmitt",
+      "college": "American",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Smithtown East",
+      "state": "NY",
+      "commitmentDate": "2026-10-07"
     },
     {
       "gender": "Boys",
@@ -314,6 +398,90 @@
       "highSchool": "St. Anthony's",
       "state": "NY",
       "commitmentDate": "2026-10-07"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Sophie Baroni",
+      "college": "Gettysburg",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Radnor",
+      "state": "PA",
+      "commitmentDate": "2026-10-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Bridget Overs",
+      "college": "UMBC",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Kellenberg Memorial",
+      "state": "NY",
+      "commitmentDate": "2026-10-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Maya Michaud",
+      "college": "Le Moyne",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Liverpool",
+      "state": "NY",
+      "commitmentDate": "2026-10-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Camryn Bruckner",
+      "college": "Hofstra",
+      "position": "Middie",
+      "clubTeam": "LI Legacy 2028 Blue",
+      "highSchool": "Bayport-Blue Point",
+      "state": "NY",
+      "commitmentDate": "2026-10-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Zoey Overslaugh",
+      "college": "Mercyhurst",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Midlakes",
+      "state": "NY",
+      "commitmentDate": "2026-10-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Gianna Lagina",
+      "college": "Wofford",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Detroit Country Day",
+      "state": "MI",
+      "commitmentDate": "2026-10-06"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Anna McVeigh",
+      "college": "Colgate",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Germantown Academy",
+      "state": "PA",
+      "commitmentDate": "2026-10-06"
     },
     {
       "gender": "Boys",
@@ -472,6 +640,42 @@
       "commitmentDate": "2026-10-06"
     },
     {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Gianna Thurlow",
+      "college": "Youngstown State",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-05"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Emma Bennet",
+      "college": "Wofford",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-05"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jillian Black",
+      "college": "Fairleigh Dickinson",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Kings Park",
+      "state": "NY",
+      "commitmentDate": "2026-10-05"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "D2",
@@ -566,6 +770,30 @@
       "highSchool": "Saint Ignatius Prep",
       "state": "CA",
       "commitmentDate": "2026-10-05"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D2",
+      "playerName": "Gabrielle Ulrich",
+      "college": "Wingate",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Lakewood Ranch",
+      "state": "FL",
+      "commitmentDate": "2026-10-04"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Rachel Salter",
+      "college": "La Salle",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Millbrook",
+      "state": "NC",
+      "commitmentDate": "2026-10-04"
     },
     {
       "gender": "Boys",
@@ -822,6 +1050,30 @@
     {
       "gender": "Girls",
       "class": "2028",
+      "division": "D1",
+      "playerName": "Reese Parent",
+      "college": "Marist",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Whitesboro",
+      "state": "NY",
+      "commitmentDate": "2026-10-03"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Alivia Wallis",
+      "college": "Saint Joseph's",
+      "position": "Attack",
+      "clubTeam": "Phantastix 2028 Purple",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-03"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
       "division": "D2",
       "playerName": "Mia Demma",
       "college": "Tampa",
@@ -938,6 +1190,66 @@
       "highSchool": "Deerfield",
       "state": "MA",
       "commitmentDate": "2026-10-03"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Malia Staniec",
+      "college": "Presbyterian",
+      "position": "Middie",
+      "clubTeam": "Eagle Stix 2027 Grey",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-02"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Emmery Gentile",
+      "college": "William & Mary",
+      "position": "Attack",
+      "clubTeam": "Capital 2028 Orange",
+      "highSchool": "St John's DC",
+      "state": "DC",
+      "commitmentDate": "2026-10-02"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Leighton Poeta",
+      "college": "Youngstown State",
+      "position": "Middie",
+      "clubTeam": "Nor'easter 2028",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-02"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Marin Kamerick",
+      "college": "Youngstown State",
+      "position": "Middie",
+      "clubTeam": "Lucky Lax 2028",
+      "highSchool": "St Francis De Sales",
+      "state": "IL",
+      "commitmentDate": "2026-10-02"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D2",
+      "playerName": "Avery Kelly",
+      "college": "Queens",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Maryvale Prep",
+      "state": "MD",
+      "commitmentDate": "2026-10-02"
     },
     {
       "gender": "Girls",
@@ -1070,6 +1382,54 @@
       "highSchool": "Severn",
       "state": "MD",
       "commitmentDate": "2026-10-02"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Bella Porawski",
+      "college": "UAlbany",
+      "position": "Defense",
+      "clubTeam": "DEWLAX 2028 Black",
+      "highSchool": "Glen Ridge",
+      "state": "NJ",
+      "commitmentDate": "2026-10-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jillian Falcone",
+      "college": "Quinnipiac",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Baldwinsville",
+      "state": "NY",
+      "commitmentDate": "2026-10-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Grace Hart",
+      "college": "Winthrop",
+      "position": "Defense",
+      "clubTeam": "Ultimate CLT 2028 Premier",
+      "highSchool": "Lake Norman Charter",
+      "state": "NC",
+      "commitmentDate": "2026-10-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Camila Monterrosa",
+      "college": "Gardner-Webb",
+      "position": "Attack",
+      "clubTeam": "3d Georgia 2028",
+      "highSchool": "North Gwinnett",
+      "state": "GA",
+      "commitmentDate": "2026-10-01"
     },
     {
       "gender": "Girls",
@@ -1310,6 +1670,30 @@
       "highSchool": "Lawrenceville",
       "state": "NJ",
       "commitmentDate": "2026-10-01"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Kyra Trippett",
+      "college": "UMBC",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Severna Park",
+      "state": "MD",
+      "commitmentDate": "2026-09-30"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Tess Andrews",
+      "college": "Radford",
+      "position": "Defense",
+      "clubTeam": "NXT 2028 Volt",
+      "highSchool": "Saucon Valley",
+      "state": "PA",
+      "commitmentDate": "2026-09-30"
     },
     {
       "gender": "Girls",
