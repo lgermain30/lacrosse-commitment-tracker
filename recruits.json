@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-15T20:03:54.758Z",
+  "generatedAt": "2026-10-15T20:04:36.659Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9846,
+  "count": 9851,
   "recruits": [
     {
       "gender": "Boys",
@@ -172,6 +172,18 @@
       "commitmentDate": "2026-10-13"
     },
     {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Lainey Wallace",
+      "college": "Boston College",
+      "position": "Attack",
+      "clubTeam": "Freestyle Lacrosse 2028",
+      "highSchool": "Walton",
+      "state": "GA",
+      "commitmentDate": "2026-10-12"
+    },
+    {
       "gender": "Boys",
       "class": "2028",
       "division": "D1",
@@ -206,6 +218,18 @@
       "highSchool": "Bishop Moore",
       "state": "FL",
       "commitmentDate": "2026-10-11"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Sophia Benedetto",
+      "college": "American",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Rumson-Fair Haven",
+      "state": "NJ",
+      "commitmentDate": "2026-10-10"
     },
     {
       "gender": "Boys",
@@ -278,6 +302,42 @@
       "highSchool": "Bishop Ireton",
       "state": "VA",
       "commitmentDate": "2026-10-10"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Madison Ruggieri",
+      "college": "Presbyterian",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Franklin",
+      "state": "TN",
+      "commitmentDate": "2026-10-09"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Taylor Granison",
+      "college": "Howard",
+      "position": "Middie",
+      "clubTeam": "FCA Upstate 2028",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-09"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Sophia Pratt",
+      "college": "American",
+      "position": "Attack",
+      "clubTeam": "NXT 2028 Black",
+      "highSchool": "Agnes Irwin",
+      "state": "PA",
+      "commitmentDate": "2026-10-09"
     },
     {
       "gender": "Boys",

@@ -1,6 +1,66 @@
 {
   "recruits": [
     {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Lainey Wallace",
+      "college": "Boston College",
+      "position": "Attack",
+      "clubTeam": "Freestyle Lacrosse 2028",
+      "highSchool": "Walton",
+      "state": "GA",
+      "commitmentDate": "2026-10-12"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Sophia Benedetto",
+      "college": "American",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Rumson-Fair Haven",
+      "state": "NJ",
+      "commitmentDate": "2026-10-10"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Madison Ruggieri",
+      "college": "Presbyterian",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Franklin",
+      "state": "TN",
+      "commitmentDate": "2026-10-09"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Taylor Granison",
+      "college": "Howard",
+      "position": "Middie",
+      "clubTeam": "FCA Upstate 2028",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-09"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Sophia Pratt",
+      "college": "American",
+      "position": "Attack",
+      "clubTeam": "NXT 2028 Black",
+      "highSchool": "Agnes Irwin",
+      "state": "PA",
+      "commitmentDate": "2026-10-09"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "D3",
