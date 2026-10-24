@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-24T11:10:11.884Z",
+  "generatedAt": "2026-10-24T11:12:16.640Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 9881,
+  "count": 9887,
   "recruits": [
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Isabella DaRin",
+      "college": "Towson",
+      "position": "Goalie",
+      "clubTeam": "Orange Crush 2028",
+      "highSchool": "Liverpool",
+      "state": "NY",
+      "commitmentDate": "2026-10-22"
+    },
     {
       "gender": "Boys",
       "class": "2028",
@@ -26,6 +38,18 @@
       "highSchool": "Woodlands II",
       "state": "TX",
       "commitmentDate": "2026-10-22"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D2",
+      "playerName": "Quinn McCarthy",
+      "college": "Florida Tech",
+      "position": "Attack",
+      "clubTeam": "STEPS Elite NJ 2028 White",
+      "highSchool": "Pascack Valley",
+      "state": "NJ",
+      "commitmentDate": "2026-10-20"
     },
     {
       "gender": "Boys",
@@ -62,6 +86,42 @@
       "highSchool": "Cazenovia",
       "state": "NY",
       "commitmentDate": "2026-10-20"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Maddie Lane",
+      "college": "UConn",
+      "position": "Middie",
+      "clubTeam": "CT Grizzlies 2028 Navy",
+      "highSchool": "Greenwich Academy",
+      "state": "CT",
+      "commitmentDate": "2026-10-19"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Veronika Nevins",
+      "college": "Canisius",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-10-19"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D2",
+      "playerName": "Addison Wells",
+      "college": "Anderson (SC)",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Baldwinsville",
+      "state": "NY",
+      "commitmentDate": "2026-10-19"
     },
     {
       "gender": "Girls",
@@ -158,6 +218,18 @@
       "highSchool": "",
       "state": "",
       "commitmentDate": "2026-10-17"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Bennett Clark",
+      "college": "Central Michigan",
+      "position": "Defense",
+      "clubTeam": "Orange Crush 2028",
+      "highSchool": "Kent School",
+      "state": "CT",
+      "commitmentDate": "2026-10-16"
     },
     {
       "gender": "Girls",
