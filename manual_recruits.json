@@ -1,6 +1,78 @@
 {
   "recruits": [
     {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Finn Edwards",
+      "college": "Sacred Heart",
+      "position": "LSM",
+      "clubTeam": "Eclipse Navy 2028",
+      "highSchool": "Staples-Westport",
+      "state": "CT",
+      "commitmentDate": "2026-10-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Cooper Young",
+      "college": "Westminster (UT)",
+      "position": "Middie",
+      "clubTeam": "Team America 2027",
+      "highSchool": "Woodlands II",
+      "state": "TX",
+      "commitmentDate": "2026-10-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Dylan Ignall",
+      "college": "Marquette",
+      "position": "Defense",
+      "clubTeam": "Laxachusetts 2028 Black",
+      "highSchool": "Tabor Academy",
+      "state": "MA",
+      "commitmentDate": "2026-10-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Daniel Ferrizz",
+      "college": "LIU",
+      "position": "Middie",
+      "clubTeam": "Be The Best 2028 Black",
+      "highSchool": "Sachem North",
+      "state": "NY",
+      "commitmentDate": "2026-10-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Jonas Putman",
+      "college": "Saint Vincent",
+      "position": "Goalie",
+      "clubTeam": "3D Upstate 2027",
+      "highSchool": "Cazenovia",
+      "state": "NY",
+      "commitmentDate": "2026-10-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Garrett Walters",
+      "college": "Hobart",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Park Regional",
+      "state": "NJ",
+      "commitmentDate": "2026-10-17"
+    },
+    {
       "gender": "Girls",
       "class": "2027",
       "division": "D1",
