@@ -1,6 +1,78 @@
 {
   "recruits": [
     {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Wyatt Petau",
+      "college": "Mercer",
+      "position": "Defense",
+      "clubTeam": "CO Kings 2027",
+      "highSchool": "Valor Christian",
+      "state": "CO",
+      "commitmentDate": "2026-11-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Brendan Dynan",
+      "college": "Stevenson",
+      "position": "Goalie",
+      "clubTeam": "True Philly 2028 Black",
+      "highSchool": "Springside Chestnut",
+      "state": "PA",
+      "commitmentDate": "2026-11-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Emmett Windley",
+      "college": "Florida Southern",
+      "position": "Middie",
+      "clubTeam": "Sixers 2027",
+      "highSchool": "Evergreen",
+      "state": "CO",
+      "commitmentDate": "2026-11-02"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "James Farrell",
+      "college": "Cornell",
+      "position": "Middie",
+      "clubTeam": "Big 4 HHH 2028",
+      "highSchool": "Haddonfield Memorial",
+      "state": "NJ",
+      "commitmentDate": "2026-10-31"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Alex Neuman",
+      "college": "Marist",
+      "position": "Middie",
+      "clubTeam": "Igloo 2028 Northmen",
+      "highSchool": "Bethpage",
+      "state": "NY",
+      "commitmentDate": "2026-10-26"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Presley Thompson",
+      "college": "Mount St. Mary's",
+      "position": "SSDM",
+      "clubTeam": "",
+      "highSchool": "South River",
+      "state": "MD",
+      "commitmentDate": "2026-10-23"
+    },
+    {
       "gender": "Girls",
       "class": "2028",
       "division": "D3",
