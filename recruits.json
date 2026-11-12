@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-11-11T13:09:05.819Z",
+  "generatedAt": "2026-11-12T12:19:27.549Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10021,
+  "count": 10023,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "William Wilson",
+      "college": "SMU",
+      "position": "Middie",
+      "clubTeam": "Hilltop 2027",
+      "highSchool": "Regis Jesuit",
+      "state": "CO",
+      "commitmentDate": "2026-11-11"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Matthew Fine",
+      "college": "SMU",
+      "position": "Attack",
+      "clubTeam": "Mad Dog National 2027 Gold",
+      "highSchool": "Loyola-Los Angeles",
+      "state": "CA",
+      "commitmentDate": "2026-11-11"
+    },
     {
       "gender": "Boys",
       "class": "2027",
