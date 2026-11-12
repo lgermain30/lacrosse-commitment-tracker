@@ -1,6 +1,30 @@
 {
   "recruits": [
     {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "William Wilson",
+      "college": "SMU",
+      "position": "Middie",
+      "clubTeam": "Hilltop 2027",
+      "highSchool": "Regis Jesuit",
+      "state": "CO",
+      "commitmentDate": "2026-11-11"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Matthew Fine",
+      "college": "SMU",
+      "position": "Attack",
+      "clubTeam": "Mad Dog National 2027 Gold",
+      "highSchool": "Loyola-Los Angeles",
+      "state": "CA",
+      "commitmentDate": "2026-11-11"
+    },
+    {
       "gender": "Girls",
       "class": "2028",
       "division": "D3",
