@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-11-13T13:35:44.514Z",
+  "generatedAt": "2026-11-13T18:31:18.620Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10024,
+  "count": 10030,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Stockton Steward",
+      "college": "SMU",
+      "position": "Attack",
+      "clubTeam": "West Coast Starz 2027 Gold",
+      "highSchool": "Western Reserve",
+      "state": "OH",
+      "commitmentDate": "2026-11-13"
+    },
     {
       "gender": "Boys",
       "class": "2027",
@@ -856,6 +868,54 @@
       "commitmentDate": "2026-11-04"
     },
     {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D2",
+      "playerName": "Braeden Anderson",
+      "college": "UIndy",
+      "position": "LSM",
+      "clubTeam": "Second City 2027 Gold",
+      "highSchool": "Prospect",
+      "state": "IL",
+      "commitmentDate": "2026-11-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Michael Vitulli",
+      "college": "St. Joseph's (L.I.)",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Longwood",
+      "state": "NY",
+      "commitmentDate": "2026-11-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Pick Meehan",
+      "college": "Hofstra",
+      "position": "Middie",
+      "clubTeam": "Denver Elite 2028",
+      "highSchool": "Mountain Vista",
+      "state": "CO",
+      "commitmentDate": "2026-11-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Axton Retherford",
+      "college": "Robert Morris",
+      "position": "Defense",
+      "clubTeam": "Team Oregon 2028 AA",
+      "highSchool": "Summit",
+      "state": "OR",
+      "commitmentDate": "2026-11-03"
+    },
+    {
       "gender": "Girls",
       "class": "2027",
       "division": "D3",
@@ -1058,6 +1118,18 @@
       "highSchool": "Miller Place",
       "state": "NY",
       "commitmentDate": "2026-11-03"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Evangelos Karaminas",
+      "college": "Neumann",
+      "position": "Goalie",
+      "clubTeam": "HEADstrong Lehigh Valley 2027",
+      "highSchool": "Easton Area",
+      "state": "PA",
+      "commitmentDate": "2026-11-02"
     },
     {
       "gender": "Girls",
