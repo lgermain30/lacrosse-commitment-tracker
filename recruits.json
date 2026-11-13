@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T18:31:18.620Z",
+  "generatedAt": "2026-11-13T18:31:31.503Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
   "count": 10030,
   "recruits": [
@@ -882,7 +882,7 @@
     {
       "gender": "Boys",
       "class": "2027",
-      "division": "D1",
+      "division": "D3",
       "playerName": "Michael Vitulli",
       "college": "St. Joseph's (L.I.)",
       "position": "Goalie",
@@ -1122,7 +1122,7 @@
     {
       "gender": "Boys",
       "class": "2027",
-      "division": "D1",
+      "division": "D3",
       "playerName": "Evangelos Karaminas",
       "college": "Neumann",
       "position": "Goalie",
