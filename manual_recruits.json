@@ -3,6 +3,18 @@
     {
       "gender": "Boys",
       "class": "2027",
+      "division": "D2",
+      "playerName": "Rylan Provenzano",
+      "college": "Rollins",
+      "position": "Middie",
+      "clubTeam": "LI Sting 2027",
+      "highSchool": "Bartram Trail",
+      "state": "FL",
+      "commitmentDate": "2026-11-06"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
       "division": "D1",
       "playerName": "William Wilson",
       "college": "SMU",
