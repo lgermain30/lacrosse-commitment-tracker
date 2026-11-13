@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T18:31:31.503Z",
+  "generatedAt": "2026-11-13T18:33:03.274Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10030,
+  "count": 10031,
   "recruits": [
     {
       "gender": "Boys",
@@ -1118,6 +1118,18 @@
       "highSchool": "Miller Place",
       "state": "NY",
       "commitmentDate": "2026-11-03"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Juliette Caldwell-Little",
+      "college": "Howard",
+      "position": "Middie",
+      "clubTeam": "ADVNC 2028AA",
+      "highSchool": "Branson",
+      "state": "CA",
+      "commitmentDate": "2026-11-02"
     },
     {
       "gender": "Boys",
