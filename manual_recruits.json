@@ -1,6 +1,18 @@
 {
   "recruits": [
     {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Juliette Caldwell-Little",
+      "college": "Howard",
+      "position": "Middie",
+      "clubTeam": "ADVNC 2028AA",
+      "highSchool": "Branson",
+      "state": "CA",
+      "commitmentDate": "2026-11-02"
+    },
+    {
       "gender": "Boys",
       "class": "2027",
       "division": "D1",
@@ -1936,7 +1948,7 @@
       "gender": "Girls",
       "class": "2028",
       "division": "D1",
-      "playerName": "Zoë Payne",
+      "playerName": "Zo\u00eb Payne",
       "college": "James Madison",
       "position": "Defense",
       "clubTeam": "Alliance National 2028",
