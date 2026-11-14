@@ -1,6 +1,54 @@
 {
   "recruits": [
     {
+      "gender": "boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Michael Bruketta",
+      "college": "Holy Cross",
+      "position": "Attack",
+      "clubTeam": "Seattle Starz 2027",
+      "highSchool": "Choate",
+      "state": "CT",
+      "commitmentDate": "2026-11-13"
+    },
+    {
+      "gender": "boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Matteo Helton",
+      "college": "Vassar",
+      "position": "Attack",
+      "clubTeam": "Next Level 2027 Red",
+      "highSchool": "Bullis",
+      "state": "MD",
+      "commitmentDate": "2026-11-12"
+    },
+    {
+      "gender": "boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Aiden Heber",
+      "college": "Canisius",
+      "position": "Middie",
+      "clubTeam": "Resolute Ohio 2027 Red",
+      "highSchool": "Beavercreek",
+      "state": "OH",
+      "commitmentDate": "2026-11-11"
+    },
+    {
+      "gender": "boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "George Jigarjian",
+      "college": "Lehigh",
+      "position": "Middie",
+      "clubTeam": "Eclipse Navy 2028",
+      "highSchool": "Poly Prep",
+      "state": "NY",
+      "commitmentDate": "2026-11-11"
+    },
+    {
       "gender": "Girls",
       "class": "2028",
       "division": "D1",
