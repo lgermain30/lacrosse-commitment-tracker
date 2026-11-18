@@ -1,6 +1,54 @@
 {
   "recruits": [
     {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Brayden Swiney",
+      "college": "Hobart",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Upper Arlington",
+      "state": "OH",
+      "commitmentDate": "2026-11-16"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Caden Louise",
+      "college": "Ohio Wesleyan",
+      "position": "Attack",
+      "clubTeam": "Old Line Elite 2027",
+      "highSchool": "Battlefield",
+      "state": "VA",
+      "commitmentDate": "2026-11-15"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Liam Maher",
+      "college": "Brown",
+      "position": "Attack",
+      "clubTeam": "Madlax-Capital 2028",
+      "highSchool": "St Anne's-Belfield",
+      "state": "VA",
+      "commitmentDate": "2026-11-14"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Emmett Coyle",
+      "college": "Fairfield",
+      "position": "LSM",
+      "clubTeam": "ADVNC NDP NorCal 2028",
+      "highSchool": "Marin Catholic",
+      "state": "CA",
+      "commitmentDate": "2026-11-13"
+    },
+    {
       "gender": "Girls",
       "class": "2028",
       "division": "D3",
