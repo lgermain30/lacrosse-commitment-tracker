@@ -1,8 +1,56 @@
 {
-  "generatedAt": "2026-11-18T14:45:12.726Z",
+  "generatedAt": "2026-11-19T12:19:37.583Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10055,
+  "count": 10062,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Will Gjervold",
+      "college": "High Point",
+      "position": "Defense",
+      "clubTeam": "",
+      "highSchool": "Darien",
+      "state": "CT",
+      "commitmentDate": "2026-11-17"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Michael Rodosky",
+      "college": "Denver",
+      "position": "Goalie",
+      "clubTeam": "",
+      "highSchool": "Western Reserve Academy",
+      "state": "OH",
+      "commitmentDate": "2026-11-17"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Trey McDonald",
+      "college": "Delaware",
+      "position": "Attack",
+      "clubTeam": "DC Express 2028 Black",
+      "highSchool": "Paul VI",
+      "state": "VA",
+      "commitmentDate": "2026-11-17"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Andrew Agresti",
+      "college": "Kenyon",
+      "position": "LSM",
+      "clubTeam": "",
+      "highSchool": "Chaminade",
+      "state": "NY",
+      "commitmentDate": "2026-11-16"
+    },
     {
       "gender": "Boys",
       "class": "2028",
@@ -86,6 +134,18 @@
       "highSchool": "Hill Academy",
       "state": "ON",
       "commitmentDate": "2026-11-16"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Keira Felker",
+      "college": "UMBC",
+      "position": "Defense",
+      "clubTeam": "Igloo 2028 Frostbite",
+      "highSchool": "Massapequa",
+      "state": "NY",
+      "commitmentDate": "2026-11-15"
     },
     {
       "gender": "Boys",
@@ -206,6 +266,18 @@
       "highSchool": "Taft School",
       "state": "CT",
       "commitmentDate": "2026-11-14"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Quinn Ahrenholz",
+      "college": "Lafayette",
+      "position": "Attack",
+      "clubTeam": "Yellow Jackets North 2028 Howe",
+      "highSchool": "Highland",
+      "state": "NY",
+      "commitmentDate": "2026-11-13"
     },
     {
       "gender": "Boys",
@@ -338,6 +410,18 @@
       "highSchool": "IMG National",
       "state": "FL",
       "commitmentDate": "2026-11-10"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Olivia Whang",
+      "college": "Wellesley",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Manhasset",
+      "state": "NY",
+      "commitmentDate": "2026-11-09"
     },
     {
       "gender": "Girls",
