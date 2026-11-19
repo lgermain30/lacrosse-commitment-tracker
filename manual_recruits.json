@@ -1,6 +1,18 @@
 {
   "recruits": [
     {
+      "gender": "boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Will DyReyes",
+      "college": "Lafayette",
+      "position": "Attack",
+      "clubTeam": "Brotherly Love Hercules 2028",
+      "highSchool": "Haddonfield Memorial",
+      "state": "NJ",
+      "commitmentDate": "2026-11-18"
+    },
+    {
       "gender": "Girls",
       "class": "2028",
       "division": "D1",
@@ -2320,7 +2332,7 @@
       "gender": "Girls",
       "class": "2028",
       "division": "D1",
-      "playerName": "Zoë Payne",
+      "playerName": "Zo\u00eb Payne",
       "college": "James Madison",
       "position": "Defense",
       "clubTeam": "Alliance National 2028",
