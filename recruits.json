@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-11-19T14:52:19.487Z",
+  "generatedAt": "2026-11-20T12:19:17.016Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10063,
+  "count": 10068,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Alex Karetsos",
+      "college": "Dickinson",
+      "position": "Attack",
+      "clubTeam": "Baltimore Crabs 2028",
+      "highSchool": "Allentown Central Cath",
+      "state": "PA",
+      "commitmentDate": "2026-11-19"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Colton McKeachnie",
+      "college": "Brown",
+      "position": "Middie",
+      "clubTeam": "Rock Stars 2028",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-11-18"
+    },
     {
       "gender": "boys",
       "class": "2028",
@@ -14,6 +38,30 @@
       "highSchool": "Haddonfield Memorial",
       "state": "NJ",
       "commitmentDate": "2026-11-18"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Kyle Intal",
+      "college": "Lafayette",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Wissahickon",
+      "state": "PA",
+      "commitmentDate": "2026-11-17"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Griffin Sullivan",
+      "college": "Lafayette",
+      "position": "Attack",
+      "clubTeam": "",
+      "highSchool": "Brunswick School",
+      "state": "CT",
+      "commitmentDate": "2026-11-17"
     },
     {
       "gender": "Boys",
@@ -278,6 +326,18 @@
       "highSchool": "Taft School",
       "state": "CT",
       "commitmentDate": "2026-11-14"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Trey Tucker",
+      "college": "Salisbury",
+      "position": "SSDM",
+      "clubTeam": "Clippers 2028 Blue",
+      "highSchool": "IMG National",
+      "state": "FL",
+      "commitmentDate": "2026-11-13"
     },
     {
       "gender": "Girls",
