@@ -1,8 +1,56 @@
 {
-  "generatedAt": "2026-11-20T14:33:17.229Z",
+  "generatedAt": "2026-11-21T12:20:08.123Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10068,
+  "count": 10075,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Seth Cummings",
+      "college": "Stony Brook",
+      "position": "LSM",
+      "clubTeam": "SweetLax Carolina 2027",
+      "highSchool": "Grimsley",
+      "state": "NC",
+      "commitmentDate": "2026-11-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Tommy Hutcheson",
+      "college": "York",
+      "position": "Middie",
+      "clubTeam": "Honey National 2028",
+      "highSchool": "Minnechaug",
+      "state": "MA",
+      "commitmentDate": "2026-11-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Will Briggs",
+      "college": "Lynchburg",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Boys' Latin",
+      "state": "MD",
+      "commitmentDate": "2026-11-19"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Carson Brown",
+      "college": "Bellarmine",
+      "position": "Middie",
+      "clubTeam": "Team 91 Georgia 2028",
+      "highSchool": "Parkview",
+      "state": "GA",
+      "commitmentDate": "2026-11-19"
+    },
     {
       "gender": "Boys",
       "class": "2028",
@@ -14,6 +62,42 @@
       "highSchool": "Allentown Central Cath",
       "state": "PA",
       "commitmentDate": "2026-11-19"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Ryan Carney",
+      "college": "Sacred Heart",
+      "position": "Middie",
+      "clubTeam": "",
+      "highSchool": "Ridgefield",
+      "state": "CT",
+      "commitmentDate": "2026-11-18"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Jackson Pleasant",
+      "college": "York",
+      "position": "LSM",
+      "clubTeam": "Team 91 Annapolis 2028",
+      "highSchool": "Chesapeake-AA",
+      "state": "MD",
+      "commitmentDate": "2026-11-18"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Brendan Schray",
+      "college": "Lafayette",
+      "position": "Defense",
+      "clubTeam": "Mad Dog National 2028 Black",
+      "highSchool": "Our Lady of Good Counsel",
+      "state": "MD",
+      "commitmentDate": "2026-11-18"
     },
     {
       "gender": "Boys",
