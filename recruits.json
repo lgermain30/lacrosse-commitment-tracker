@@ -1,8 +1,44 @@
 {
-  "generatedAt": "2026-11-22T13:44:38.762Z",
+  "generatedAt": "2026-11-23T12:20:40.285Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10076,
+  "count": 10079,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jack Mather",
+      "college": "Holy Cross",
+      "position": "Middie",
+      "clubTeam": "West Coast Starz 2028 Gold",
+      "highSchool": "Taft School",
+      "state": "CT",
+      "commitmentDate": "2026-11-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Brayden Wise",
+      "college": "North Carolina",
+      "position": "Defense",
+      "clubTeam": "3d Georgia 2028 Red",
+      "highSchool": "Salisbury School",
+      "state": "CT",
+      "commitmentDate": "2026-11-22"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Chris Bryan",
+      "college": "Robert Morris",
+      "position": "Middie",
+      "clubTeam": "Delco Elite 2028",
+      "highSchool": "Haverford School",
+      "state": "PA",
+      "commitmentDate": "2026-11-22"
+    },
     {
       "gender": "Boys",
       "class": "2028",
