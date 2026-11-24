@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-23T16:46:41.716Z",
+  "generatedAt": "2026-11-24T12:19:52.156Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10079,
+  "count": 10080,
   "recruits": [
     {
       "gender": "Boys",
@@ -434,6 +434,18 @@
       "highSchool": "Notre Dame Prep",
       "state": "AZ",
       "commitmentDate": "2026-11-15"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Karsyn Robbins",
+      "college": "James Madison",
+      "position": "Defense",
+      "clubTeam": "Florida Select 2027",
+      "highSchool": "IMG National",
+      "state": "FL",
+      "commitmentDate": "2026-11-14"
     },
     {
       "gender": "Boys",
