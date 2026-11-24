@@ -1,6 +1,18 @@
 {
   "recruits": [
     {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Karsyn Robbins",
+      "college": "James Madison",
+      "position": "Defense",
+      "clubTeam": "Florida Select 2027",
+      "highSchool": "IMG National",
+      "state": "FL",
+      "commitmentDate": "2026-11-14"
+    },
+    {
       "gender": "Boys",
       "class": "2028",
       "division": "D1",
