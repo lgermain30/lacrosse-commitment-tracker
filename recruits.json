@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T16:40:32.837Z",
+  "generatedAt": "2026-11-25T12:20:01.449Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10080,
+  "count": 10086,
   "recruits": [
     {
       "gender": "Boys",
@@ -43,6 +43,18 @@
       "gender": "Boys",
       "class": "2028",
       "division": "D1",
+      "playerName": "Kellan Troy",
+      "college": "Lafayette",
+      "position": "Attack",
+      "clubTeam": "Mad Dog East Elite",
+      "highSchool": "Don Bosco Prep",
+      "state": "NJ",
+      "commitmentDate": "2026-11-21"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
       "playerName": "Neil Wasilausky",
       "college": "VMI",
       "position": "Defense",
@@ -50,6 +62,30 @@
       "highSchool": "Paul VI",
       "state": "VA",
       "commitmentDate": "2026-11-21"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jason Rubincam",
+      "college": "Hobart",
+      "position": "Middie",
+      "clubTeam": "Delco Elite 2028",
+      "highSchool": "Ridley",
+      "state": "PA",
+      "commitmentDate": "2026-11-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Jack Putman",
+      "college": "Cornell",
+      "position": "Middie",
+      "clubTeam": "Orange Crush 2028",
+      "highSchool": "Cicero North Syracuse",
+      "state": "NY",
+      "commitmentDate": "2026-11-20"
     },
     {
       "gender": "Boys",
@@ -110,6 +146,42 @@
       "highSchool": "Allentown Central Cath",
       "state": "PA",
       "commitmentDate": "2026-11-19"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D1",
+      "playerName": "Natalie Tittsworth",
+      "college": "Queens",
+      "position": "Middie",
+      "clubTeam": "M&D 2028 Red",
+      "highSchool": "Mount Hebron",
+      "state": "MD",
+      "commitmentDate": "2026-11-18"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Reagan Hay",
+      "college": "Gettysburg",
+      "position": "Defense",
+      "clubTeam": "BBL 2028 Black",
+      "highSchool": "Chatham",
+      "state": "NJ",
+      "commitmentDate": "2026-11-18"
+    },
+    {
+      "gender": "Girls",
+      "class": "2028",
+      "division": "D3",
+      "playerName": "Eva Holbrough",
+      "college": "Gettysburg",
+      "position": "Attack",
+      "clubTeam": "Monster Elite 2028 Purple",
+      "highSchool": "Brighton",
+      "state": "NY",
+      "commitmentDate": "2026-11-18"
     },
     {
       "gender": "Boys",
