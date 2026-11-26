@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-11-25T16:24:11.625Z",
+  "generatedAt": "2026-11-26T12:20:19.664Z",
   "source": "https://public.clublacrosse.org/commitments/Dashboard/gender-with-player",
-  "count": 10086,
+  "count": 10088,
   "recruits": [
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Kingston Hebner",
+      "college": "Towson",
+      "position": "LSM",
+      "clubTeam": "Pro Caliber 2027AA",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-11-23"
+    },
     {
       "gender": "Boys",
       "class": "2028",
@@ -110,6 +122,18 @@
       "highSchool": "Minnechaug",
       "state": "MA",
       "commitmentDate": "2026-11-20"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Michael Gebhardt",
+      "college": "Carroll (WI)",
+      "position": "Defense",
+      "clubTeam": "Steelhead 2026",
+      "highSchool": "Grant Community",
+      "state": "IL",
+      "commitmentDate": "2026-11-19"
     },
     {
       "gender": "Boys",
