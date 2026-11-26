@@ -1,6 +1,30 @@
 {
   "recruits": [
     {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D1",
+      "playerName": "Kingston Hebner",
+      "college": "Towson",
+      "position": "LSM",
+      "clubTeam": "Pro Caliber 2027AA",
+      "highSchool": "",
+      "state": "",
+      "commitmentDate": "2026-11-23"
+    },
+    {
+      "gender": "Boys",
+      "class": "2027",
+      "division": "D3",
+      "playerName": "Michael Gebhardt",
+      "college": "Carroll (WI)",
+      "position": "Defense",
+      "clubTeam": "Steelhead 2026",
+      "highSchool": "Grant Community",
+      "state": "IL",
+      "commitmentDate": "2026-11-19"
+    },
+    {
       "gender": "Girls",
       "class": "2028",
       "division": "D1",
